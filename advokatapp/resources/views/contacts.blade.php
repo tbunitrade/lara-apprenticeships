@@ -1,6 +1,6 @@
     @include('header')
     <h1>
-        advokat-po-kriminalnim-spravam
+        Контакти
     </h1>
 
     @include('footer')
