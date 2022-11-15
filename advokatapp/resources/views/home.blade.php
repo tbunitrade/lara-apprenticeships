@@ -185,4 +185,5 @@
 
 </section>
 
-@include('footer')
+@include('fo
+oter')
