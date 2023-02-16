@@ -1,8 +1,15 @@
 {
+    "name": "osonich",
     "private": true,
     "scripts": {
         "dev": "vite",
-        "build": "vite build"
+        "build": "vite build",
+        "start": "nodemon -e scss -x \"npm run compile:css \"",
+        "watchfull": "nodemon -e scss -x \"npm run compile:css && npm run compile:cssfonts\"",
+        "build:css": "node-sass --source-map-root scss --include-path scss src/scss/app.scss | postcss --use autoprefixer -b 'latest 4 versions' | cssmin > public/css/main.min.css ",
+        "watch:css": "nodemon -e scss -x \"npm run build:css\"",
+        "compile:css": "node-sass --output-style compressed --include-path scss src/scss/app.scss public/css/main.min.css --source-map true --source-map-contents sass",
+        "compile:cssfonts": "node-sass --output-style compressed --include-path scss src/scss/fonts.scss css/fonts.css"
     },
     "devDependencies": {
         "@tailwindcss/forms": "^0.5.2",
@@ -13,6 +20,15 @@
         "lodash": "^4.17.19",
         "postcss": "^8.4.6",
         "tailwindcss": "^3.1.0",
-        "vite": "^3.0.0"
+        "vite": "^3.0.0",
+        "autoprefixer": "^10.4.13",
+        "cssmin": "^0.4.3",
+        "node-sass": "7.0.1",
+        "nodemon": "2.0.15",
+        "postcss-cli": "^10.1.0"
+    },
+    "dependencies": {
+        "inputmask": "^5.0.7",
+        "keen-slider": "^6.7.0"
     }
 }

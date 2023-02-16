@@ -1,0 +1,39 @@
+$mediaMobileMax: 425px;
+$mediaTabletMin: 768px;
+$mediaTabletMax: 1200px;
+$mediaDesktopMid: 1440px;
+$mediaDesktopFHD: 1920px;
+$mediaDesktopLarge: 2560px;
+
+//425px;    @media (min-width: $mediaMobileMax) {}
+//768px;    @media (min-width: $mediaTabletMin) {}
+//1200px;   @media (min-width: $mediaTabletMax) {}
+//1440px;   @media (min-width: $mediaDesktopMid) {}
+//1920px;   @media (min-width: $mediaDesktopFHD) {}
+//2560px;   @media (min-width: $mediaDesktopLarge) {}
+
+
+// // Defining values
+$screen-sm-min: 768px;
+$screen-xs-max: ($screen-sm-min - 1);
+$screen-md-min: 992px;
+$screen-sm-max: ($screen-md-min - 1);
+$screen-lg-min: 1600px;
+$screen-md-max: ($screen-lg-min - 1);
+
+
+// // Defining values
+// $screen-sm-min: 768px;
+// $screen-xs-max: ($screen-sm-min - 1);
+// $screen-md-min: 992px;
+// $screen-sm-max: ($screen-md-min - 1);
+// $screen-lg-min: 1200px;
+// $screen-md-max: ($screen-lg-min - 1);
+
+// // Usage
+// @media (max-width: $screen-xs-max) { ... }
+// @media (min-width: $screen-sm-min) { ... }
+// @media (max-width: $screen-sm-max) { ... }
+// @media (min-width: $screen-md-min) { ... }
+// @media (max-width: $screen-md-max) { ... }
+// @media (min-width: $screen-lg-min) { ... }

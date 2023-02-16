@@ -1,165 +1,100 @@
 @include('header')
-<section>
-    <h3>Про нас</h3>
-    <p>
+<section class="section homepage">
+    <div class="textContainer">
+        <h2 class="title">Про Колегію адвокатів міста Києва та Київської області</h2>
 
-        Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.
-
-        Почему он используется?
-        Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв и пробелов в абзацах, которое не получается при простой дубликации "Здесь ваш текст.. Здесь ваш текст.. Здесь ваш текст.." Многие программы электронной вёрстки и редакторы HTML используют Lorem Ipsum в качестве текста по умолчанию, так что поиск по ключевым словам "lorem ipsum" сразу показывает, как много веб-страниц всё ещё дожидаются своего настоящего рождения. За прошедшие годы текст Lorem Ipsum получил много версий. Некоторые версии появились по ошибке, некоторые - намеренно (например, юмористические варианты).
+        <p class="text">
 
 
+            <strong>Колегія адвокатів міста Києва та Київської області</strong>
+            – адвокатське об’єднання, засноване напочатку 2013 року з метою надання громадянам і організаціям юридичних послуг найвищої якості.
+            До складу Колегії входять найдосвідченіші адвокати, які об’єднали свої зусилля та успішно практикують у різних сферах права.
+            Кількісний і якісний склад адвокатів Колегії дозволяє надавати повний спектр юридичних послуг:
+            від захисту у кримінальних справах до повного супроводження процедури публічних закупівель.
+            Звернувшись до Колегії адвокатів міста Києва та Київської області, кожен Клієнт може бути впевненим в тому,
+            що він отримає як фахові відповіді на усі свої юридичні питання, так і повний спектр адвокатських послуг з практичної реалізації узгодженої між ним і адвокатами Колегії правової позиції.
+        </p>
+        <p class="text">
+            Адвокати Колегії адвокатів міста Києва та Київської області ніколи не візьмуться за завідомо програшну справу.
+            Такі пріоритети, а також виключна компетентність адвокатів, збудувала Колегії за десятиріччя її існування надійну репутацію з-поміж Клієнтів і колег.
+            Девіз Колегії адвокатів: <strong>«Там де єдність – там і перемога!».</strong>
+        </p>
+    </div>
+    <div class="bannerContainer">
+
+    </div>
+    <div class="orderConsultationContainer">
+        <a id="consultationRequest" class="btn btn-black consultationRequest" href=""> Записатися на консультацію</a>
+    </div>
+
+</section>
+
+<section class="section team">
+    <h2 class="title">Про нас</h2>
+    <p class="text">
+        Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн.
     </p>
-    <a href="/aboutus">Додаткова інформація</a>
+
 
 </section>
-<section id="teams" class="team">
-    <h3>Команда</h3>
-    <div class="row">
-        <div class="col">
-            <img class="img-fluid" src="https://advokaty-kiev.com/wp-content/uploads/lara/photo_2022-11-14_12-49-02.jpg">
-        </div>
-        <div class="col-6">
-            <h2 class="title">
-                Адкокат Никита Попов
-            </h2>
-            <p class="text">
-                В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов,
-                используя Lorem Ipsum для распечатки образцов.
-                Lorem Ipsum не только успешно пережил без заметных изменений пять веков,
-                но и перешагнул в электронный дизайн. Его популяризации в новое время послужили
-                публикация листов Letraset с образцами
 
-            </p>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col">
-            <img class="img-fluid" src="https://advokaty-kiev.com/wp-content/uploads/lara/photo_2022-11-14_12-48-59.jpg">
-        </div>
-        <div class="col">
-            <h2 class="title">
-                Адкокат Никита Попов
-            </h2>
-            <p class="text">
-                В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов,
-                используя Lorem Ipsum для распечатки образцов.
-                Lorem Ipsum не только успешно пережил без заметных изменений пять веков,
-                но и перешагнул в электронный дизайн. Его популяризации в новое время послужили
-                публикация листов Letraset с образцами
-            </p>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col">
-            <img src="https://advokaty-kiev.com/wp-content/uploads/lara/photo_2022-11-14_12-48-49.jpg">
-        </div>
-        <div class="col">
-            <h2 class="title">
-                Адкокат Никита Попов
-            </h2>
-            <p class="text">
-                В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов,
-                используя Lorem Ipsum для распечатки образцов.
-                Lorem Ipsum не только успешно пережил без заметных изменений пять веков,
-                но и перешагнул в электронный дизайн. Его популяризации в новое время послужили
-                публикация листов Letraset с образцами
-            </p>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col">
-            <img src="https://advokaty-kiev.com/wp-content/uploads/lara/photo_2022-11-14_12-49-04.jpg">
-        </div>
-        <div class="col">
-            <h2 class="title">
-                Адкокат Никита Попов
-            </h2>
-            <p class="text">
-                В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов,
-                используя Lorem Ipsum для распечатки образцов.
-                Lorem Ipsum не только успешно пережил без заметных изменений пять веков,
-                но и перешагнул в электронный дизайн. Его популяризации в новое время послужили
-                публикация листов Letraset с образцами
-            </p>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col">
-            <img src="https://advokaty-kiev.com/wp-content/uploads/lara/photo_2022-11-14_12-49-07.jpg">
-        </div>
-        <div class="col">
-            <h2 class="title">
-                Адкокат Никита Попов
-            </h2>
-            <p class="text">
-                В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов,
-                используя Lorem Ipsum для распечатки образцов.
-                Lorem Ipsum не только успешно пережил без заметных изменений пять веков,
-                но и перешагнул в электронный дизайн. Его популяризации в новое время послужили
-                публикация листов Letraset с образцами
-            </p>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col">
-            <img src="https://advokaty-kiev.com/wp-content/uploads/lara/photo_2022-11-14_12-49-07.jpg">
-        </div>
-        <div class="col">
-            <h2 class="title">
-                Адкокат Никита Попов
-            </h2>
-            <p class="text">
-                В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов,
-                используя Lorem Ipsum для распечатки образцов.
-                Lorem Ipsum не только успешно пережил без заметных изменений пять веков,
-                но и перешагнул в электронный дизайн. Его популяризации в новое время послужили
-                публикация листов Letraset с образцами
-            </p>
-        </div>
-    </div>
-    <a href="/team">Вся команда</a>
-</section>
+@include('slider-homepage')
 
-<section id="practicts">
-    <h3>Практики</h3>
-    <ol>
-        <li>
+
+<section class="section practicts">
+    <h2 class="title">Практики</h2>
+    <ul class="ulPrictics">
+        <li class="li" onclick="location.href='advokat-po-kriminalnim-spravam';">
             <a class="menu" id="/advokat-po-kriminalnim-spravam" href="/advokat-po-kriminalnim-spravam">
-                Захист у кримінальних справах;
+                Абонентське обслуговування бізнесу та громадян
             </a>
         </li>
-        <li>
-
+        <li class="li" onclick="location.href='advokat-po-kriminalnim-spravam';">
             <a class="menu" id="/advokat-po-kriminalnim-spravam" href="/advokat-po-kriminalnim-spravam">
-                Будівництво, земля, нерухомість;
+                Адміністративні спори (мито, пенсія, пільги, податки)
             </a>
         </li>
-        <li>
-
+        <li class="li" onclick="location.href='advokat-po-kriminalnim-spravam';">
             <a class="menu" id="/advokat-po-kriminalnim-spravam" href="/advokat-po-kriminalnim-spravam">
-                Захист прав військових;
+                Банківське та фінансове право, кредитні спори
             </a>
         </li>
-    </ol>
-    <ul>
-        <li>
-        <a href="/practicts">  Податкове право;</a>
-        <a href="/practicts">Сімейне право;</a>
-        <a href="/practicts">Господарські спори;</a>
-        <a href="/practicts">Корпоративне право;</a>
-        <a href="/practicts">Адміністративне право;</a>
-        <a href="/practicts">Банківське та фінансове право;</a>
-
-        <a href="/practicts">Абонентське обслуговування організацій і громадян.</a>
+        <li class="li" onclick="location.href='advokat-po-kriminalnim-spravam';">
+            <a class="menu" id="/advokat-po-kriminalnim-spravam" href="/advokat-po-kriminalnim-spravam">
+                Будівництво, земля, нерухомість
+            </a>
         </li>
+        <li class="li" onclick="location.href='advokat-po-kriminalnim-spravam';">
+            <a class="menu" id="/advokat-po-kriminalnim-spravam" href="/advokat-po-kriminalnim-spravam">
+                Господарські спори, банкрутство
+            </a>
+        </li>
+        <li class="li" onclick="location.href='advokat-po-kriminalnim-spravam';">
+            <a class="menu" id="/advokat-po-kriminalnim-spravam" href="/advokat-po-kriminalnim-spravam">
+                Захист і представництво у кримінальному процесі
+            </a>
+        </li>
+        <li class="li" onclick="location.href='advokat-po-kriminalnim-spravam';">
+            <a class="menu" id="/advokat-po-kriminalnim-spravam" href="/advokat-po-kriminalnim-spravam">
+                Захист прав військових
+            </a>
+        </li>
+        <li class="li" onclick="location.href='advokat-po-kriminalnim-spravam';">
+            <a class="menu" id="/advokat-po-kriminalnim-spravam" href="/advokat-po-kriminalnim-spravam">
+                Конкурентне право
+            </a>
+        </li>
+
     </ul>
-    <a href="/practicts">Всі практики коллегії</a>
+    <div class="btn-container">
+        <a class="btn btn-black allPractics" href="/practicts">Всі практики коллегії</a>
+    </div>
+
 
 </section>
 
-<section id="clients">
-    <h3>Клієнти</h3>
+<section class="clients">
+    <h2 class="title">Клієнти</h2>
 
 </section>
 
@@ -185,5 +120,4 @@
 
 </section>
 
-@include('fo
-oter')
+@include('footer')

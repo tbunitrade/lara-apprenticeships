@@ -1,0 +1,48 @@
+
+
+// SCSS Bits and Variables.
+//-------------------------------- VARIABLES
+//basic colors
+$white:     #ffffff;
+$black:     #000000;
+$green:     #00ff00;
+$orange:    #ffa500;
+$ccc :      #ccc;
+$blue:      #0000ff;
+$red:       #ff0000;
+$pgeneral:  #3a4249;
+$eee : #eee;
+$text :#102c3a;
+$text2: #A5906E;
+$span :#222222;
+
+//header style
+$btn : #D2AC67;
+$btn-black: #1F2D3F;
+$gtn-black-hover:#A5906E;
+$btnhover : #A5906E;
+$title: #D2AC67;
+$titlelabel:#102c3a;
+$smalltitle:#102c3a;
+$smalltitlered:#ef4d41;
+
+$texttitle : #1F2D3F;
+
+//how we work
+
+//navigation and footer color
+
+
+
+//backgrounds
+$practicsbg:#F8F7F3;
+
+// added code for bootstrap 3 , for a row with no padding between columns.
+.row-no-padding {
+    [class*="col-"] {
+        padding-left: 0 ;
+        padding-right: 0 ;
+        margin-right: 0 ;
+        margin-left:  0 ;
+    }
+}

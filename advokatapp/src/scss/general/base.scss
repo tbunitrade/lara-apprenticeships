@@ -1,0 +1,18 @@
+// reset stylesheets
+@import 'reset';
+
+// all colors
+@import 'colors';
+
+// all available breakpoints
+@import 'media-queries';
+
+// main settings
+@import "general";
+
+// specific scss
+@import 'mixins';
+
+// buttons
+@import 'elements';
+

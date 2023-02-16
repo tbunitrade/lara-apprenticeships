@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "app.scss",
+	"sources": [
+		"../../sass"
+	],
+	"sourcesContent": [
+		".example {\n  display: grid;\n  transition: all .5s;\n  user-select: none;\n  background: linear-gradient(to bottom, white, black); }\n\n/*# sourceMappingURL=sass.map */"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,QAAQ,CAAC;EACP,OAAO,EAAE,IAAI;EACb,UAAU,EAAE,OAAO;EACnB,WAAW,EAAE,IAAI;EACjB,UAAU,EAAE,wCAAwC,GAAG;;AAEzD,gCAAgC"
+}
