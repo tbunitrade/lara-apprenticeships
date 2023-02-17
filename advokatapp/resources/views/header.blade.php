@@ -49,6 +49,7 @@
             integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
             crossorigin="anonymous"></script>
 
+
         <link href="{{ URL::asset('/css/main.min.css') }}" rel="stylesheet" type="text/css" >
     </head>
     <div class="container-fluid">

@@ -1,22 +1,90 @@
 .section {
-    margin: 40px 0px;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 100%;
+    max-width: 1690px;
+
     padding: 0px 14px 0px 20px;
     @media (min-width: $screen-sm-min) {
-        margin: 30px 0px;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
 
+
+
+    @media (min-width: $screen-lg-min) {
+        margin-top: 69px;
+        margin-bottom: 69px;
+    }
+}
+.homepage {
+    display: grid;
+    grid-template-areas:
+        "text-block text-block"
+        "text-bottom .";
+    grid-template-columns: 100%;
+
     @media (min-width: $screen-md-min) {
+        grid-template-areas:
+        "text-block image-block"
+        "text-bottom text-bottom";
+        grid-template-columns: 61% 39%;
 
     }
 
     @media (min-width: $screen-lg-min) {
-        margin: 69px 0px;
+        grid-template-columns: 56% 44%;
     }
-}
-.homepage {
+
+
+
+    .textContainer{
+        grid-area: text-block;
+    }
+
+    .bannerContainer {
+        display: none;
+        position: relative;
+        z-index: 0;
+
+
+        @media (min-width: $screen-sm-min) {
+            display: block;
+            grid-area: image-block;
+        }
+
+        .kievSmall{
+            display: none;
+            @media (min-width: $screen-sm-min) {
+                display: block;
+                width: 380px;
+                height: 390px;
+                border: 20px solid $white;
+                position: relative;
+                z-index: 2;
+            }
+        }
+
+        .kievBig{
+            display: none;
+            @media (min-width: $screen-sm-min) {
+                display: block;
+                position: absolute;
+                z-index: 1;
+                width: 455px;
+                height: 758px;
+                border: 20px solid $white;
+                bottom: -65px;
+                right: 0;
+            }
+        }
+    }
 
 
     .orderConsultationContainer {
+        grid-area: text-bottom;
         margin-top: 20px;
         .btn {
             max-width: 297px;
@@ -106,18 +174,24 @@
 .practicts {
     background: $practicsbg;
     position: relative;
+    padding-top: 30px;
     z-index: -10;
+    z-index: 0;
+
+    @media (min-width: $screen-md-min) {
+        //padding-top: unset;
+    }
 
     .ulPrictics {
         display: grid;
         grid-template-columns:auto;
-        grid-template-rows: 230px;
+        grid-template-rows: repeat(8, 250px);
         margin: 0;
         padding: 0;
 
         @media (min-width: $screen-sm-min) {
             grid-template-columns:auto auto;
-            grid-template-rows: 230px;
+            grid-template-rows: repeat(4, 250px);
         }
 
         @media (min-width: $screen-md-min) {
@@ -250,6 +324,379 @@
         .allPractics {
             max-width: 297px;
         }
+    }
+}
+
+.clients {
+    height: auto;
+    margin-bottom: 0;
+
+    @media (min-width: $screen-md-min) {
+        padding-top: 30px;
+        height: 350px;
+        margin-bottom: unset;
+    }
+
+    @media (min-width: $screen-lg-min) {
+        height: 423px;
+    }
+    .title {
+        margin-bottom: 30px;
+    }
+    background: $white;
+    position: relative;
+    z-index: 0;
+
+    .ulClients {
+
+        display: grid;
+        grid-template-columns:auto auto;
+        grid-template-rows: 170px;
+        margin: 0;
+        padding: 0;
+
+        @media (min-width: $screen-sm-min) {
+            grid-template-columns:auto auto auto;
+
+        }
+
+        @media (min-width: $screen-md-min) {
+            grid-template-columns:auto auto auto auto auto auto;
+
+        }
+
+        @media (min-width: $screen-lg-min) {
+
+        }
+
+
+        .li {
+            list-style-type: none;
+            align-self: center;
+            text-align: center;
+            position: relative;
+            height: 170px;
+            margin: 20px 0px;
+
+            @media (min-width: $screen-md-min) {
+                margin: unset;
+            }
+
+            &:after {
+                content: '';
+                display: block;
+                position: absolute;
+                height: 166px;
+                width: 1px;
+                background: $clientborder;
+                right: 0;
+                top:2px
+            }
+
+            &:nth-child(2),
+            &:nth-child(4){
+                &:after{
+                    display: none;
+                    @media (min-width: $screen-sm-min) {
+                        display: block;
+                    }
+                }
+
+            }
+
+            &:nth-child(3){
+                &:after{
+
+                    @media (min-width: $screen-sm-min) {
+                        display: none;
+                    }
+
+                    @media (min-width: $screen-md-min) {
+                        display: block;
+                    }
+                }
+
+            }
+
+
+
+            &:last-child{
+                &:after{
+                    display: none;
+                }
+            }
+            .imageClients{
+                position: absolute;
+                top:50%;
+                left:50%;
+                transform: translate(-50%,-50%);
+            }
+        }
+    }
+
+    .infoClients{
+        background: $clientsbg;
+        display: grid;
+        grid-template-columns:auto ;
+
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        max-width: 1690px;
+        position: relative;
+        margin: auto;
+
+
+        @media (min-width: $screen-sm-min) {
+            grid-template-columns:auto auto auto;
+
+        }
+
+        @media (min-width: $screen-md-min) {
+            grid-template-rows: 330px;
+            top:23px;
+            grid-template-rows: 279px;
+        }
+
+        @media (min-width: $screen-lg-min) {
+
+        }
+
+        .li{
+            list-style-type: none;
+            padding: 32px;
+
+            .title {
+                text-align: center;
+                color: $text2;
+                font-family: 'Lora';
+                font-weight: 700;
+                line-height: 90px;
+
+                @media (min-width: $screen-sm-min) {
+
+                }
+
+                @media (min-width: $screen-md-min) {
+                    font-size: 70px;
+                    line-height: 90px;
+                }
+
+                @media (min-width: $screen-lg-min) {
+
+                }
+            }
+
+            .text {
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 17px;
+                line-height: 21px;
+                text-align: center;
+            }
+        }
+    }
+}
+
+.consultation {
+    background: url("../assets/images/consultaionbg.png");
+    background-repeat: no-repeat;
+    height: 557px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 100px;
+
+    @media (min-width: $screen-md-min) {
+        margin-top: unset;
+        padding-top: unset;
+    }
+
+    .title {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 49px;
+
+        margin-bottom: 21px;
+        color: $white;
+
+        @media (min-width: $screen-sm-min) {
+
+        }
+
+        @media (min-width: $screen-md-min) {
+            padding-top: 231px;
+            //font-size: 40px;
+            //line-height: 49px;
+        }
+
+        @media (min-width: $screen-lg-min) {
+            padding-top: 191px;
+        }
+    }
+
+    .text {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 17px;
+        line-height: 21px;
+        width: 100%;
+        max-width: 811px;
+        margin-bottom: 21px;
+        color: $white;
+    }
+
+    fieldset {
+        margin: 0;
+        padding: 0;
+        display: grid;
+        grid-template-columns: auto auto;
+        width: 100%;
+        margin-bottom: 40px;
+
+        @media (min-width: $screen-lg-min) {
+            width: 50%;
+        }
+    }
+
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        /* display: none; <- Crashes Chrome on hover */
+        -webkit-appearance: none;
+        margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+    }
+
+    .input{
+        width: 100%;
+        max-width: 360px;
+        height: 50px;
+        opacity: 0.4;
+        border: 1px solid #FFFFFF;
+        appearance: none;
+        -webkit-appearance: none;
+
+        &:hover{
+            opacity: 1;
+        }
+    }
+
+    .btn {
+        width: 297px;
+        margin: 0;
+    }
+
+}
+
+.map {
+    margin-top: 0;
+    margin-bottom: 0;
+    position: relative;
+    height: 530px;
+
+    #map {
+        height: 100%; /* The height is 400 pixels */
+        width: 100%; /* The width is the width of the web page */
+    }
+
+    .mapContacts{
+        width: 100%;
+
+        height: 429px;
+        border:20px solid $bigborder;
+        background: $white;
+        position: relative;
+
+        @media (min-width: $screen-sm-min) {
+
+        }
+
+        @media (min-width: $screen-md-min) {
+
+        }
+
+        @media (min-width: $screen-lg-min) {
+            max-width: 729px;
+            position: absolute;
+            top:50%;
+            left: 50%;
+            transform: translate(-8%,-94%);
+        }
+
+        .ulContacts {
+            .li{
+                list-style-type: none ;
+                line-height: 30px;
+
+                &:before {
+                    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+                    color: $bigborder; /* Change the color */
+                    font-weight: bold; /* If you want it to be bold */
+                    display: inline-block; /* Needed to add space between the bullet and the text */
+                    width: 1em; /* Also needed for space (tweak if needed) */
+                    margin-left: -1em; /* Also needed for space (tweak if needed) */
+                }
+            }
+        }
+
+        .title {
+
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 37px;
+            padding: 32px;
+            margin-bottom: 16px;
+        }
+
+        .text {
+            color:$black;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 24px;
+            display: inline-block;
+        }
+
+        .link {
+            color:$black;
+            display: inline-block;
+            text-decoration: underline;
+
+            &:hover{
+                cursor: pointer;
+            }
+        }
+
+        .map {
+
+        }
+
+        .phone{
+
+        }
+        .email{
+
+        }
+        .btn {
+            max-width: 265px;
+        }
+
+
+
+        .ulSocialsLinks{
+            margin: 0;
+            padding: 0;
+            .li {
+                display: grid;
+                grid-template-columns: auto auto;
+            }
+        }
+
     }
 }
 
