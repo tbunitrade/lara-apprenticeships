@@ -14,20 +14,20 @@
     "devDependencies": {
         "@tailwindcss/forms": "^0.5.2",
         "alpinejs": "^3.4.2",
-        "autoprefixer": "^10.4.2",
+        "autoprefixer": "^10.4.13",
         "axios": "^1.1.2",
+        "cssmin": "^0.4.3",
         "laravel-vite-plugin": "^0.6.0",
         "lodash": "^4.17.19",
+        "node-sass": "^7.0.3",
+        "nodemon": "^2.0.20",
         "postcss": "^8.4.6",
+        "postcss-cli": "^10.1.0",
         "tailwindcss": "^3.1.0",
-        "vite": "^3.0.0",
-        "autoprefixer": "^10.4.13",
-        "cssmin": "^0.4.3",
-        "node-sass": "7.0.1",
-        "nodemon": "2.0.15",
-        "postcss-cli": "^10.1.0"
+        "vite": "^3.0.0"
     },
     "dependencies": {
+        "@glidejs/glide": "^3.6.0",
         "inputmask": "^5.0.7",
         "keen-slider": "^6.7.0"
     }

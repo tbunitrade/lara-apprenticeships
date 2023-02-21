@@ -1,5 +1,5 @@
-<section class="section map">
-    <div id="map"></div>
+<section class="section mapContainer">
+    <div id="map" class="googleMaps"></div>
     <div id="mapContacts" class="mapContacts">
         <h3 class="title">Наші контакти</h3>
        <ul class="ulContacts">

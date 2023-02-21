@@ -1,58 +1,17 @@
 <?php
 
-
-//$myarrays = array(
-//    "0" => array(
-//        "0" => "assets/home-slider/photo-nikita.png",
-//        "1" => "Беззубченко Лариса Володимирівна",
-//        "2" => "Адвокат"
-//    ),
-//    "1" => array(
-//        "0" => "assets/home-slider/photo-man-1.png",
-//        "1" => "assets/home-slider/photo-man-2.png",
-//        "2" => "assets/home-slider/photo-nikita.png"
-//    )
-//);
-
-
 $myarrays = array(
     "0" => array(
-        "photo" => "assets/home-slider/Bezzubchenko-Larysa-Volodymyrivna.jpg",
-        "fullname" => "Беззубченко Лариса Володимирівна",
-        "position" => "Адвокат"
+        "0" => "assets/home-slider/photo-nikita.png",
+        "1" => "assets/home-slider/photo-girl-1.png",
+        "2" => "assets/home-slider/photo-girl-2.png"
     ),
     "1" => array(
-        "photo" => "assets/home-slider/Boyko-Olena-Oleksandrivna.jpg",
-        "fullname" => "Бойко Олена Олександрівна",
-        "position" => "Адвокат"
-    ),
-    "2" => array(
-        "photo" => "assets/home-slider/Popov-Mykyta-Hennadiyovych.jpg",
-        "fullname" => "Попов Микита Геннадійович",
-        "position" => "Адвокат, Заступник Голови Колегії."
-    ),
-    "3" => array(
-        "photo" => "assets/home-slider/Smyrnov-Valeriy-Rubenovych.jpg",
-        "fullname" => "Смирнов Валерій Рубенович",
-        "position" => "Адвокат"
-    ),
-    "4" => array(
-        "photo" => "assets/home-slider/Xarchenko-Oksana-Oleksiïvna.jpg",
-        "fullname" => "Харченко Оксана Олексіївна",
-        "position" => "Адвокат"
-    ),
-    "5" => array(
-        "photo" => "assets/home-slider/Xrustovska-Olga-Petrivna.jpg",
-        "fullname" => "Хрустовська Ольга Петрівна",
-        "position" => "Адвокат"
-    ),
-    "6" => array(
-        "photo" => "assets/home-slider/Shamardin-Volodymyr-Mykolayovych.jpg.jpg",
-        "fullname" => "Шамардін Володимир Миколайович",
-        "position" => "Адвокат"
-    ),
+        "0" => "assets/home-slider/photo-man-1.png",
+        "1" => "assets/home-slider/photo-man-2.png",
+        "2" => "assets/home-slider/photo-nikita.png"
+    )
 );
-
 
 ?>
 
