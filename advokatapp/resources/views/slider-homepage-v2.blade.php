@@ -21,7 +21,7 @@ $myarrays = [
         "position" => "Адвокат"
     ],
     [
-        "photo" => "assets/home-slider/Xarchenko-Oksana-Oleksiïvna.jpg",
+        "photo" => "assets/home-slider/Xarchenko-Oksana-Oleksiïvna.jpg",
         "fullname" => "Харченко Оксана Олексіївна",
         "position" => "Адвокат"
     ],
