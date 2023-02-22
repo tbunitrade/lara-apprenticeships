@@ -13,7 +13,7 @@ $myarrays = [
     [
         "photo" => "assets/home-slider/Popov-Mykyta-Hennadiyovych.jpg",
         "fullname" => "Попов Микита Геннадійович",
-        "position" => "Адвокат, Заступник Голови Колегії."
+        "position" => "Адвокат, заступник голови колегії"
     ],
     [
         "photo" => "assets/home-slider/Smyrnov-Valeriy-Rubenovych.jpg",
@@ -33,7 +33,7 @@ $myarrays = [
     [
         "photo" => "assets/home-slider/Shamardin-Volodymyr-Mykolayovych.jpg",
         "fullname" => "Шамардін Володимир Миколайович",
-        "position" => "Адвокат 2"
+        "position" => "Адвокат"
     ]
 ];
 //echo '<pre>';
