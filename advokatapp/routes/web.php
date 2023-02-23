@@ -13,42 +13,44 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/welcome', function () {
-    return view('/welcome');
+Route::get('/', function () {
+    return view('/home-page');
 });
 
-Route::get('/', function () {
-    return view('/home');
+Route::get('/about-us', function () {
+    return view('/about-us-page');
 });
 
 Route::get('/team', function () {
-    return view('/team');
+    return view('/team-page');
 });
 
 Route::get('/practicts', function () {
-    return view('/practicts');
+    return view('/practicts-page');
 });
 
-
-
-Route::get('/goals', function () {
-    return view('/goals');
+Route::get('/clients', function () {
+    return view('/clients-page');
 });
 
-Route::get('/freeservices', function () {
-    return view('/freeservices');
-});
-
-Route::get('/aboutus', function () {
-    return view('/aboutus');
+Route::get('/dosyagnennya', function () {
+    return view('/dosyagnennya-page');
 });
 
 Route::get('/contacts', function () {
-    return view('/contacts');
+    return view('/contacts-page');
 });
 
-Route::get('/advokat-po-kriminalnim-spravam', function () {
-    return view('/advokat-po-kriminalnim-spravam');
+Route::get('/pro-bono', function () {
+    return view('/pro-bono-page');
+});
+
+//Route::get('/advokat-po-kriminalnim-spravam', function () {
+//    return view('/advokat-po-kriminalnim-spravam');
+//});
+
+Route::get('/welcome', function () {
+    return view('/welcome');
 });
 
 Route::get('/dashboard', function () {

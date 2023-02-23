@@ -1,0 +1,5 @@
+@include('header-small')
+@include('block.aboutus-type-one')
+@include('block.consultation-type-one')
+@include('block.map')
+@include('footer')

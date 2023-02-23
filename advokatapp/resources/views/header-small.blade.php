@@ -62,28 +62,28 @@
     <script src="{{ URL::asset('/js/app.js') }}"></script>
 </head>
 <div class="container-fluid">
-    <header>
+    <header id="header-small" class="" >
+        <script>
+            let loc = window.location.pathname;
+            console.log('current location for header class', loc);
+            loc = loc.replace('/', '');
+            console.log('replaced', loc);
+            if(loc.length>=0) {
+               const header =  document.getElementById('header-small');
+                header.classList.add(loc);
+            }
+
+            // $(document).ready(function(){
+            //     console.log('init');
+            //     $('.navbar-toggler').on('click', function (){
+            //         console.log('click');
+            //         //$('#navbarSupportedContent').toggleClass( 'show' );
+            //     });
+            // });
+        </script>
         <div class="rowFirst">
-            <div class="contactsContainer">
-                <a id="phone" class="phone" href="tel:+380685689578" href="Дзвінок адвокату">+38 (068) 238-138-3</a>
-                <a id="adress" class="adress" href="/contacts"><span>вул. Льва Толстого, 16</span></span></a>
-            </div>
-
-            <script>
-                // $(document).ready(function(){
-                //     console.log('init');
-                //     $('.navbar-toggler').on('click', function (){
-                //         console.log('click');
-                //         //$('#navbarSupportedContent').toggleClass( 'show' );
-                //     });
-                // });
-            </script>
-
             <div class="menuContainer">
                 @include('nav')
-            </div>
-            <div class="orderCallContainer">
-                <a id="callRequest" class="btn callRequest" href="">Замовити дзвінок</a>
             </div>
         </div>
 
@@ -93,9 +93,15 @@
                     <img class="img-logo" src="{{ URL::asset('/assets/images/logo-cropped.png')}}" alt="logo">
                     <h1 class="title">Колегія адвокатів<span>міста Києва та Київської області</span></h1>
                 </a>
-                <div class="orderConsultationContainer">
-                    <a id="consultationRequest" class="btn consultationRequest" href=""> Записатися на консультацію</a>
-                </div>
+            </div>
+
+            <div class="contactsContainer">
+                <a id="phone" class="phone" href="tel:+380685689578" href="Дзвінок адвокату">+38 (068) 238-138-3</a>
+                <a id="adress" class="adress" href="/contacts"><span>вул. Льва Толстого, 16</span></span></a>
+            </div>
+
+            <div class="orderCallContainer">
+                <a id="callRequest" class="btn callRequest" href="">Замовити дзвінок</a>
             </div>
         </div>
         {{--            <div class="rowThird">--}}

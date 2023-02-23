@@ -41,6 +41,12 @@ $myarrays = [
 //echo '</pre>';
 
 ?>
+<section class="section team">
+    <h2 class="title">Про нас</h2>
+    <p class="text">
+        Адвокатське об’єднання «Колегія адвокатів міста Києва та Київської області» було засноване у 2013 році.
+    </p>
+</section>
 <div class="container homepageSliderContainer">
     <div class="wrap glide">
         <div class="glide__arrows" data-glide-el="controls">

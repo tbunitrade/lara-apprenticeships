@@ -18,6 +18,11 @@
     }
 }
 
+.section-background {
+    background: $sectionbg;
+    color: $text;
+}
+
 .homepage {
     display: grid;
     grid-template-areas:
@@ -85,7 +90,112 @@
             margin: 0;
         }
     }
+
+    &.type-one {
+        display: grid;
+        grid-template-areas:
+        "text-block"
+        "image-block";
+        grid-template-columns: 100%;
+        //
+        //grid-template-areas:
+        //    "text-block text-block image-block"
+        //    "text-block image-block image-block";
+
+        @media (min-width: $screen-md-min) {
+            //grid-template-areas:
+            //"text-block text-block image-block"
+            //"text-block image-block image-block";
+            //grid-template-columns: 35% 30% 35%;
+            grid-template-areas:
+            "text-block text-block image-block"
+            "text-bottom . image-block";
+            grid-template-columns: 22% 39% 39%;
+        }
+
+        @media (min-width: $screen-lg-min) {
+            //grid-template-columns: 65% 35%;
+        }
+
+        .textContainer{
+            grid-area: text-block;
+
+            .quote {
+                width: 100%;
+                max-width: 752px;
+
+
+                @media (min-width: $screen-md-min) {
+                    top: 100px;
+                    position: relative;
+                    left: 50px;
+                }
+
+                .consultationRequest{
+                    max-width: 297px;
+                    margin: 0;
+                    margin-top: 20px;
+                }
+            }
+        }
+
+        .bannerContainer {
+            display: block;
+            position: relative;
+            z-index: 0;
+            height: auto;
+
+            @media (min-width: $screen-sm-min) {
+                display: block;
+                grid-area: image-block;
+            }
+
+            @media (min-width: $screen-md-min) {
+                height: 838px;
+            }
+
+            .kievSmall{
+                //display: none;
+                width: 100%;
+                display: block;
+                border: 20px solid $white;
+
+                @media (min-width: $screen-sm-min) {
+                    display: block;
+                    max-width: 380px;
+                    height: 390px;
+                    position: relative;
+                    z-index: 2;
+                }
+
+                @media (min-width: $screen-md-min) {
+                    top: -406px;
+                    right: 169px;
+                }
+            }
+
+            .kievBig{
+                //display: none;
+                width: 100%;
+                display: block;
+                border: 20px solid $white;
+
+                @media (min-width: $screen-sm-min) {
+                    display: block;
+                    position: relative;
+                    z-index: 1;
+                    max-width: 455px;
+                    height: 758px;
+                    bottom: -42px;
+                    right: 0;
+                    margin: auto;
+                }
+            }
+        }
+    }
 }
+
+
 
 .team {
 
@@ -119,6 +229,7 @@
         grid-template-rows: repeat(8, 250px);
         margin: 0;
         padding: 0;
+        gap: 1em;
 
         @media (min-width: $screen-sm-min) {
             grid-template-columns:auto auto;
@@ -127,7 +238,7 @@
 
         @media (min-width: $screen-md-min) {
             grid-template-columns:auto auto auto auto;
-            grid-template-rows: 230px;
+            //grid-template-rows: 230px;
         }
 
         @media (min-width: $screen-lg-min) {
@@ -221,6 +332,78 @@
                 }
             }
 
+            &:nth-child(9) {
+                &:after {
+                    background: url("../assets/home-practics/Vector-9.png");
+                }
+            }
+
+            &:nth-child(10) {
+                &:after {
+                    background: url("../assets/home-practics/Vector-10.png");
+                }
+            }
+
+            &:nth-child(11) {
+                &:after {
+                    background: url("../assets/home-practics/Vector-11.png");
+                }
+            }
+
+            &:nth-child(12) {
+                &:after {
+                    background: url("../assets/home-practics/Vector-12.png");
+                }
+            }
+
+            &:nth-child(13) {
+                &:after {
+                    background: url("../assets/home-practics/Vector-13.png");
+                }
+            }
+
+            &:nth-child(14) {
+                &:after {
+                    background: url("../assets/home-practics/Vector-14.png");
+                }
+            }
+
+            &:nth-child(15) {
+                &:after {
+                    background: url("../assets/home-practics/Vector-15.png");
+                }
+            }
+
+            &:nth-child(16) {
+                &:after {
+                    background: url("../assets/home-practics/Vector-16.png");
+                }
+            }
+
+            &:nth-child(17) {
+                &:after {
+                    background: url("../assets/home-practics/Vector-17.png");
+                }
+            }
+
+            &:nth-child(18) {
+                &:after {
+                    background: url("../assets/home-practics/Vector-18.png");
+                }
+            }
+
+            &:nth-child(19) {
+                &:after {
+                    background: url("../assets/home-practics/Vector-19.png");
+                }
+            }
+
+            &:nth-child(20) {
+                &:after {
+                    background: url("../assets/home-practics/Vector-20.png");
+                }
+            }
+
             .menu {
                 font-family: 'Montserrat';
                 font-weight: 700;
@@ -247,7 +430,8 @@
     .btn-container {
         padding-top: 70px;
         padding-bottom: 70px;
-
+        max-width: 297px;
+        margin: auto;
         .allPractics {
             max-width: 297px;
         }
@@ -518,6 +702,19 @@
     .btn {
         width: 297px;
         margin: 0;
+    }
+
+    &.type-one{
+        height: auto;
+        padding-block: 20px;
+
+        @media (min-width: $screen-md-min) {
+            height: 437px;
+        }
+
+        .title {
+            padding-top: 20px;
+        }
     }
 
 }

@@ -7,23 +7,246 @@ header {
     height: 774px;
     //background-image: url("../assets/images/banner.png");
     //background-image: url("../assets/images/banner_kiev.png");
-    background-image: url("../assets/images/banner-group.png");
+    background-image: url("../assets/images/headers/banner-group.png");
     //background-color: rgba(60, 80, 100, 0.61); /* use rgba for fine adjustments */
     //background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-size: cover;
 
+    &#header-small {
+        height: 410px;
+        padding: 0;
 
-    .contactsContainer {
+        @media (min-width: $screen-md-min) {
+            height: 370px;
+        }
 
+        &.about-us {
+            background-image: url("../assets/images/headers/banner-about-us.png");
+            background-repeat: no-repeat;
+        }
+
+        &.clients {
+            background-image: url("../assets/images/headers/banner-clients.png");
+            background-repeat: no-repeat;
+        }
+
+        &.contacts {
+            background-image: url("../assets/images/headers/banner-contacts.png");
+            background-repeat: no-repeat;
+        }
+
+        &.dosyagnennya {
+            background-image: url("../assets/images/headers/banner-dosyagnennya.png");
+            background-repeat: no-repeat;
+        }
+
+        &.open-praktika {
+            background-image: url("../assets/images/headers/banner-open-praktika.png");
+            background-repeat: no-repeat;
+        }
+
+        &.practicts {
+            background-image: url("../assets/images/headers/banner-practicts.png");
+            background-repeat: no-repeat;
+        }
+
+        &.pro-bono {
+            background-image: url("../assets/images/headers/banner-pro-bono.png");
+            background-repeat: no-repeat;
+        }
+
+        &.team {
+            background-image: url("../assets/images/headers/banner-team.png");
+            background-repeat: no-repeat;
+        }
+
+        .rowFirst {
+
+            grid-template-columns: 76% 24%;
+            grid-template-rows: 54px;
+            grid-template-areas: "advokat-info advokat-menu";
+
+
+            @media (min-width: $screen-sm-min) {
+                grid-template-columns: 35% 50% 15%;
+                grid-template-areas: "advokat-info advokat-callme advokat-menu";
+                grid-template-columns: 100%;
+                grid-template-areas: " advokat-menu";
+            }
+
+            @media (min-width: $screen-md-min) {
+                grid-template-columns: auto;
+                //grid-template-columns: 10% 80% 10%;
+                grid-template-areas:         "advokat-info advokat-callme"
+        "advokat-menu advokat-menu"
+            }
+
+            @media (min-width: $screen-lg-min) {
+                grid-template-columns: 10% 80% 10%;
+                grid-template-areas: "advokat-info advokat-menu advokat-callme ";
+            }
+
+            .menuContainer{
+                position: relative;
+
+                &:after{
+                    display: block;
+                    position: absolute;
+                    content: '';
+                    width: 100%;
+                    height: 1px;
+                    opacity: 0.3;
+                    background: $white;
+                    bottom: -11px;
+                }
+
+                .navbar {
+
+                    .navbar-nav {
+
+                        .nav-item {
+
+                            @media (min-width: $screen-md-min) {
+                                margin: 0 24px;
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+
+        .rowSecond{
+            display: grid;
+            //grid-template-columns: 76% 24%;
+            grid-template-columns: 100%;
+            grid-template-rows: 190px;
+            //grid-template-areas: "advokat-logo advokat-info advokat-callme";
+            grid-template-areas:
+                "advokat-logo"
+                "advokat-info"
+                "advokat-callme";
+
+            @media (min-width: $screen-sm-min) {
+
+                //grid-template-areas: "advokat-logo advokat-info advokat-callme";
+            }
+
+            //@media (max-width: 1050px) {
+            //    grid-template-columns: 35% 35% 30%;
+
+            //}
+
+            // @media (min-width: 1200px) {
+            @media (min-width: $screen-md-min) {
+                grid-template-rows: 315px;
+                grid-template-areas: "advokat-logo advokat-info advokat-callme";
+                grid-template-columns: 48% 23% 30%;
+            }
+
+            @media (min-width: $screen-lg-min) {
+                grid-template-columns: 42% 33% 20%;
+                grid-template-areas: "advokat-logo advokat-info advokat-callme";
+                grid-template-rows: 176px;
+            }
+
+            .logoContainer {
+                grid-area: advokat-logo;
+                margin-top: 0;
+                display: flex;
+                @media (min-width: $screen-md-min) {
+
+                }
+
+                .logo {
+                    display: flex;
+                    justify-content: center;
+                    text-align: left;
+
+                    .img-logo{
+                        width: 85px;
+                        height: 98px;
+                    }
+
+                    .title {
+                        font-family: 'Lora';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 35px;
+                        line-height: 45px;
+                        color: $title;
+                        padding: 0px 10px;
+
+                        span {
+                            padding: 0px 0px;
+                            font-family: 'Lora';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 25px;
+                            line-height: 32px;
+                            color: $title;
+                            margin: 20px 0px;
+                        }
+                    }
+                }
+            }
+
+            .contactsContainer {
+                grid-area: advokat-info;
+                display: flex;
+                justify-content: center;
+                /* align-content: baseline; */
+                align-items: center;
+                flex-direction: column;
+
+                a {
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 25px;
+                    line-height: 40px;
+                    color: $white;
+                    text-decoration: none;
+                    display: block;
+                    text-align: center;
+
+                    @media (min-width: $screen-md-min) {
+                        line-height: 30px;
+                    }
+
+                    span {
+                        font-size: 22px;
+                    }
+                }
+            }
+
+            .orderCallContainer {
+                display: flex;
+                top:20px;
+                position: relative;
+                width: 100%;
+                max-width: 297px;
+                margin: auto;
+
+                @media (min-width: $screen-md-min) {
+                    top:0;
+                }
+            }
+        }
     }
-    .menuContainer {
 
-    }
 
-    .orderCallContainer {
-
-    }
+    //.contactsContainer {
+    //
+    //}
+    //.menuContainer {
+    //
+    //}
+    //
+    //.orderCallContainer {
+    //
+    //}
 
     .rowFirst {
         width: 100%;
@@ -89,6 +312,14 @@ header {
                             border: none;
                             transition: none!important;
                             position: fixed;
+
+                            @media only screen and (max-width: 1200px) and (min-width: 992px)
+                            {
+                                //@media (min-width: $screen-sm-min) {
+                                display: none!important;
+                            }
+
+
 
                             &:focus {
                                 box-shadow: none;
@@ -174,7 +405,7 @@ header {
                                 border-radius: 24px;
                                 text-align: center;
                                 padding: 20px;
-
+                                z-index: 1;
 
                                 .navbar-nav {
                                     flex-direction: column;

@@ -1,0 +1,110 @@
+.section {
+    padding: 0;
+    &.team {
+        .wrap {
+            display: grid;
+            grid-template-columns: auto;
+
+            @media (min-width: $screen-md-min) {
+                grid-template-columns: auto auto;
+            }
+
+            .block {
+                position: relative;
+                display: grid;
+                grid-template-columns: auto;
+                gap: 1em;
+                margin: 1em;
+                text-align: center;
+
+                @media (min-width: $screen-md-min) {
+                    grid-template-columns: auto auto;
+                    grid-template-columns: 55% auto;
+                    text-align: unset;
+                }
+
+                &:before {
+                    display: none;
+                    content: '';
+                    margin: 42px 20px;
+                    border: 1px solid $text2;
+
+                    position: absolute;
+
+                    top: 25%;
+                    left: 48%;
+                    transform: translate(-50%,-50%);
+                    width: 95%;
+                    height: 59%;
+                    @media (min-width: $screen-md-min) {
+
+                    }
+
+                    @media (min-width: $screen-md-min) {
+                        display: block;
+                        top: 40%;
+                        //left: 48%;
+                        //transform: translate(-50%,-50%);
+                        //width: 95%;
+                        height: 80%;
+                    }
+                }
+
+                .photo {
+                    .layerPhoto {
+                        width: 100%;
+                        max-width: 360px;
+                        height: auto;
+
+                        @media (min-width: $screen-md-min) {
+                            height: 410px;
+                        }
+                    }
+                }
+
+                .info {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+
+                    .title {
+                        .text {
+                            &.layerName {
+                                font-weight: 700;
+                                font-size: 20px;
+                                line-height: 24px;
+                                letter-spacing: 0.1em;
+                                color: $black;
+                            }
+                        }
+                    }
+
+                    .position {
+                        margin-bottom: 20px;
+                        .text {
+                            &.layerPosition {
+                                font-weight: 700;
+                                font-size: 14px;
+                                line-height: 17px;
+                                letter-spacing: 0.1em;
+                                color: $text2;
+                            }
+                        }
+                    }
+
+                    .details {
+                        .text {
+                            &.layerDetails {
+                                font-weight: 300;
+                                font-size: 16px;
+                                line-height: 20px;
+                                color: black;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+

@@ -1,4 +1,4 @@
-@include('header')
+
 <section class="section homepage">
     <div class="textContainer">
         <h2 class="title">Про Колегію адвокатів міста Києва та Київської області</h2>
@@ -33,23 +33,4 @@
 
 </section>
 
-<section class="section team">
-    <h2 class="title">Про нас</h2>
-    <p class="text">
-        Адвокатське об’єднання «Колегія адвокатів міста Києва та Київської області» було засноване у 2013 році.
-    </p>
-</section>
 
-{{--@include('slider-homepage')--}}
-
-{{--@include('slider-homepage-v1')--}}
-
-@include('slider-homepage-v2')
-{{--@include('slider-glide')--}}
-
-@include('practicts')
-@include('clients')
-@include('consultation')
-@include('map')
-
-@include('footer')
