@@ -6,6 +6,7 @@
     width: 100%;
     max-width: 1690px;
     padding: 0px 14px 0px 20px;
+    padding: 20px 40px 0px;
 
     @media (min-width: $screen-sm-min) {
         margin-top: 30px;
@@ -234,6 +235,8 @@
         @media (min-width: $screen-sm-min) {
             grid-template-columns:auto auto;
             grid-template-rows: repeat(4, 250px);
+            grid-template-rows: repeat(2, 250px);
+            grid-template-rows: auto auto;
         }
 
         @media (min-width: $screen-md-min) {
@@ -468,12 +471,10 @@
 
         @media (min-width: $screen-sm-min) {
             grid-template-columns:auto auto auto;
-
         }
 
         @media (min-width: $screen-md-min) {
             grid-template-columns:auto auto auto auto auto auto;
-
         }
 
         @media (min-width: $screen-lg-min) {
@@ -533,6 +534,7 @@
                     display: none;
                 }
             }
+
             .imageClients{
                 position: absolute;
                 top:50%;
@@ -546,7 +548,6 @@
         background: $clientsbg;
         display: grid;
         grid-template-columns:auto ;
-
         margin: 0;
         padding: 0;
         width: 100%;
@@ -557,7 +558,6 @@
 
         @media (min-width: $screen-sm-min) {
             grid-template-columns:auto auto auto;
-
         }
 
         @media (min-width: $screen-md-min) {
@@ -717,6 +717,12 @@
         }
     }
 
+    .consultationForm {
+
+        @media (min-width: $screen-md-min) {
+            padding: 0px 1px;
+        }
+    }
 }
 
 .mapContainer {
@@ -844,5 +850,21 @@
                 grid-template-columns: auto auto;
             }
         }
+    }
+}
+
+.proBono {
+    display: grid;
+    grid-template-areas:
+    "bonoInfo bonoImg";
+    grid-template-columns: 57% 41%;
+
+    .bonoInfo {
+        grid-area: bonoInfo;
+    }
+
+    .bonoImg {
+        grid-area: bonoImg;
+        text-align: center;
     }
 }

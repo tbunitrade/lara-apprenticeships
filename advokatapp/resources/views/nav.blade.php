@@ -8,7 +8,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item current">
+                <li class="nav-item ">
                     {{--                <nav>--}}
                     {{--                    <ul>--}}
                     {{--                        <li>--}}
@@ -36,7 +36,7 @@
                         Клієнти
                     </a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item" style="display: none;">
                     <a class="menu" id="dosyagnennya" href="/dosyagnennya">
                         Досягнення
                     </a>

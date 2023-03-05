@@ -14,4 +14,8 @@
         адже досягнення бажаного для Клієнта результату має виключне значення в роботі адвокатів об’єднання.
     </p>
 </section>
+
+@include('block.clients-full')
+@include('block.consultation')
+@include('block.map')
 @include('footer')

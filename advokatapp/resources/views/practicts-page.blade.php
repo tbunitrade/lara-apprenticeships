@@ -1,3 +1,5 @@
 @include('header-small')
 @include('block.practicts-full')
+@include('block.consultation-type-one')
+@include('block.map')
 @include('footer')

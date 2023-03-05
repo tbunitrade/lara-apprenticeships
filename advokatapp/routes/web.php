@@ -1,6 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PostGuzzleController;
+
+Route::get('posts',[PostGuzzleController::class,'index']);
+Route::get('posts/store', [PostGuzzleController::class, 'store' ]);
 
 /*
 |--------------------------------------------------------------------------
