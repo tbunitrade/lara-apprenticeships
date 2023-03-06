@@ -31,7 +31,12 @@ class OrderShipped extends Mailable
     public function envelope()
     {
         return new Envelope(
-            subject: 'Order Shipped',
+            //subject: 'Order Shipped',
+            from: new Address('Bestadvokat@example.com', 'Oleksandr Sonich'),
+            replyTo: [
+                new Address('bestlawyer.kiev.','Nikita Popov'),
+            ],
+            subject: 'Order Shippppp',
         );
     }
 
