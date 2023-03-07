@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PostGuzzleController;
+use App\Http\Controllers\MailController;
 
 Route::get('posts',[PostGuzzleController::class,'index']);
 Route::get('posts/store', [PostGuzzleController::class, 'store' ]);
@@ -16,6 +17,8 @@ Route::get('posts/store', [PostGuzzleController::class, 'store' ]);
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+Route::get('send-mail', [MailController::class, 'index']);
 
 Route::get('/', function () {
     return view('/home-page');
