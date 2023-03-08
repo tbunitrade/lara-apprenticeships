@@ -29,6 +29,10 @@
     grid-template-areas:
         "text-block text-block"
         "text-bottom .";
+    grid-template-areas:
+        "text-block"
+        "image-block"
+        "text-bottom";
     grid-template-columns: 100%;
 
     @media (min-width: $screen-md-min) {
@@ -47,7 +51,7 @@
     }
 
     .bannerContainer {
-        display: none;
+        display: block;
         position: relative;
         z-index: 0;
 
@@ -57,20 +61,22 @@
         }
 
         .kievSmall{
-            display: none;
+            margin: auto;
+            display: block;
+            width: 380px;
+            height: 390px;
+            border: 20px solid $white;
             @media (min-width: $screen-sm-min) {
-                display: block;
-                width: 380px;
-                height: 390px;
-                border: 20px solid $white;
                 position: relative;
                 z-index: 2;
+                margin: 0;
             }
         }
 
         .kievBig{
             display: none;
-            @media (min-width: $screen-sm-min) {
+
+            @media (min-width: $screen-md-min) {
                 display: block;
                 position: absolute;
                 z-index: 1;
@@ -85,6 +91,7 @@
 
     .orderConsultationContainer {
         grid-area: text-bottom;
+        margin: auto;
         margin-top: 20px;
         .btn {
             max-width: 297px;
@@ -255,7 +262,7 @@
             height: 210px;
             position: relative;
             border: 1px solid $text2;
-
+            margin: auto;
             &:before {
                 position: absolute;
                 top:50%;

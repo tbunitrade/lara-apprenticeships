@@ -64,7 +64,7 @@
 <div class="container-fluid">
     <header>
         <div class="rowFirst">
-            <div class="contacgittsContainer">
+            <div class="contactsContainer">
                 <a id="phone" class="phone" href="tel:+380685689578" href="Дзвінок адвокату">+38 (068) 238-138-3</a>
                 <a id="adress" class="adress" href="/contacts"><span>вул. Льва Толстого, 16</span></span></a>
             </div>

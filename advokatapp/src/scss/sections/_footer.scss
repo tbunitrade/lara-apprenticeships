@@ -8,6 +8,14 @@ footer {
             text-align: center;
             color: $white;
             line-height: 72px;
+
+            a {
+                color: $white;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
         }
     }
 }

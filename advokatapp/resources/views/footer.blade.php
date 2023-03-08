@@ -1,6 +1,6 @@
         <footer>
             <div class="copyright">
-                <p class="text">© 2009 - <?php echo date('Y'); ?> - All rights reserved | <a target="_blank" href="https://sierra-group.in.ua/?utm_source=Advokaty&utm_medium=direct">IT підримка ПП"СІЄРРА ГРУП"</a></p>
+                <p class="text">© 2009 - <?php echo date('Y'); ?> | <a target="_blank" href="https://sierra-group.in.ua/?utm_source=Advokaty&utm_medium=direct">IT підримка ПП"СІЄРРА ГРУП"</a></p>
             </div>
         </footer>
     </div> <!-- end of container fluid -->

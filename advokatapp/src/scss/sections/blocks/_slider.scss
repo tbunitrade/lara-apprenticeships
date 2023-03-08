@@ -9,11 +9,17 @@
     //background: green;
     &.homepageSliderContainer {
         //background: red;
+        max-width: 1376px;
 
         .wrap {
             &.glide {
                 //background: yellow;
                 outline: 1px solid red;
+
+                .glide__track,
+                .glide__slides{
+                    overflow: hidden;
+                }
                 .glide__arrows{
 
                     display: inline-flex;
@@ -63,9 +69,12 @@
 
                 .glide__slide{
                     width: 100%;
-                    max-width: 265px;
+                    //max-width: 265px;
+                    padding: 20px;
+                    text-align: center;
 
                     .item-box-blog-image {
+                        width: 100%;
 
                         figure {
                             position: relative;
@@ -82,6 +91,11 @@
                                 height: 100%;
                                 z-index: 99;
                                 background-size: contain;
+                                display: none;
+
+                                @media (min-width: $screen-md-min) {
+                                    display: block;
+                                }
                             }
 
                             img,
