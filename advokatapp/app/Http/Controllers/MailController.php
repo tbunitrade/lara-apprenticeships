@@ -18,7 +18,7 @@ class MailController extends Controller
         $post->title            = $request->title;
         $post->name             = $request->name;
         $post->number           = $request->number;
-        //$post->description      = $request->description;
+
         $post->save();
 
         $mailData = [

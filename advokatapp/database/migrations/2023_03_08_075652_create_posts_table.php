@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('title');
             $table->string('name');
             $table->integer('number');
-            $table->description('description');
+            $table->string('description');
             $table->timestamps();
 
         });
