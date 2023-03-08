@@ -28,7 +28,7 @@
 
     </div>
     <div class="orderConsultationContainer">
-        <a id="consultationRequest" class="btn btn-black consultationRequest" href=""> Записатися на консультацію</a>
+        <a id="consultationRequest" class="btn btn-black consultationRequest" href="#consultationForm"> Записатися на консультацію</a>
     </div>
 
 </section>

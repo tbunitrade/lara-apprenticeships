@@ -94,7 +94,7 @@
                     <h1 class="title">Колегія адвокатів<span>міста Києва та Київської області</span></h1>
                 </a>
                 <div class="orderConsultationContainer">
-                    <a id="consultationRequest" class="btn consultationRequest" href=""> Записатися на консультацію</a>
+                    <a id="consultationRequest" class="btn consultationRequest" href="#consultationForm"> Записатися на консультацію</a>
                 </div>
             </div>
         </div>

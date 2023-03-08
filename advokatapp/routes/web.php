@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PostController;
 use App\Http\Controllers\PostGuzzleController;
 use App\Http\Controllers\MailController;
 
@@ -18,7 +19,15 @@ Route::get('posts/store', [PostGuzzleController::class, 'store' ]);
 |
 */
 
-Route::get('send-mail', [MailController::class, 'index']);
+Route::get('add-blog-post-form', function (){
+    return view('add-blog-post-form');
+});
+
+//Route::get('add-blog-post-form', [PostController::class,'index']);
+Route::post('store-form', [PostController::class, 'store']);
+
+Route::post('send-mail', [MailController::class, 'go']);
+//Route::get('send-mail', [MailController::class, 'index']);
 
 Route::get('/', function () {
     return view('/home-page');
@@ -55,6 +64,10 @@ Route::get('/pro-bono', function () {
 //Route::get('/advokat-po-kriminalnim-spravam', function () {
 //    return view('/advokat-po-kriminalnim-spravam');
 //});
+
+Route::get('/thankyou', function () {
+    return view('/thankyou-page');
+});
 
 Route::get('/welcome', function () {
     return view('/welcome');

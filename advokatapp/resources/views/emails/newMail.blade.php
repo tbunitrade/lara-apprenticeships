@@ -8,12 +8,11 @@
     <title>Document</title>
 </head>
 <body>
-<h1>{{$mailData['title']}}</h1>
-<h2>{{$mailData['body']}}</h2>
-<p>
-    Lorem ipsum
-</p>
-<p>Thank you</p>
+<h1>Форма № {{$mailData['title']}}</h1>
+<h2>Імя {{$mailData['name']}}</h2>
+<h2>Телефон {{$mailData['number']}}</h2>
+
+
 
 </body>
 </html>

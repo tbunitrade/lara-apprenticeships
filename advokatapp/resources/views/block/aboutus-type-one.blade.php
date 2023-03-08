@@ -25,7 +25,7 @@
                 надаючи адвокатські послуги найвищої якості, в тому числі, в певних випадках, на умовах pro bono – як благодійність,
                 адже ми прагнемо нести добро у цей світ.
             <div class="">
-                <a id="consultationRequest" class="btn btn-black consultationRequest" href=""> Записатися на консультацію</a>
+                <a id="consultationRequest" class="btn btn-black consultationRequest" href="/#consultationForm"> Записатися на консультацію</a>
             </div>
             </p>
         </div>
