@@ -107,6 +107,6 @@
 
     </ul>
     <div class="btn-container">
-        <a id="callRequest" class="btn btn-black callRequest" href="">Записатися на консультацію</a>
+        <a id="callRequest" class="btn btn-black callRequest" href="#consultationForm">Записатися на консультацію</a>
     </div>
 </section>

@@ -38,3 +38,17 @@ a {
         background: $gtn-black-hover;
     }
 }
+
+.btn-about-lawyer {
+    padding: 0px 5px;
+    line-height: 20px;
+    width: 90%;
+    border: none;
+    color: $btn;
+    background: transparent;
+    box-shadow: none;
+    &:hover{
+        background: none;
+        color: $gtn-black-hover;
+    }
+}

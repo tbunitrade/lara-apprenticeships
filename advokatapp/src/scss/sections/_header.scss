@@ -16,19 +16,26 @@ header {
     &#header-small {
         height: 410px;
         padding: 0;
+        background-color: rgba(60, 80, 100, 0.61)!important; /* use rgba for fine adjustments */
+        background-blend-mode: multiply!important;
+        background-repeat: no-repeat!important;
 
         @media (min-width: $screen-md-min) {
             height: 370px;
         }
 
         &.about-us {
-            background-image: url("../assets/images/headers/banner-about-us.png");
+            //background-image: url("../assets/images/headers/banner-about-us.png");
+            background-image: url("../assets/images/headers/banner-about-us.jpg");
             background-repeat: no-repeat;
         }
 
         &.clients {
-            background-image: url("../assets/images/headers/banner-clients.png");
+            //background-image: url("../assets/images/headers/banner-clients.png");
+            background-image: url("../assets/images/headers/banner-clients.jpg");
             background-repeat: no-repeat;
+            background-size: cover;
+            background-position-y: -100px;
         }
 
         &.contacts {
@@ -37,7 +44,8 @@ header {
         }
 
         &.dosyagnennya {
-            background-image: url("../assets/images/headers/banner-dosyagnennya.png");
+            //background-image: url("../assets/images/headers/banner-dosyagnennya.png");
+            background-image: url("../assets/images/headers/banner-dosyagnennya.jpg");
             background-repeat: no-repeat;
         }
 
@@ -47,8 +55,11 @@ header {
         }
 
         &.practicts {
-            background-image: url("../assets/images/headers/banner-practicts.png");
+            //background-image: url("../assets/images/headers/banner-practicts.png");
+            background-image: url("../assets/images/headers/banner-practicts.jpg");
             background-repeat: no-repeat;
+            background-size: cover;
+            background-position-y: -122px;
         }
 
         &.pro-bono {
@@ -57,7 +68,9 @@ header {
         }
 
         &.team {
-            background-image: url("../assets/images/headers/banner-team.png");
+            //background-image: url("../assets/images/headers/banner-team.png");
+            background-image: url("../assets/images/headers/banner-team.jpg");
+            background-position-y: -140px;
             background-repeat: no-repeat;
         }
 

@@ -83,7 +83,7 @@
                 @include('nav')
             </div>
             <div class="orderCallContainer">
-                <a id="callRequest" class="btn callRequest" href="">Замовити дзвінок</a>
+                <a id="callRequest" class="btn callRequest" href="#"  data-bs-toggle="modal" data-bs-target="#CallMe" >Замовити дзвінок</a>
             </div>
         </div>
 

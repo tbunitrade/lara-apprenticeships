@@ -7,7 +7,7 @@
             </li>
             <li class="li phone">
                 <a class="text " href="tel:380682381383">+38 (068) 238-138-3</a>
-                <p class="text"><a class="link callme" href="#">Замовити дзвінок</a> </p>
+                <p class="text"><a class="link callme" href="#" data-bs-toggle="modal" data-bs-target="#CallMe">Замовити дзвінок</a> </p>
             </li>
             <li class="li email" onclick="location.href=`mailto:bestlawyer.kiev@gmail.com`;">
                 <p class="text ">

@@ -682,6 +682,28 @@
             grid-template-columns: auto auto;
             //margin-bottom: 40px;
         }
+
+        .form-group {
+            position: relative;
+
+            .alert {
+
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 19px;
+                color: red;
+                position: relative;
+                top:1%;
+                left: 0;
+                padding: 0;
+                border: none;
+            }
+
+            .hidden {
+                display: none;
+            }
+        }
     }
 
     input::-webkit-outer-spin-button,
