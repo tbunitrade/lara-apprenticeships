@@ -679,6 +679,7 @@
         @media (min-width: $screen-md-min) {
             width: 100%;
             max-width: 768px;
+            max-width: 642px;
             grid-template-columns: auto auto;
             //margin-bottom: 40px;
         }
@@ -716,6 +717,7 @@
     .input{
         width: 100%;
         max-width: 360px;
+        max-width: 295px;
         height: 50px;
         opacity: 0.4;
         border: 1px solid #FFFFFF;
@@ -752,6 +754,23 @@
             padding: 0px 1px;
         }
     }
+
+
+    .g-recaptcha {
+        position: relative;
+        top: -6px;
+        left: 13px;
+    }
+
+
+        .form-group {
+            .btn {
+                position: relative;
+                top: -6px;
+                left: 8px;
+            }
+        }
+
 }
 
 .mapContainer {

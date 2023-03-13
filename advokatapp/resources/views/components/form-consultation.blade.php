@@ -24,7 +24,16 @@
     {{--        <fieldset>--}}
     {{--            <textarea></textarea>--}}
     {{--        </fieldset>--}}
-    <input class="btn" id="submit" type="submit" value="Відправити">
+    <fieldset>
+        <div class="form-group">
+            <div class="g-recaptcha" data-sitekey="6LfPBPckAAAAAMj87uv7cdlChQalPshmPVzs19p5"></div>
+
+        </div>
+        <div class="form-group">
+
+            <input class="btn" id="submit" type="submit" value="Відправити">
+        </div>
+    </fieldset>`
 </form>
 
 <script>
