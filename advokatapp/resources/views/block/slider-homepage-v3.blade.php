@@ -25,11 +25,11 @@ $myarrays = [
         "fullname" => "Харченко Оксана Олексіївна",
         "position" => "Адвокат"
     ],
-    [
-        "photo" => "assets/home-slider/Xrustovska-Olga-Petrivna.jpg",
-        "fullname" => "Хрустовська Ольга Петрівна",
-        "position" => "Адвокат"
-    ],
+//    [
+//        "photo" => "assets/home-slider/Xrustovska-Olga-Petrivna.jpg",
+//        "fullname" => "Хрустовська Ольга Петрівна",
+//        "position" => "Адвокат"
+//    ],
     [
         "photo" => "assets/home-slider/Shamardin-Volodymyr-Mykolayovych.jpg",
         "fullname" => "Шамардін Володимир Миколайович",

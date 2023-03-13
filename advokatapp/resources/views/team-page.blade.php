@@ -131,7 +131,7 @@
             </div>
         </div>
 
-        <div class="block ">
+        <div class="block " style="display:none;">
             <div class="photo">
                 <img class="layerPhoto" src="{{ URL::asset('/assets/home-slider/Xrustovska-Olga-Petrivna.jpg') }}">
             </div>

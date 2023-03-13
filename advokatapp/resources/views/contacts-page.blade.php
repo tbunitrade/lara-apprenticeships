@@ -7,6 +7,18 @@
             </li>
             <li class="li phone">
                 <a class="text " href="tel:380682381383">+38 (068) 238-138-3</a>
+                <ul class="callMeSocial">
+                    <li>
+                        <a href="https://t.me/ngpngpngp"><img src="{{url::asset('/assets/images/telegram.png')}}"></a>
+                    </li>
+                    <li>
+                        <a href="https://wa.me/380991247016?text=Hello!"><img src="{{url::asset('/assets/images/whatsapp.png')}}"></a>
+                    </li>
+                    <li>
+                        <a class="forMobile" href="viber://add?number=380991247016"><img src="{{url::asset('/assets/images/viber.png')}}"></a>
+                        <a class="forPc" title="Должен быть установлен Viber для ПК" href="viber://chat?number=+380991247016" ><img src="{{url::asset('/assets/images/viber.png')}}"></a>
+                    </li>
+                </ul>
                 <p class="text"><a class="link callme" href="#" data-bs-toggle="modal" data-bs-target="#CallMe">Замовити дзвінок</a> </p>
             </li>
             <li class="li email" onclick="location.href=`mailto:bestlawyer.kiev@gmail.com`;">
@@ -17,6 +29,7 @@
         </ul>
 
     </section>
+
     <style>
         #mapContacts{
             display: none;

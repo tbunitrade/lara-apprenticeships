@@ -1,4 +1,16 @@
 
+<ul class="callMeSocial">
+    <li>
+        <a href="https://t.me/ngpngpngp"><img src="{{url::asset('/assets/images/telegram.png')}}"></a>
+    </li>
+    <li>
+        <a href="https://wa.me/380991247016?text=Hello!"><img src="{{url::asset('/assets/images/whatsapp.png')}}"></a>
+    </li>
+    <li>
+        <a class="forMobile" href="viber://add?number=380991247016"><img src="{{url::asset('/assets/images/viber.png')}}"></a>
+        <a class="forPc" title="Должен быть установлен Viber для ПК" href="viber://chat?number=+380991247016" ><img src="{{url::asset('/assets/images/viber.png')}}"></a>
+    </li>
+</ul>
 <form id="consultationForm" class="consultationForm" method="post" action="{{url('store-form')}}">
     @csrf
     <fieldset>
