@@ -71,7 +71,7 @@ return [
 
      //'timezone' => env('APP_TIMEZONE', 'UTC'),
     //'timezone' => ('Europe/Kyiv'),
-    date_default_timezone_set('Europe/Kyiv'),
+    date_default_timezone_set('Europe/Kiev'),
 
     /*
     |--------------------------------------------------------------------------
