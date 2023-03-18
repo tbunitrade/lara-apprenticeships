@@ -25,58 +25,43 @@
     {{--            <textarea></textarea>--}}
     {{--        </fieldset>--}}
     <fieldset>
-        <div class="form-group">
-            <div class="g-recaptcha" data-sitekey="6LfPBPckAAAAAMj87uv7cdlChQalPshmPVzs19p5"></div>
-
+        <div class="form-group" style="display: flex; flex-direction: row;width: 304px;">
+{{--            <div class="g-recaptcha" data-sitekey="6LfPBPckAAAAAMj87uv7cdlChQalPshmPVzs19p5"></div>--}}
+            <p class="text" style="display: flex; flex-direction: column;text-align: right; position: relative; top: 11px;">Я не бот, 7+4 = ??</p>
+            <input style="width:50px;height: 50px; position: relative;top:-5px;right: -5px" id="captcha1" type="number" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"  maxlength="2" required>
         </div>
         <div class="form-group">
 
             <input class="btn" id="submit" type="submit" value="Відправити">
         </div>
+
+        <script>
+            var captcha1 = document.getElementById('captcha1');
+            console.log('captcha1',captcha1);
+
+            const btnsubmit1 = document.getElementById('submit');
+            captcha1.addEventListener('input', function (){
+                let data  = captcha1.value;
+                console.log('i see captcha',data);
+                if (data == 11) {
+                    //btnsubmit.style.PointerEvent="auto";
+                    btnsubmit1.classList.remove('blockme');
+                    captcha1.style.background="white";
+                    //console.log('all good');
+                } else {
+                    btnsubmit1.classList.add('blockme');
+                    captcha1.style.background="red";
+
+                    //btnsubmit.style.PointerEvent="none";
+                    //console.log('block');
+                }
+            });
+        </script>
     </fieldset>`
 </form>
+<script src="https://unpkg.com/imask"></script>
 
 <script>
-    const alertphone = document.getElementById('alertPhone');
-    const clientphone = document.getElementById('number');
-    clientphone.addEventListener('input', function (e){
-        let phone = this.value;
-        console.log('changes2');
+    console.log('init 01 ok');
 
-        if (phone.length <= 12) {
-            changeColor(this, 'red');
-            alertphone.style.borderColor = 'red';
-            //console.log('set phone red');
-        } else {
-            alertphone.style.borderColor = 'black';
-            changeColor(this, 'black');
-        }
-        phone = phone.replace(/\D/g,'');
-
-        if (phone.length >= 12) {
-            //console.log('ok'+phone.length);
-            alertphone.classList.add('hidden');
-            changeColor(this, 'black');
-            vphone = phone;
-
-            return true;
-
-        } else {
-            //console.log('not ok'+phone.length);
-            alertphone.classList.remove('hidden');
-        }
-
-        const str_phone = phone.toString();
-        phone = Number(str_phone.slice(0, 12));
-
-        //console.log('phone ->'+phone);
-    });
-
-    var maskOptions = {
-    	mask: '+00(000)000-00-00',
-    	lazy: false
-    }
-
-
-    var mask = new IMask(clientphone, maskOptions);
 </script>

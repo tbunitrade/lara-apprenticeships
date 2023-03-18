@@ -19,6 +19,7 @@ header {
         background-color: rgba(60, 80, 100, 0.61)!important; /* use rgba for fine adjustments */
         background-blend-mode: multiply!important;
         background-repeat: no-repeat!important;
+        z-index: 1;
 
         @media (min-width: $screen-md-min) {
             height: 370px;
@@ -326,13 +327,11 @@ header {
                             transition: none!important;
                             position: fixed;
 
-                            @media only screen and (max-width: 1200px) and (min-width: 992px)
+                            @media only screen and (max-width: 1920px) and (min-width: 992px)
                             {
                                 //@media (min-width: $screen-sm-min) {
                                 display: none!important;
                             }
-
-
 
                             &:focus {
                                 box-shadow: none;
@@ -370,18 +369,45 @@ header {
                                     width: 100%;
                                     justify-content: center;
 
+                                    @media (min-width: $screen-md-min) {
+                                        height: 50px;
+                                    }
+
                                     .nav-item{
                                         height: 30px;
                                         margin: 0px 14px;
+                                        transition: 0.3s ease-in-out;
+                                        &:hover {
+                                            background: $black;
+                                            transition: 0.3s ease-in-out;
+                                            a,.menu {
+                                                color: $white;
+                                            }
+                                        }
+
+                                        @media (min-width: $screen-md-min) {
+                                            height: 50px;
+                                        }
                                         .menu {
                                             color: $white;
                                             font-family: 'Montserrat';
                                             font-style: normal;
                                             font-weight: 500;
                                             font-size: 18px;
-                                            line-height: 22px;
+                                            line-height: 30px;
+                                            padding: 0em 1em;
 
                                             text-align: left;
+
+                                            &:hover {
+                                                text-decoration: underline;
+                                            }
+
+                                            @media (min-width: $screen-md-min) {
+                                                line-height: 50px;
+                                                display: inline-grid;
+                                                padding: 0em 1em;
+                                            }
                                         }
                                     }
                                     .current {

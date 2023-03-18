@@ -1,17 +1,22 @@
 .section {
     //padding: 0;
     &.contacts {
+
+
         .uLContacts {
             display: grid;
-            grid-template-columns: auto auto auto;
-            grid-template-rows: 350px;
+            grid-template-columns: auto;
+            grid-template-rows: 200px;
+            padding: 0;
+            gap: 1em;
 
             @media (min-width: $screen-sm-min) {
 
             }
 
             @media (min-width: $screen-md-min) {
-
+                grid-template-columns: auto auto;
+                grid-template-rows: 300px;
             }
 
             .li {
@@ -56,6 +61,18 @@
                     }
                 }
 
+                &:nth-child(4) {
+                    &:before {
+                        background: url("../assets/images/communication.svg");
+                        fill: #a5906d;
+                        background-size: contain;
+                        border-radius: unset;
+                        border: none;
+                        left: 53%;
+                    }
+                }
+
+
                 .text {
                     font-family: 'Montserrat';
                     font-style: normal;
@@ -64,6 +81,7 @@
                     line-height: 24px;
                     text-align: center;
                     color: $black;
+                    margin: 5px 0px;
 
                     @media (min-width: $screen-md-min) {
                         line-height: 50px;
@@ -82,7 +100,18 @@
                             text-align: center;
                             color: $black;
                             text-decoration: underline;
+
                         }
+                    }
+                }
+
+                a {
+                    line-height: 40px!important;
+                    padding: 0em 1em;
+                    display: grid;
+
+                    &:hover {
+                        background: #ccc;
                     }
                 }
 

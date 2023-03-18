@@ -902,18 +902,49 @@
     }
 }
 
+.standardPage {
+    display: grid;
+    grid-template-areas:
+    "pageInfo"
+    "pageImg";
+    grid-template-columns: auto;
+
+    @media (min-width: $screen-md-min)   {
+        grid-template-areas:
+        "pageInfo pageImg";
+        grid-template-columns: 57% 41%;
+    }
+}
+
 .proBono {
     display: grid;
     grid-template-areas:
-    "bonoInfo bonoImg";
-    grid-template-columns: 57% 41%;
+    "bonoInfo"
+    "bonoImg";
+    grid-template-columns: auto;
+
+    @media (min-width: $screen-md-min)   {
+        grid-template-areas:
+        "bonoInfo bonoImg";
+        grid-template-columns: 57% 41%;
+    }
 
     .bonoInfo {
         grid-area: bonoInfo;
+        margin: 20px 0px;
+        @media (min-width: $screen-md-min)   {
+            margin: 0;
+        }
     }
 
     .bonoImg {
         grid-area: bonoImg;
         text-align: center;
+        background-size: contain;
+        height: 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+        margin: 1em;
     }
 }

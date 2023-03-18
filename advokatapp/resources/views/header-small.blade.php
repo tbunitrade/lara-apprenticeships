@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
-    <title>Колегія адковатів міста Києва та Київської області</title>
-    <meta name="description" content="колегія адвокатів: адвокат, юридична допомога, адвокатська підтримка, послуги адковатів" >
-    <meta name="keywords" content="адвокат, послуги адковата, юридична допомога">
+    <title>Колегія адвокатів міста Києва та Київської області</title>
+    <meta name="description" content="колегія адвокатів: адвокат, юридична допомога, адвокатська підтримка, послуги адвокатів" >
+    <meta name="keywords" content="адвокат, послуги адвоката, юридична допомога">
     <meta name="robots" content="index,follow">
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
 
     <!-- Fonts -->
     <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">

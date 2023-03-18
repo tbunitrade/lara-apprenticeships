@@ -160,7 +160,7 @@ p{
 }
 
 .forPc {
-    display: none;
+    display: none!important;
     @media ($screen-lg-min) {
         display: block;
     }
@@ -186,4 +186,31 @@ p{
     }
 }
 
+
+input {
+    border:1px solid black;
+    line-height: 20px;
+    height: 40px;
+    width: 100%;
+    display: block;
+    margin: auto;
+    margin-bottom: 5px;
+}
+input,
+input[type="number"] {
+
+    -webkit-appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance:    none;
+    appearance:         none;
+
+    &::-webkit-outer-spin-button,
+    &::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+    }
+}
+
+.blockme {
+    pointer-events: none;
+}
 
