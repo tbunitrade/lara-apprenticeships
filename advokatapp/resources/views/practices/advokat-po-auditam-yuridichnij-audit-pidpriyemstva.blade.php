@@ -16,7 +16,7 @@
             Оцінка юридичних ризиків, можливе податкове навантаження та його оптимізація, оцінка можливих доходів і витрат – ми здатні надати професійний та повний звіт за результатами необхідного юридичного аудиту.
         </p>
     </div>
-    <div class="bonoImg" style="background-image: url('{{URL::asset('/assets/images/practices/Юридичний_аудит_підприємств,_проєктів,_угод_due_dilligence.jpg')}}')">
+    <div class="bonoImg" style="background-image: url('{{URL::asset('/assets/images/practices/advokat-po-auditam-yuridichnij-audit-pidpriyemstva.jpg')}}')">
         {{--         <img src="{{URL::asset('/assets/images/pro_bono.png')}}">--}}
     </div>
 

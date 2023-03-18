@@ -4,7 +4,7 @@
 <section class="section proBono">
     <div class="bonoInfo">
         <h3 class="title">
-            Банківське та фінансове право, кредитні спори
+            Банківське та фінансове право, кредитні спори.
         </h3>
         <p class="text">
             Якщо Вас цілодобово турбують колектори, банк забирає Вашу квартиру, будинок чи земельну ділянку чи інше майно,
@@ -23,7 +23,7 @@
 
         </p>
     </div>
-    <div class="bonoImg" style="background-image: url('{{URL::asset('/assets/images/practices/Банківське_та_фінансове_право,_кредитні_спори.jpg')}}')">
+    <div class="bonoImg" style="background-image: url('{{URL::asset('/assets/images/practices/advokat-po-bankivske-ta-finansove-pravo.jpg')}}')">
         {{--         <img src="{{URL::asset('/assets/images/pro_bono.png')}}">--}}
     </div>
 

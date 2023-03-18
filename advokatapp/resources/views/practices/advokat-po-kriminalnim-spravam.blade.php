@@ -5,8 +5,8 @@
     <div class="bonoInfo">
         <h3 class="title">
             Захист і представництво у кримінальному процесі.
+        </h3>
 
-             </h3>
         <p class="text">
             Слідчий або дізнавач Національної поліції, Служби безпеки, Державного бюро розслідувань,
             Бюро економічної безпеки або детектив Національного антикорупційного бюро викликає Вас на допит?
@@ -29,7 +29,7 @@
 
         </p>
     </div>
-    <div class="bonoImg" style="background-image: url('{{URL::asset('/assets/images/practices/Захист_і_представництво_у_кримінальному_процесі.jpg')}}')">
+    <div class="bonoImg" style="background-image: url('{{URL::asset('/assets/images/practices/advokat-po-kriminalnim-spravam.jpg')}}')">
         {{--         <img src="{{URL::asset('/assets/images/pro_bono.png')}}">--}}
     </div>
 

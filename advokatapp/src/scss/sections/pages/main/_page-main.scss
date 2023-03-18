@@ -6,7 +6,7 @@
     width: 100%;
     max-width: 1690px;
     padding: 0px 14px 0px 20px;
-    padding: 20px 40px 0px;
+    padding: 10px 15px 0px;
 
     @media (min-width: $screen-sm-min) {
         margin-top: 30px;
@@ -16,6 +16,7 @@
     @media (min-width: $screen-lg-min) {
         margin-top: 69px;
         margin-bottom: 69px;
+        padding: 20px 40px 0px;
     }
 }
 
@@ -634,8 +635,8 @@
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 700;
-        font-size: 40px;
-        line-height: 49px;
+        font-size: 20px;
+        line-height: 29px;
         margin-bottom: 21px;
         color: $white;
 
@@ -644,6 +645,8 @@
         }
 
         @media (min-width: $screen-md-min) {
+            font-size: 40px;
+            line-height: 49px;
             padding-top: 231px;
             //font-size: 40px;
             //line-height: 49px;
@@ -890,6 +893,7 @@
                     display: inline-block; /* Needed to add space between the bullet and the text */
                     width: 1em; /* Also needed for space (tweak if needed) */
                     margin-left: -1em; /* Also needed for space (tweak if needed) */
+                    position: absolute;
                 }
             }
         }
@@ -900,8 +904,13 @@
             font-weight: 700;
             font-size: 30px;
             line-height: 37px;
-            padding: 32px;
-            margin-bottom: 16px;
+            padding: 12px;
+            margin-bottom: 0px;
+
+            @media (min-width: $screen-lg-min) {
+                margin-bottom: 16px;
+                padding: 32px;
+            }
         }
 
         .text {
@@ -990,12 +999,18 @@
     .bonoImg {
         grid-area: bonoImg;
         text-align: center;
-        background-size: contain;
         background-size: cover;
+        background-size: contain;
         height: 100%;
         width: 100%;
         background-repeat: no-repeat;
         background-position: center center;
-        margin: 1em;
+
+        min-height: 300px;
+
+        @media (min-width: $screen-md-min)   {
+            background-size: contain;
+            margin: 1em;
+        }
     }
 }

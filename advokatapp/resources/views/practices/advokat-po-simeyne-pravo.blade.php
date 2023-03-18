@@ -17,7 +17,7 @@
             це пріоритет для «сімейного адвоката» Колегії адвокатів міста Києва та Київської області.
         </p>
     </div>
-    <div class="bonoImg" style="background-image: url('{{URL::asset('/assets/images/practices/Сімейне_право_розірвання_шлюбу,_поділ_майна,_виховання_дітей.jpg')}}')">
+    <div class="bonoImg" style="background-image: url('{{URL::asset('/assets/images/practices/advokat-po-simeyne-pravo.jpg')}}')">
         {{--         <img src="{{URL::asset('/assets/images/pro_bono.png')}}">--}}
     </div>
 

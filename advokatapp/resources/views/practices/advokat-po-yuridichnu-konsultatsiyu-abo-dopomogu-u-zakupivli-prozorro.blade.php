@@ -18,7 +18,7 @@
             Вашої пропозиції до наступного етапу.
         </p>
     </div>
-    <div class="bonoImg" style="background-image: url('{{URL::asset('/assets/images/practices/Публічні-закупівлі-(prozorro).jpg')}}')">
+    <div class="bonoImg" style="background-image: url('{{URL::asset('/assets/images/practices/advokat-po-yuridichnu-konsultatsiyu-abo-dopomogu-u-zakupivli-prozorro.jpg')}}')">
         {{--         <img src="{{URL::asset('/assets/images/pro_bono.png')}}">--}}
     </div>
 

@@ -4,7 +4,7 @@
 <section class="section proBono">
     <div class="bonoInfo">
         <h3 class="title">
-            Інтелектуальне право (авторське право і суміжні права)
+            Інтелектуальне право (авторське право і суміжні права).
         </h3>
         <p class="text">
             Ви займаєтесь творчістю чи винахідництвом і перед Вами постали питання реєстрації авторських прав на твір, корисну модель?
@@ -23,7 +23,7 @@
 
         </p>
     </div>
-    <div class="bonoImg" style="background-image: url('{{URL::asset('/assets/images/practices/Авторське-право-і-суміжні-права.jpg')}}')">
+    <div class="bonoImg" style="background-image: url('{{URL::asset('/assets/images/practices/advokat-po-intelektualne-pravo-intelektualna-vlasnist.jpg')}}')">
         {{--         <img src="{{URL::asset('/assets/images/pro_bono.png')}}">--}}
     </div>
 

@@ -22,11 +22,9 @@
             державному підприємстві після незаконного звільнення зі стягненням неотриманого доходу, стягнення в порядку
             адміністративного судочинства пенсійних, соціальних виплат, повернення власникові конфіскованого на митниці товару,
             майна, грошових коштів – звична та успішна практика наших адвокатів.
-
-
         </p>
     </div>
-    <div class="bonoImg" style="background-image: url('{{URL::asset('/assets/images/practices/Адміністративні_спори_мито,_пенсія,_пільги,_податки.jpg')}}')">
+    <div class="bonoImg" style="background-image: url('{{URL::asset('/assets/images/practices/advokat-po-zed-ta-mytnym-spravam.jpg')}}')">
         {{--         <img src="{{URL::asset('/assets/images/pro_bono.png')}}">--}}
     </div>
 

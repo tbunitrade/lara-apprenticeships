@@ -18,7 +18,7 @@
             Ваші права та законні інтереси в питанні спадкування майна будуть надійно захищені – в цьому Ви можете не сумніватися.
         </p>
     </div>
-    <div class="bonoImg" style="background-image: url('{{URL::asset('/assets/images/practices/Оформлення_спадщини_спадкові_спори.jpg')}}')">
+    <div class="bonoImg" style="background-image: url('{{URL::asset('/assets/images/practices/advokat-po-spadkovym-spravam.jpg')}}')">
         {{--         <img src="{{URL::asset('/assets/images/pro_bono.png')}}">--}}
     </div>
 

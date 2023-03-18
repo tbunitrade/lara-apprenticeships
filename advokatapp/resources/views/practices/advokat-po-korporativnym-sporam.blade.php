@@ -19,7 +19,7 @@
             оцінку ризиків, аналіз і підготовку договору та процедуру його підписання.
         </p>
     </div>
-    <div class="bonoImg" style="background-image: url('{{URL::asset('/assets/images/practices/Корпоративне_право_та_корпоративні_спори.jpg')}}')">
+    <div class="bonoImg" style="background-image: url('{{URL::asset('/assets/images/practices/advokat-po-korporativnym-sporam.jpg')}}')">
         {{--         <img src="{{URL::asset('/assets/images/pro_bono.png')}}">--}}
     </div>
 

@@ -26,7 +26,7 @@
             Серед постійних клієнтів Колегії адвокатів є також приватні особи, які потребують правового радника, що перебуває на зв’язку в режимі 24/7.
         </p>
     </div>
-    <div class="bonoImg" style="background-image: url('{{URL::asset('/assets/images/practices/Абонентське_обслуговування_бізнесу_та_громадян.jpg')}}')">
+    <div class="bonoImg" style="background-image: url('{{URL::asset('/assets/images/practices/abonentske-yurydychne-obslugovuvannya-yurydychnyh-osib.jpg')}}')">
 {{--         <img src="{{URL::asset('/assets/images/pro_bono.png')}}">--}}
     </div>
 

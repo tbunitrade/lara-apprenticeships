@@ -22,7 +22,7 @@
             перед контрагентами фінансові зобов’язання та на часі банкрутство, або ж, навпаки, Ви є кредитором особи-банкрута.
         </p>
     </div>
-    <div class="bonoImg" style="background-image: url('{{URL::asset('/assets/images/practices/Господарські-спори,-банкрутство.jpg')}}')">
+    <div class="bonoImg" style="background-image: url('{{URL::asset('/assets/images/practices/advokat-po-hospodarski-spory.jpg')}}')">
         {{--         <img src="{{URL::asset('/assets/images/pro_bono.png')}}">--}}
     </div>
 
