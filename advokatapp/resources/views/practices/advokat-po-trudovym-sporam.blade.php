@@ -20,7 +20,7 @@
 
         </p>
     </div>
-    <div class="bonoImg" style="background-image: url('{{URL::asset('/assets/images/practices/Трудове право (трудові спори).jpg')}}')">
+    <div class="bonoImg" style="background-image: url('{{URL::asset('/assets/images/practices/Трудове-право-(трудові спори).jpg')}}')">
         {{--         <img src="{{URL::asset('/assets/images/pro_bono.png')}}">--}}
     </div>
 

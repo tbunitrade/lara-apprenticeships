@@ -23,7 +23,7 @@
 
         </p>
     </div>
-    <div class="bonoImg" style="background-image: url('{{URL::asset('/assets/images/practices/Авторське право і суміжні права.jpg')}}')">
+    <div class="bonoImg" style="background-image: url('{{URL::asset('/assets/images/practices/Авторське-право-і-суміжні-права.jpg')}}')">
         {{--         <img src="{{URL::asset('/assets/images/pro_bono.png')}}">--}}
     </div>
 
