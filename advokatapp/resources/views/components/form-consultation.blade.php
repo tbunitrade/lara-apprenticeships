@@ -25,10 +25,10 @@
     {{--            <textarea></textarea>--}}
     {{--        </fieldset>--}}
     <fieldset>
-        <div class="form-group" style="display: flex; flex-direction: row;width: 304px;">
+        <div class="form-group fGroup" >
 {{--            <div class="g-recaptcha" data-sitekey="6LfPBPckAAAAAMj87uv7cdlChQalPshmPVzs19p5"></div>--}}
-            <p class="text" style="display: flex; flex-direction: column;text-align: right; position: relative; top: 11px;">Я не бот, 7+4 = ??</p>
-            <input style="width:50px;height: 50px; position: relative;top:-5px;right: -5px" id="captcha1" type="number" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"  maxlength="2" required>
+            <p class="text" >Я не бот, 7+4 = ??</p>
+            <input style="" id="captcha1" type="number" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"  maxlength="2" required>
         </div>
         <div class="form-group">
 

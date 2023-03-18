@@ -617,13 +617,14 @@
 .consultation {
     background: url("../assets/images/consultaionbg.png");
     background-repeat: no-repeat;
-    height: 647px;
+    min-height: 707px;
     margin-top: 0;
     margin-bottom: 0;
     padding-top: 20px;
     background-size: cover;
 
     @media (min-width: $screen-md-min) {
+        min-height: unset;
         height: 557px;
         margin-top: unset;
         padding-top: unset;
@@ -674,6 +675,7 @@
         display: grid;
         grid-template-columns: auto;
         width: 100%;
+        justify-content: stretch;
         //margin-bottom: 0px;
 
         @media (min-width: $screen-md-min) {
@@ -762,15 +764,63 @@
         left: 13px;
     }
 
+    .form-group {
+        .btn {
+            position: relative;
+            margin: auto;
 
-        .form-group {
-            .btn {
-                position: relative;
+            @media (min-width: $screen-md-min) {
+                margin: 0;
                 top: -6px;
                 left: 8px;
             }
         }
+    }
 
+    .fGroup {
+        display: flex;
+        flex-direction: row;
+        width: 304px;
+        margin: auto;
+
+        p,
+        .text {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            position: relative;
+
+            @media (min-width: $screen-md-min) {
+                top: 11px;
+                text-align: right;
+            }
+
+            @media (min-width: $screen-lg-min) {
+                text-align: center;
+            }
+        }
+
+        input {
+            width: 66px;
+            height: 50px;
+            position: relative;
+            left: -4px;
+            top: -13px;
+
+            @media (min-width: $screen-md-min) {
+
+                width:50px;
+                height: 50px;
+
+                top:-5px;
+                right: -5px;
+            }
+        }
+
+        @media (min-width: $screen-md-min) {
+            margin: 0;
+        }
+    }
 }
 
 .mapContainer {
@@ -941,6 +991,7 @@
         grid-area: bonoImg;
         text-align: center;
         background-size: contain;
+        background-size: cover;
         height: 100%;
         width: 100%;
         background-repeat: no-repeat;
