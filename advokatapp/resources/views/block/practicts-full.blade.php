@@ -9,12 +9,12 @@
         </li>
         <li class="li" onclick="location.href='advokat-po-zed-ta-mytnym-spravam';">
             <a class="menu" id="/advokat-po-zed-ta-mytnym-spravam" href="/advokat-po-zed-ta-mytnym-spravam">
-                Адміністративні спори (мито, пенсія, пільги, податки)2
+                Адміністративні спори (мито, пенсія, пільги, податки)
             </a>
         </li>
         <li class="li" onclick="location.href='advokat-po-bankivske-ta-finansove-pravo';">
             <a class="menu" id="/advokat-po-bankivske-ta-finansove-pravo" href="/advokat-po-bankivske-ta-finansove-pravo">
-                Банківське та фінансове право, кредитні спори3
+                Банківське та фінансове право, кредитні спори
             </a>
         </li>
         <li class="li" onclick="location.href='advokat-po-neruhomist-i-zemelne-pravo';">

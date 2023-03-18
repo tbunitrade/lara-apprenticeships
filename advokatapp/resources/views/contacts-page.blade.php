@@ -19,7 +19,7 @@
             <li class="li ">
                 <ul class="callMeSocial">
                     <li>
-                        <a target="_blank" href="https://t.me/@advokatykyiv "><img src="{{url::asset('/assets/images/telegram.png')}}"></a>
+                        <a target="_blank" href="https://t.me/@advokatykievcom "><img src="{{url::asset('/assets/images/telegram.png')}}"></a>
                     </li>
                     <li>
                         <a target="_blank" href="https://wa.me/380682381383?text=Hello!"><img src="{{url::asset('/assets/images/whatsapp.png')}}"></a>
