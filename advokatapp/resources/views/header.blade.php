@@ -26,7 +26,13 @@
 
     ?>
     <title>Колегія адвокатів міста Києва та Київської області</title>
-    <meta name="description" content="колегія адвокатів: адвокат, юридична допомога, адвокатська підтримка, послуги адвокатів" >
+
+        <meta property="og:title" content="Колегія адвокатів міста Києва та Київської області"/>
+        <meta property="og:type" content="article" />
+{{--        <meta property="og:url" content="" />--}}
+        <meta property="og:image" content="{{asset('/assets/images/kievbig.png')}}"/>
+
+        <meta name="description" content="колегія адвокатів: адвокат, юридична допомога, адвокатська підтримка, послуги адвокатів" >
     <meta name="keywords" content="адвокат, послуги адвоката, юридична допомога">
     <meta name="robots" content="index,follow">
 
