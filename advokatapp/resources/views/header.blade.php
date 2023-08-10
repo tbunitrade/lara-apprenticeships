@@ -52,30 +52,6 @@
 
     <!-- Required Core stylesheet -->
 
-    <style>
-
-        /*.team img {*/
-        /*    width:100%;*/
-        /*    max-width: 300px;*/
-        /*}*/
-
-        /*p {*/
-        /*   */
-        /*}*/
-        /*.navbar-expand-lg .navbar-toggler{*/
-        /*    display: block!important;*/
-        /*}*/
-
-        /*.container-sm .title {*/
-        /*    font-family: 'Lora', serif;*/
-        /*   */
-        /*}*/
-
-        /*.container-sm .title span {*/
-        /*    display: block;*/
-        /*}*/
-    </style>
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 
@@ -95,19 +71,9 @@
     <header>
         <div class="rowFirst">
             <div class="contactsContainer">
-                <a id="phone" class="phone" href="tel:+380685689578" href="Дзвінок адвокату">+38 (068) 238-138-3</a>
+                <a id="phone" class="phone" href="tel:+380682381383" href="Дзвінок адвокату">+38 (068) 238-138-3</a>
                 <a id="adress" class="adress" href="/contacts"><span>вул. Льва Толстого, 16</span></span></a>
             </div>
-
-            <script>
-                // $(document).ready(function(){
-                //     console.log('init');
-                //     $('.navbar-toggler').on('click', function (){
-                //         console.log('click');
-                //         //$('#navbarSupportedContent').toggleClass( 'show' );
-                //     });
-                // });
-            </script>
 
             <div class="menuContainer">
                 @include('nav')
@@ -128,8 +94,5 @@
                 </div>
             </div>
         </div>
-        {{--            <div class="rowThird">--}}
-
-        {{--            </div>--}}
     </header>
 
