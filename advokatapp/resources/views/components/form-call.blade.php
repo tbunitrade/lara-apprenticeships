@@ -42,7 +42,6 @@
         <script>
             var captcha = document.getElementById('captcha');
            // console.log('submit',submit);
-
             const btnsubmit = document.getElementById('submit-call');
             captcha.addEventListener('input', function (){
                 let data  = captcha.value;
