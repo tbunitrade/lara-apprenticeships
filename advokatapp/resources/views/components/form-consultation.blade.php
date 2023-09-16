@@ -37,13 +37,14 @@
 
         <script>
             var captcha1 = document.getElementById('captcha1');
-            console.log('captcha1',captcha1);
+            //console.log('captcha1',captcha1);
 
             const btnsubmit1 = document.getElementById('submit');
             captcha1.addEventListener('input', function (){
                 let data  = captcha1.value;
-                console.log('i see captcha',data);
-                if (data == 11) {
+                let pass = 11;
+                //console.log('i see captcha',data);
+                if (data == pass) {
                     //btnsubmit.style.PointerEvent="auto";
                     btnsubmit1.classList.remove('blockme');
                     captcha1.style.background="white";
@@ -62,6 +63,5 @@
 <script src="https://unpkg.com/imask"></script>
 
 <script>
-    console.log('init 01 ok');
-
+    //console.log('init 01 ok');
 </script>
