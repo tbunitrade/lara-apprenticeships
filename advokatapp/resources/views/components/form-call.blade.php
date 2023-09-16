@@ -41,7 +41,7 @@
         <input class="btn" id="submit-call" type="submit" value="Відправити">
         <script>
             var captcha = document.getElementById('captcha');
-            console.log('submit',submit);
+           // console.log('submit',submit);
 
             const btnsubmit = document.getElementById('submit-call');
             captcha.addEventListener('input', function (){
@@ -66,13 +66,13 @@
 </form>
 
 <script>
-    console.log('init 111');
+   // console.log('init 111');
     const alertphone = document.getElementById('alertPhone');
     const clientphone = document.getElementById('number');
     clientphone.addEventListener('input', function (e){
-        console.log('init 112');
+        //console.log('init 112');
         let phone = this.value;
-        console.log('changes2');
+        //console.log('changes2');
 
         if (phone.length <= 12) {
             changeColor(this, 'red');
@@ -110,7 +110,7 @@
 
 
     var mask = new IMask(clientphone, maskOptions);
-    console.log('init 113');
+    //console.log('init 113');
 </script>
 
 

@@ -83,7 +83,7 @@ $myarrays = [
         },
     }
     new Glide(".glide", config).mount();
-    console.log('mount glide ok');
+    //console.log('mount glide ok');
 </script>
 
 
