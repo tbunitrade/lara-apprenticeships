@@ -21,19 +21,14 @@ $myarrays = [
         "position" => "Адвокат"
     ],
     [
-        "photo" => "assets/home-slider/Xarchenko-Oksana-Oleksiïvna.jpg",
-        "fullname" => "Харченко Оксана Олексіївна",
-        "position" => "Адвокат"
-    ],
-    [
-        "photo" => "assets/home-slider/Xrustovska-Olga-Petrivna.jpg",
-        "fullname" => "Хрустовська Ольга Петрівна",
-        "position" => "Адвокат"
-    ],
-    [
         "photo" => "assets/home-slider/Shamardin-Volodymyr-Mykolayovych.jpg",
         "fullname" => "Шамардін Володимир Миколайович",
-        "position" => "Адвокат 2"
+        "position" => "Адвокат"
+    ],
+    [
+        "photo" => "assets/home-slider/Trohimcuk-Dіana-Volodimirіvna.jpg",
+        "fullname" => "Трохимцук Діана Володимирівна",
+        "position" => "Адвокат"
     ]
 ];
 

@@ -13,7 +13,7 @@ $myarrays = [
     [
         "photo" => "assets/home-slider/Popov-Mykyta-Hennadiyovych.jpg",
         "fullname" => "Попов Микита Геннадійович",
-        "position" => "Адвокат, заступник голови колегії"
+        "position" => "Адвокат, Заступник Голови Колегії."
     ],
     [
         "photo" => "assets/home-slider/Smyrnov-Valeriy-Rubenovych.jpg",
@@ -21,18 +21,13 @@ $myarrays = [
         "position" => "Адвокат"
     ],
     [
-        "photo" => "assets/home-slider/Xarchenko-Oksana-Oleksiïvna.jpg",
-        "fullname" => "Харченко Оксана Олексіївна",
-        "position" => "Адвокат"
-    ],
-    [
-        "photo" => "assets/home-slider/Xrustovska-Olga-Petrivna.jpg",
-        "fullname" => "Хрустовська Ольга Петрівна",
-        "position" => "Адвокат"
-    ],
-    [
         "photo" => "assets/home-slider/Shamardin-Volodymyr-Mykolayovych.jpg",
         "fullname" => "Шамардін Володимир Миколайович",
+        "position" => "Адвокат"
+    ],
+    [
+        "photo" => "assets/home-slider/Trohimcuk-Dіana-Volodimirіvna.jpg",
+        "fullname" => "Трохимцук Діана Володимирівна",
         "position" => "Адвокат"
     ]
 ];

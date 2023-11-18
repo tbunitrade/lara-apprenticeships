@@ -37,18 +37,13 @@ $myarrays = array(
         "position" => "Адвокат"
     ),
     "4" => array(
-        "photo" => "assets/home-slider/Xarchenko-Oksana-Oleksiïvna.jpg",
-        "fullname" => "Харченко Оксана Олексіївна",
+        "photo" => "assets/home-slider/Shamardin-Volodymyr-Mykolayovych.jpg.jpg",
+        "fullname" => "Шамардін Володимир Миколайович",
         "position" => "Адвокат"
     ),
     "5" => array(
-        "photo" => "assets/home-slider/Xrustovska-Olga-Petrivna.jpg",
-        "fullname" => "Хрустовська Ольга Петрівна",
-        "position" => "Адвокат"
-    ),
-    "6" => array(
-        "photo" => "assets/home-slider/Shamardin-Volodymyr-Mykolayovych.jpg.jpg",
-        "fullname" => "Шамардін Володимир Миколайович",
+        "photo" => "assets/home-slider/Trohimcuk-Dіana-Volodimirіvna.jpg",
+        "fullname" => "Трохимцук Діана Володимирівна",
         "position" => "Адвокат"
     ),
 );
