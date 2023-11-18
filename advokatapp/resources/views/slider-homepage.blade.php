@@ -43,7 +43,7 @@ $myarrays = array(
     ),
     "5" => array(
         "photo" => "assets/home-slider/Trohimcuk-Dіana-Volodimirіvna.jpg",
-        "fullname" => "Трохимцук Діана Володимирівна",
+        "fullname" => "Трохимчук Діана Володимирівна",
         "position" => "Адвокат"
     ),
 );
