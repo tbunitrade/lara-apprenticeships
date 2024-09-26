@@ -37,8 +37,8 @@ $myarrays = array(
         "position" => "Адвокат"
     ),
     "4" => array(
-        "photo" => "assets/home-slider/Shamardin-Volodymyr-Mykolayovych.jpg.jpg",
-        "fullname" => "Шамардін Володимир Миколайович",
+        "photo" => "assets/home-slider/Sudeikina-Iryna-Volodymyrivna.jpeg",
+        "fullname" => "Судейкіна Ірина Володимирівна",
         "position" => "Адвокат"
     ),
     "5" => array(
