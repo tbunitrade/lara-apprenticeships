@@ -107,7 +107,7 @@
 
         <div class="block ">
             <div class="photo">
-                <img class="layerPhoto" src="{{ URL::asset('/assets/home-slider/Shamardin-Volodymyr-Mykolayovych.jpg') }}">
+                <img class="layerPhoto" src="{{ URL::asset('/assets/home-slider/Sudeikina-Iryna-Volodymyrivna.jpeg') }}">
             </div>
             <div class="info">
                 <div class="title">
