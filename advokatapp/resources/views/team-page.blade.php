@@ -134,7 +134,7 @@
 
         <div class="block ">
             <div class="photo">
-                <img class="layerPhoto" src="{{ URL::asset('/assets/home-slider/Trohimcuk-Dіana-Volodimirіvna.jpg') }}">
+                <img class="layerPhoto" src="{{ URL::asset('/assets/home-slider/Lysokhmara-Nataliia-Ivanivna.jpg') }}">
             </div>
             <div class="info">
                 <div class="title">
