@@ -74,6 +74,11 @@ header {
             background-image: url("../assets/images/headers/banner-team.jpg");
             background-position-y: -340px;
             background-repeat: no-repeat;
+
+            @media (min-width: $screen-md-min) {
+                background-position-y: -100px;
+            }
+
         }
 
         .rowFirst {

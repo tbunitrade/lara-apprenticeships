@@ -1,9 +1,9 @@
 //
 // Required Core Stylesheet
-@import "node_modules/@glidejs/glide/src/assets/sass/glide.core";
+@use "node_modules/@glidejs/glide/src/assets/sass/glide.core";
 
 // Optional Theme Stylesheet
-@import "node_modules/@glidejs/glide/src/assets/sass/glide.theme";
+@use "node_modules/@glidejs/glide/src/assets/sass/glide.theme";
 
 .container {
     //background: green;

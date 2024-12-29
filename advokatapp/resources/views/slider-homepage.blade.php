@@ -41,11 +41,6 @@ $myarrays = array(
         "fullname" => "Судейкіна Ірина Володимирівна",
         "position" => "Адвокат"
     ),
-    "5" => array(
-        "photo" => "assets/home-slider/Lysokhmara-Nataliia-Ivanivna.jpg",
-        "fullname" => "Лисохмара Наталія Іванівна",
-        "position" => "Адвокат"
-    ),
 );
 
 

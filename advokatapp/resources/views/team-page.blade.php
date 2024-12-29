@@ -131,33 +131,6 @@
                 </div>
             </div>
         </div>
-
-        <div class="block ">
-            <div class="photo">
-                <img class="layerPhoto" src="{{ URL::asset('/assets/home-slider/Lysokhmara-Nataliia-Ivanivna.jpg') }}">
-            </div>
-            <div class="info">
-                <div class="title">
-                    <p class="text layerName">
-                        Лисохмара Наталія Іванівна
-                    </p>
-                </div>
-                <div class="position">
-                    <p class="text layerPosition">
-                        Адвокат
-                    </p>
-                </div>
-                <div class="details">
-                    <p class="text layerDetails">
-                        Спеціалізації: військове, господарське та міжнародне право.<br>
-                        Досвід роботи в сфері права понад двадцять років.
-                    </p>
-                    <button type="button" class="btn btn-primary btn-about-lawyer" data-bs-toggle="modal" data-bs-target="#exampleModal17">
-                        Додаткова інформація
-                    </button>
-                </div>
-            </div>
-        </div>
     </div>
 </section>
 
@@ -322,42 +295,6 @@
             <div class="modal-body">
                 <p class="text">
 
-                </p>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-<div class="modal" tabindex="-1" id="exampleModal17">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="title modal-title">Лисохмара Наталія Іванівна.</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p class="text">
-                    Спеціалізації: військове, господарське та міжнародне право.<br>
-                    Досвід роботи в сфері права понад двадцять років.<br>
-                    <br><br>
-                    <strong>Освіта: </strong>Національний торгово-економічний університет. Факультет економіки менеджменту та права. Спеціалізація: комерційне право.
-                    <br><br>
-                    <strong>Експертиза у:</strong><br>
-                    - супроводі бізнес-процесів (поточної господарської діяльності, перемовин перед укладанням контрактів, претензійно-позовній роботи)<br>
-                    - юридичному аналізі ризиків інвестицій, корпоративних угод.<br>
-                    - договірному праві;<br>
-                    - юридичному аудиті підприємств;<br>
-                    - досудовому врегулюванні спорів (написанні претензій і відповіді на претензії).<br>
-                    - судовому супроводі господарських справ будь-якої складності;<br>
-                    - отриманні сертифікатів про форс-мажорні обставини;<br>
-                    - оформленні праці іноземців та осіб без громадянства в Україні;<br>
-                    - податковій оптимізації;<br>
-                    - повному супроводженні процедур публічних закупівель, розробці тендерної документації;<br>
-                    - конкурентному праві.<br>
-                    Життєве кредо: «Життя як їзда на велосипеді – щоб утримувати рівновагу  треба продовжувати рухатися».<br>
-                    <br><br>
-                    <br><br>
                 </p>
             </div>
         </div>

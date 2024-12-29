@@ -24,11 +24,6 @@ $myarrays = [
         "photo" => "assets/home-slider/Sudeikina-Iryna-Volodymyrivna.jpeg",
         "fullname" => "Судейкіна Ірина Володимирівна",
         "position" => "Адвокат"
-    ],
-    [
-        "photo" => "assets/home-slider/Lysokhmara-Nataliia-Ivanivna.jpg",
-        "fullname" => "Лисохмара Наталія Іванівна",
-        "position" => "Адвокат"
     ]
 ];
 
