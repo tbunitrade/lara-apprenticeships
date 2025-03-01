@@ -54,10 +54,32 @@
         window.initMap = initMap;
     </script>
 
+{{--    <script  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDh4GRsAxjiBLt2qWYHIfeNR8yDc82keMQ&callback=initMap" async defer></script>--}}
 
-{{--    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-IJwfrm4d7LRLRy8mLASjH1b3ewK1NEE&callback=initMap"></script>--}}
+    <script>
+        function loadScript(url, callback){
+            var script = document.createElement("script")
+            script.type = "text/javascript";
 
-{{--    <script  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-IJwfrm4d7LRLRy8mLASjH1b3ewK1NEE&callback=initMap"></script>--}}
-    <script  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDh4GRsAxjiBLt2qWYHIfeNR8yDc82keMQ&callback=initMap" async defer></script>
+            if (script.readyState) {  // only required for IE <9
+                script.onreadystatechange = function() {
+                    if (script.readyState == "loaded" || script.readyState == "complete") {
+                        script.onreadystatechange = null;
+                        callback();
+                    }
+                };
+            } else {  //Others
+                script.onload = function() {
+                    callback();
+                };
+            }
 
+            script.src = url;
+            document.getElementsByTagName("head")[0].appendChild(script);
+        }
+
+        loadScript("https://maps.googleapis.com/maps/api/js?key=AIzaSyDh4GRsAxjiBLt2qWYHIfeNR8yDc82keMQ&callback=initMap", function(){
+            console.log("Google Maps API script loaded successfully");
+        });
+    </script>
 </section>
