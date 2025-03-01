@@ -65,7 +65,7 @@
 
 
     <link href="{{ URL::asset('/css/main.min.css') }}" rel="stylesheet" type="text/css" >
-    <script src="{{ URL::asset('/js/app.js') }}"></script>
+    <script src="{{ URL::asset('/js/app.js') }}" defer></script>
 </head>
 <div class="container-fluid">
     <header>
