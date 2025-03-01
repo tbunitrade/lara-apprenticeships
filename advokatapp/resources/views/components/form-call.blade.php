@@ -100,6 +100,9 @@
         phone = Number(str_phone.slice(0, 12));
 
         //console.log('phone ->'+phone);
+
+        // Синхронизация маски с новым значением
+        mask.updateValue();
     });
 
     var maskOptions = {
