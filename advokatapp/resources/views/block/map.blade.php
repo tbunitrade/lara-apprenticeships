@@ -45,7 +45,7 @@
             });
             //map.setCenter(new GLatLng(50.44205850408882, 30.502909762842833), 16);
             // The marker, positioned at Uluru
-            const marker = new google.maps.marker.AdvancedMarkerElement({
+            const marker = new google.maps.Marker({
                 position: uluru,
                 map: map,
             });
