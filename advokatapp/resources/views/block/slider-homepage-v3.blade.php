@@ -1,8 +1,8 @@
 <?php
 $myarrays = [
     [
-        "photo" => "assets/home-slider/Luk'yanenko-Yaroslav-Volodimirovich.jpg",
-        "fullname" => "Лук'яненко Ярослав Володимирович",
+        "photo" => "assets/home-slider/Kucherenko-Denis-Viktorovich.jpeg",
+        "fullname" => "Кучеренко Денис Вікторович",
         "position" => "Адвокат"
     ],
     [
