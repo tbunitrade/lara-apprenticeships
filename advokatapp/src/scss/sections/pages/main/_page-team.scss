@@ -24,7 +24,6 @@
                 text-align: center;
 
                 @media (min-width: $screen-md-min) {
-                    grid-template-columns: auto auto;
                     grid-template-columns: 55% auto;
                     text-align: unset;
                 }
@@ -34,9 +33,7 @@
                     content: '';
                     margin: 42px 20px;
                     border: 1px solid $text2;
-
                     position: absolute;
-
                     top: 25%;
                     left: 48%;
                     transform: translate(-50%,-50%);

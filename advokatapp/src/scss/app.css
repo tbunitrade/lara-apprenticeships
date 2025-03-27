@@ -593,12 +593,22 @@ header#header-small.pro-bono {
 }
 header#header-small.team {
   background-image: url("../assets/images/headers/banner-team.jpg");
-  background-position-y: -340px;
   background-repeat: no-repeat;
+  background-position-x: -55px;
+}
+@media (min-width: 768px) {
+  header#header-small.team {
+    background-position-x: 0;
+  }
+}
+@media (min-width: 1024px) {
+  header#header-small.team {
+    background-position-y: -120px;
+  }
 }
 @media (min-width: 1192px) {
   header#header-small.team {
-    background-position-y: -100px;
+    background-position-y: -200px;
   }
 }
 header#header-small .rowFirst {
@@ -608,8 +618,6 @@ header#header-small .rowFirst {
 }
 @media (min-width: 768px) {
   header#header-small .rowFirst {
-    grid-template-columns: 35% 50% 15%;
-    grid-template-areas: "advokat-info advokat-callme advokat-menu";
     grid-template-columns: 100%;
     grid-template-areas: " advokat-menu";
   }
@@ -799,6 +807,7 @@ header .rowFirst .menuContainer .navbar.navbar-expand-lg .container-fluid .navba
   border: none;
   transition: none !important;
   position: fixed;
+  z-index: 1;
 }
 @media only screen and (max-width: 1920px) and (min-width: 1192px) {
   header .rowFirst .menuContainer .navbar.navbar-expand-lg .container-fluid .navbar-toggler {
@@ -897,13 +906,12 @@ header .rowFirst .menuContainer .navbar.navbar-expand-lg .container-fluid .colla
   left: 18px;
   bottom: 0px;
 }
+header .rowFirst .menuContainer .navbar.navbar-expand-lg .container-fluid .collapse.navbar-collapse_mob {
+  display: none !important;
+}
 header .rowFirst .menuContainer .navbar.navbar-expand-lg .container-fluid .collapse.show {
   background: #ffffff;
-  position: absolute;
-  top: 0;
   position: fixed;
-  top: 109px;
-  left: 100px;
   width: 60%;
   height: auto;
   top: 50%;
@@ -913,12 +921,26 @@ header .rowFirst .menuContainer .navbar.navbar-expand-lg .container-fluid .colla
   text-align: center;
   padding: 20px;
   z-index: 1;
+  display: flex !important;
+}
+@media (min-width: 1200px) {
+  header .rowFirst .menuContainer .navbar.navbar-expand-lg .container-fluid .collapse.show {
+    display: none !important;
+  }
 }
 header .rowFirst .menuContainer .navbar.navbar-expand-lg .container-fluid .collapse.show .navbar-nav {
   flex-direction: column;
 }
 header .rowFirst .menuContainer .navbar.navbar-expand-lg .container-fluid .collapse.show .navbar-nav .nav-item .menu {
   color: #000000;
+}
+header .rowFirst .menuContainer .navbar.navbar-expand-lg .container-fluid .collapse.navbar-collapse_desktop {
+  display: none !important;
+}
+@media (min-width: 1200px) {
+  header .rowFirst .menuContainer .navbar.navbar-expand-lg .container-fluid .collapse.navbar-collapse_desktop {
+    display: flex !important;
+  }
 }
 header .rowFirst .orderCallContainer {
   display: none;
@@ -2090,7 +2112,6 @@ footer .copyright .text a:hover {
 }
 @media (min-width: 1192px) {
   .section.team .wrap .block {
-    grid-template-columns: auto auto;
     grid-template-columns: 55% auto;
     text-align: unset;
   }
