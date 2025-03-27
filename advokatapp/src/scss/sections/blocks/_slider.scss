@@ -1,9 +1,11 @@
 //
 // Required Core Stylesheet
-@use "node_modules/@glidejs/glide/src/assets/sass/glide.core";
+@use "../../../../node_modules/@glidejs/glide/src/assets/sass/glide.core" as *;
 
 // Optional Theme Stylesheet
-@use "node_modules/@glidejs/glide/src/assets/sass/glide.theme";
+@use "../../../../node_modules/@glidejs/glide/src/assets/sass/glide.theme" as *;
+@use "../../general/_media-queries.scss" as *;
+@use "../../general/colors" as *;
 
 .container {
     //background: green;

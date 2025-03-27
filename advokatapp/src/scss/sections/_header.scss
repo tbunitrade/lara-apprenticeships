@@ -1,6 +1,8 @@
+@use "../general/_media-queries.scss" as *;
+@use "../general/colors" as *;
+
 header {
     //background-image: url("../assets/images/banner_kiev.png") ;
-
 
     width: 100%;
     max-width: 1920px;
@@ -17,9 +19,9 @@ header {
     &#header-small {
         height: 410px;
         padding: 0;
-        background-color: rgba(60, 80, 100, 0.61)!important; /* use rgba for fine adjustments */
-        background-blend-mode: multiply!important;
-        background-repeat: no-repeat!important;
+        background-color: rgba(60, 80, 100, 0.61) !important; /* use rgba for fine adjustments */
+        background-blend-mode: multiply !important;
+        background-repeat: no-repeat !important;
         z-index: 1;
 
         @media (min-width: $screen-md-min) {
@@ -72,11 +74,20 @@ header {
         &.team {
             //background-image: url("../assets/images/headers/banner-team.png");
             background-image: url("../assets/images/headers/banner-team.jpg");
-            background-position-y: -340px;
+            //background-position-y: -340px;
             background-repeat: no-repeat;
+            background-position-x: -55px;
+
+            @media (min-width: $mediaTabletMin) {
+                background-position-x: 0;
+            }
+
+            @media (min-width: $mediaTableMiddle) {
+                background-position-y: -120px;
+            }
 
             @media (min-width: $screen-md-min) {
-                background-position-y: -100px;
+                background-position-y: -200px;
             }
 
         }
@@ -89,8 +100,6 @@ header {
 
 
             @media (min-width: $screen-sm-min) {
-                grid-template-columns: 35% 50% 15%;
-                grid-template-areas: "advokat-info advokat-callme advokat-menu";
                 grid-template-columns: 100%;
                 grid-template-areas: " advokat-menu";
             }
@@ -98,8 +107,7 @@ header {
             @media (min-width: $screen-md-min) {
                 grid-template-columns: auto;
                 //grid-template-columns: 10% 80% 10%;
-                grid-template-areas:         "advokat-info advokat-callme"
-        "advokat-menu advokat-menu"
+                grid-template-areas: "advokat-info advokat-callme" "advokat-menu advokat-menu"
             }
 
             @media (min-width: $screen-lg-min) {
@@ -107,10 +115,10 @@ header {
                 grid-template-areas: "advokat-info advokat-menu advokat-callme ";
             }
 
-            .menuContainer{
+            .menuContainer {
                 position: relative;
 
-                &:after{
+                &:after {
                     display: block;
                     position: absolute;
                     content: '';
@@ -137,7 +145,7 @@ header {
             }
         }
 
-        .rowSecond{
+        .rowSecond {
             display: grid;
             //grid-template-columns: 76% 24%;
             grid-template-columns: 100%;
@@ -184,7 +192,7 @@ header {
                     justify-content: center;
                     text-align: left;
 
-                    .img-logo{
+                    .img-logo {
                         width: 85px;
                         height: 98px;
                     }
@@ -243,14 +251,14 @@ header {
 
             .orderCallContainer {
                 display: flex;
-                top:20px;
+                top: 20px;
                 position: relative;
                 width: 100%;
                 max-width: 297px;
                 margin: auto;
 
                 @media (min-width: $screen-md-min) {
-                    top:0;
+                    top: 0;
                 }
             }
         }
@@ -301,6 +309,7 @@ header {
 
         .contactsContainer {
             grid-area: advokat-info;
+
             a {
                 font-family: 'Montserrat';
                 font-style: normal;
@@ -320,23 +329,26 @@ header {
 
         .menuContainer {
             grid-area: advokat-menu;
+
             .navbar {
                 position: inherit;
+
                 &.navbar-expand-lg {
-                    .container-fluid{
+                    .container-fluid {
                         justify-content: center;
+
                         .navbar-toggler {
                             display: flex;
                             flex-direction: column;
                             align-items: end;
                             border: none;
-                            transition: none!important;
+                            transition: none !important;
                             position: fixed;
+                            z-index: 1;
 
-                            @media only screen and (max-width: 1920px) and (min-width: 1192px)
-                            {
+                            @media only screen and (max-width: 1920px) and (min-width: 1192px) {
                                 //@media (min-width: $screen-sm-min) {
-                                display: none!important;
+                                display: none !important;
                             }
 
                             &:focus {
@@ -357,11 +369,11 @@ header {
                                     background: $white;
                                 }
 
-                                &:nth-child(2){
+                                &:nth-child(2) {
                                     width: 40px;
                                 }
 
-                                &:nth-child(3){
+                                &:nth-child(3) {
                                     width: 30px;
                                 }
 
@@ -373,7 +385,9 @@ header {
                         }
 
                         .collapse {
-                            &.navbar-collapse{
+
+                            &.navbar-collapse {
+
                                 .navbar-nav {
                                     flex-direction: row;
                                     width: 100%;
@@ -383,14 +397,16 @@ header {
                                         height: 50px;
                                     }
 
-                                    .nav-item{
+                                    .nav-item {
                                         height: 30px;
                                         margin: 0px 14px;
                                         transition: 0.3s ease-in-out;
+
                                         &:hover {
                                             background: $black;
                                             transition: 0.3s ease-in-out;
-                                            a,.menu {
+
+                                            a, .menu {
                                                 color: $white;
                                             }
                                         }
@@ -398,6 +414,7 @@ header {
                                         @media (min-width: $screen-md-min) {
                                             height: 50px;
                                         }
+
                                         .menu {
                                             color: $white;
                                             font-family: 'Montserrat';
@@ -420,11 +437,14 @@ header {
                                             }
                                         }
                                     }
+
                                     .current {
                                         position: relative;
+
                                         .menu {
                                             font-weight: 900;
                                         }
+
                                         &:after {
                                             content: '';
                                             height: 5px;
@@ -439,13 +459,13 @@ header {
                                 }
                             }
 
+                            &.navbar-collapse_mob {
+                                display: none !important;
+                            }
+
                             &.show {
                                 background: $white;
-                                position: absolute;
-                                top:0;
                                 position: fixed;
-                                top: 109px;
-                                left: 100px;
                                 width: 60%;
                                 height: auto;
                                 top: 50%;
@@ -455,15 +475,29 @@ header {
                                 text-align: center;
                                 padding: 20px;
                                 z-index: 1;
+                                display: flex !important;
+
+                                @media (min-width: $mediaTabletMax) {
+                                    display: none !important;
+                                }
 
                                 .navbar-nav {
                                     flex-direction: column;
+
                                     .nav-item {
 
                                         .menu {
                                             color: $black;
                                         }
                                     }
+                                }
+                            }
+
+                            &.navbar-collapse_desktop {
+                                display: none !important;
+
+                                @media (min-width: $mediaTabletMax) {
+                                    display: flex !important;
                                 }
                             }
                         }
@@ -488,8 +522,9 @@ header {
     }
 
     .rowSecond {
-        .logoContainer{
+        .logoContainer {
             margin-top: 45px;
+
             .logo {
                 display: block;
                 margin: auto;
@@ -506,7 +541,7 @@ header {
                     font-style: normal;
                     font-size: 50px;
                     line-height: 64px;
-                    color:$title;
+                    color: $title;
 
 
                     @media (min-width: $screen-md-min) {
@@ -523,7 +558,7 @@ header {
                         font-size: 30px;
                         padding: 0px 26px;
                         line-height: 38px;
-                        margin: 27px 0px ;
+                        margin: 27px 0px;
 
                         @media (min-width: $screen-sm-min) {
 

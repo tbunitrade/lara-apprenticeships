@@ -1,3 +1,6 @@
+@use "../../../general/_media-queries.scss" as *;
+@use "../../../general/colors" as *;
+
 .section {
     display: block;
     margin: auto;

@@ -1,4 +1,7 @@
 /*general css style */
+@use 'colors' as *;
+@use "_media-queries.scss" as *;
+
 html {
     font-size: 100%; /* This means 16px */
 }
