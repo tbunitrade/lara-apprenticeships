@@ -1,4 +1,4 @@
-@import "header";
-@import "footer";
-@import "blocks/base";
-@import "pages/base";
+@use "header";
+@use "footer";
+@use "blocks/base";
+@use "pages/base" as *;
