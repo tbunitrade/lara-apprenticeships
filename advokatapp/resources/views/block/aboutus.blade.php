@@ -1,33 +1,35 @@
-
 <section class="section homepage">
     <div class="textContainer">
-        <h2 class="title">Про Колегію адвокатів міста Києва та Київської області</h2>
+        <h2 class="title">About the Bar Association of Kyiv and Kyiv Region</h2>
 
         <p class="text">
-            <strong>Колегія адвокатів міста Києва та Київської області</strong>
-            – адвокатське об’єднання, засноване у 2013 році з метою надання громадянам і організаціям юридичних послуг найвищої якості.
-            До складу Колегії входять найдосвідченіші адвокати, які об’єднали свої зусилля та успішно практикують у різних сферах права.
-            Кількісний і якісний склад адвокатів Колегії дозволяє надавати повний спектр юридичних послуг:
-            від захисту у резонансних кримінальних справах до повного супроводження процедури публічних закупівель.
-            Звернувшись до Колегії адвокатів міста Києва та Київської області, кожен Клієнт може бути впевненим в тому,
-            що він отримає як фахові відповіді на усі свої юридичні питання, так і повний спектр адвокатських послуг з практичної реалізації узгодженої між ним і адвокатами Колегії правової позиції.
-
+            <strong>Bar Association of Kyiv and Kyiv Region</strong>
+            – a bar association founded in 2013 with the aim of providing citizens and organizations with the highest quality legal services.
+            The Bar Association includes the most experienced lawyers who have joined forces and successfully practice in
+            various areas of law.
+            The quantitative and qualitative composition of the Bar Association’s lawyers allows it to provide a full range of legal services:
+            from defense in high-profile criminal cases to full support of the public procurement procedure.
+            By contacting the Bar Association of Kyiv and Kyiv Region, each Client can be sure that
+            he will receive both professional answers to all his legal questions and a full range of legal services for
+            the practical implementation of the legal position agreed between him and the lawyers of the Bar Association.
         </p>
         <br>
         <p class="text">
-            Адвокати Колегії адвокатів міста Києва та Київської області ніколи не візьмуться за завідомо програшну справу.
-            Домінантність інтересів Клієнта – це стандарт роботи адвокатів Колегії.
-            Такі пріоритети, а також виключна компетентність адвокатів, збудувала Колегії за десятиріччя її існування надійну репутацію з-поміж Клієнтів і колег.
-            Девіз адвокатів Колегії адвокатів міста Києва та Київської області: <strong>«Там де єдність – там і перемога!».</strong>
+            Lawyers of the Kyiv and Kyiv Region Bar Association will never take on a case that is clearly losing
+            .
+            The dominance of the Client's interests is the standard of work of the lawyers of the Bar Association.
+            Such priorities, as well as the exceptional competence of the lawyers, have built the Bar Association a reliable reputation among Clients and colleagues over the decades of its existence.
+            The motto of the lawyers of the Kyiv and Kyiv Region Bar Association: <strong>“Where there is unity, there is
+                victory!”</strong>
         </p>
     </div>
     <div class="bannerContainer">
         <img class="kievSmall" src="{{url::asset('/assets/images/kievsmall.png')}}">
-        <img class="kievBig" src="{{url::asset('/assets/images/kievbig.png')}}" >
+        <img class="kievBig" src="{{url::asset('/assets/images/kievbig.png')}}">
 
     </div>
     <div class="orderConsultationContainer">
-        <a id="consultationRequest" class="btn btn-black consultationRequest" href="#consultationForm"> Записатися на консультацію</a>
+        <a id="consultationRequest" class="btn btn-black consultationRequest" href="#consultationForm"> Sign up for a consultation</a>
     </div>
 
 </section>

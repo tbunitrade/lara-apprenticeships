@@ -1,5 +1,5 @@
 <section class="section clients">
-    <h2 class="title">Клієнти</h2>
+    <h2 class="title">Clients</h2>
     <ul class="ulClients">
         <li class="li">
             <img class="imageClients" src="{{ Url::asset('/assets/home-clients/client-1.png') }}" alt="clients advokat">
@@ -24,19 +24,19 @@
         <li class="li">
             <h3 class="title">547 <span></span></h3>
             <p class="text">
-                виграних судових справ;
+                won court cases;
             </p>
         </li>
         <li class="li">
             <h3 class="title">108 <span>+</span></h3>
             <p class="text">
-                успішно захищених підзахисних у кримінальних справах;
+                successfully defended clients in criminal cases;
             </p>
         </li>
         <li class="li">
             <h3 class="title">10K <span>+</span></h3>
             <p class="text">
-                понад 10.000 підготовлених процесуальних документів.
+                over 10,000 procedural documents prepared.
             </p>
         </li>
     </ul>

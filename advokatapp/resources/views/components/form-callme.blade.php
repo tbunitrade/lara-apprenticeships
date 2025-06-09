@@ -1,24 +1,23 @@
 
 <form id="consultationForm" class="consultationForm" method="post" action="{{url('store-form')}}">
     @csrf
-    <h3 class="title">Записатися на консультацію</h3>
+    <h3 class="title">Sign up for a consultation</h3>
     <p class="text">
-        Кожен має право на правову допомогу. У випадках, передбачених законом, ця допомога надається безоплатно.
-        Кожен є вільним у виборі захисника своїх прав.
-        Для забезпечення права на захист від обвинувачення та надання правової допомоги при вирішенні справ у судах та інших державних органах в Україні діє адвокатура.
-
+        Everyone has the right to legal aid. In cases provided for by law, this aid shall be provided free of charge.
+        Everyone is free to choose a defender of their rights.
+        To ensure the right to protection from prosecution and the provision of legal aid in resolving cases in courts and other state bodies, the legal profession operates in Ukraine.
         <br>
-        <strong>стаття 59 Конституції України</strong>
+        <strong>Article 59 of the Constitution of Ukraine</strong>
     </p>
 
     <fieldset>
         <input type="hidden" id="title" name="title" class="form-control" value="form-1-consultation">
-        <input name="name" id="clientName" class="input" type="text" placeholder="Ваше ім'я" maxlength="25" required>
+        <input name="name" id="clientName" class="input" type="text" placeholder="Your name" maxlength="25" required>
 
-        <input name="number" id="cllientPhone" class="input" type="tel" placeholder="Номер телефону" min="10" max="14" required>
+        <input name="number" id="cllientPhone" class="input" type="tel" placeholder="Phone number" min="10" max="14" required>
     </fieldset>
     {{--        <fieldset>--}}
     {{--            <textarea></textarea>--}}
     {{--        </fieldset>--}}
-    <input class="btn" id="submit" type="submit" value="Відправити">
+    <input class="btn" id="submit" type="submit" value="Send">
 </form>

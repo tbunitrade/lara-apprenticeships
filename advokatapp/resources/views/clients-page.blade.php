@@ -1,17 +1,17 @@
 @include('header-small')
 <section class="section">
     <div class="title">
-        Кліенти колегії адвокатів
+        Clients of the Bar Association
     </div>
     <p class="text">
-        Колегія адвокатів міста Києва та Київської області надає адвокатські послуги як приватним особам
-        <strong>(громадянам України, іноземцям, особам без громадянства)</strong>, так і організаціям.
-        Серед Клієнтів Колегії є компанії <strong>(та їх топ-менеджери)</strong> реального сектору економіки <strong>(аграрний сектор, будівництво, важка промисловість)</strong>,
-        фінансових компаній, підприємств харчової промисловості тощо.
+        The Kyiv and Kyiv Region Bar Association provides legal services to both private individuals
+        <strong>(citizens of Ukraine, foreigners, stateless persons)</strong> and organizations.
+        Among the Clients of the Bar Association are companies <strong>(and their top managers)</strong> of the real sector of the economy <strong>(agricultural sector, construction, heavy industry)</strong>,
+        financial companies, food industry enterprises, etc.
         <br><br>
-        Окрім того, адвокати Колегії адвокатів міста Києва та Київської області надають послуги в юридичному
-        супроводженні їх господарської діяльності. Ми завжди ставимо інтереси Клієнта на перше місце,
-        адже досягнення бажаного для Клієнта результату має виключне значення в роботі адвокатів об’єднання.
+        In addition, the lawyers of the Kyiv and Kyiv Region Bar Association provide services in legal
+        support of their business activities. We always put the interests of the Client first,
+        because achieving the desired result for the Client is of paramount importance in the work of the lawyers of the association.
     </p>
 </section>
 

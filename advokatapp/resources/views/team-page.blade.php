@@ -8,20 +8,21 @@
             <div class="info">
                 <div class="title">
                     <p class="text layerName">
-                        Кучеренко Денис Вікторович
+                        Kucherenko Denys Viktorovych
                     </p>
                 </div>
                 <div class="position">
                     <p class="text layerPosition">
-                        Адвокат
+                        Lawyer
                     </p>
                 </div>
                 <div class="details">
                     <p class="text layerDetails">
-                        Експертиза у захисті підозрюваних/обвинувачених у тяжких і особливо тяжких злочинах.
+                        Expertise in the defense of suspects/accused of serious and especially serious crimes.
                     </p>
-                    <button type="button" class="btn btn-primary btn-about-lawyer" data-bs-toggle="modal" data-bs-target="#exampleModal11">
-                        Додаткова інформація
+                    <button type="button" class="btn btn-primary btn-about-lawyer" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal11">
+                        Additional information
                     </button>
                 </div>
             </div>
@@ -34,20 +35,22 @@
             <div class="info">
                 <div class="title">
                     <p class="text layerName">
-                        Бойко Олена Олександрівна
+                        Boyko Olena Oleksandrivna
                     </p>
                 </div>
                 <div class="position">
                     <p class="text layerPosition">
-                        Адвокат
+                        Lawyer
                     </p>
                 </div>
                 <div class="details">
                     <p class="text layerDetails">
-                        Надає правову допомогу з супутніх питань військовослужбовцям, мобілізованим, військовозобов’язаним, ветеранам війни ...
+                        Provides legal assistance on related issues to military personnel, mobilized, conscripts, war
+                        veterans...
                     </p>
-                    <button type="button" class="btn btn-primary btn-about-lawyer" data-bs-toggle="modal" data-bs-target="#exampleModal12">
-                        Додаткова інформація
+                    <button type="button" class="btn btn-primary btn-about-lawyer" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal12">
+                        Additional information
                     </button>
                 </div>
             </div>
@@ -60,20 +63,22 @@
             <div class="info">
                 <div class="title">
                     <p class="text layerName">
-                        Попов Микита Геннадійович
+                        Popov Mykyta Gennadievich
                     </p>
                 </div>
                 <div class="position">
                     <p class="text layerPosition">
-                        Адвокат, заступник Голови Колегії
+                        Lawyer, Deputy Chairman of the Board
                     </p>
                 </div>
                 <div class="details">
                     <p class="text layerDetails">
-                       Працював у міжнародних юридичних компаніях, в тому числі на керівних посадах. Досвід роботи помічника-консультанта депутата ...
+                        He worked in international law firms, including in management positions. Experience as an
+                        assistant consultant to a deputy ...
                     </p>
-                    <button type="button" class="btn btn-primary btn-about-lawyer" data-bs-toggle="modal" data-bs-target="#exampleModal13">
-                        Додаткова інформація
+                    <button type="button" class="btn btn-primary btn-about-lawyer" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal13">
+                        Additional information
                     </button>
                 </div>
             </div>
@@ -86,20 +91,22 @@
             <div class="info">
                 <div class="title">
                     <p class="text layerName">
-                        Смирнов Валерій Рубенович
+                        Smirnov Valeriy Rubenovich
                     </p>
                 </div>
                 <div class="position">
                     <p class="text layerPosition">
-                        Адвокат
+                        Lawyer
                     </p>
                 </div>
                 <div class="details">
                     <p class="text layerDetails">
-                        Має 15-річний досвід юридичної практики. Професійне кредо: «Існує тільки один істинний закон – той, який дозволяє стати вільним»...
+                        Has 15 years of experience in legal practice. Professional credo: "There is only one true law -
+                        the one that allows you to become free"...
                     </p>
-                    <button type="button" class="btn btn-primary btn-about-lawyer" data-bs-toggle="modal" data-bs-target="#exampleModal14">
-                        Додаткова інформація
+                    <button type="button" class="btn btn-primary btn-about-lawyer" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal14">
+                        Additional information
                     </button>
                 </div>
             </div>
@@ -107,26 +114,28 @@
 
         <div class="block ">
             <div class="photo">
-                <img class="layerPhoto" src="{{ URL::asset('/assets/home-slider/Sudeikina-Iryna-Volodymyrivna.jpeg') }}">
+                <img class="layerPhoto"
+                     src="{{ URL::asset('/assets/home-slider/Sudeikina-Iryna-Volodymyrivna.jpeg') }}">
             </div>
             <div class="info">
                 <div class="title">
                     <p class="text layerName">
-                        Судейкіна Ірина Володимирівна
+                        Sudeykina Iryna Volodymyrivna
                     </p>
                 </div>
                 <div class="position">
                     <p class="text layerPosition">
-                        Адвокат
+                        Lawyer
                     </p>
                 </div>
                 <div class="details">
                     <p class="text layerDetails">
-                        Адвокат за покликом серця,  з багаторічним стажем юридичної практики, провідний спеціаліст у сімейних,  цивільних,  господарських спорах.
-
+                        A lawyer by heart, with many years of legal practice experience, a leading specialist in family,
+                        civil, and commercial disputes.
                     </p>
-                    <button type="button" class="btn btn-primary btn-about-lawyer" data-bs-toggle="modal" data-bs-target="#exampleModal15">
-                        Додаткова інформація
+                    <button type="button" class="btn btn-primary btn-about-lawyer" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal15">
+                        Additional information
                     </button>
                 </div>
             </div>
@@ -138,18 +147,20 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="title modal-title ">Кучеренко Денис Вікторович.</h5>
+                <h5 class="title modal-title ">Kucherenko Denis Viktorovich.</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
                 <p class="text">
-                Спеціалізація: <br><br>
-                    Основна спеціалізація – кримінальне право та процес. Освіта – Національна юридична академія України ім. Ярослава Мудрого (Харків).
-                    Початок кар’єри присвятив роботі в органах прокуратури України, адвокат з 2017 року.<br>
-                    Експертиза у захисті підозрюваних/обвинувачених у тяжких і особливо тяжких злочинах.<br><br>
-                    Також має досвід успішної співпраці у великих проектах, пов’язаних із взаємодією з органами місцевого самоврядування різного рівня.
-                    Успішно поєднує активну юридичну практику з викладацькою діяльністю.
-
+                    Specialization: <br><br>
+                    Main specialization – criminal law and process. Education – National Law Academy of Ukraine named
+                    after Yaroslav Mudryi (Kharkiv).
+                    He devoted the beginning of his career to work in the prosecutor's office of Ukraine, a lawyer since
+                    2017.<br>
+                    Expertise in the defense of suspects/accused in serious and especially serious crimes.<br><br>
+                    Also has experience of successful cooperation in large projects related to interaction with local
+                    self-government bodies of various levels.
+                    Successfully combines active legal practice with teaching activities.
                 </p>
             </div>
 
@@ -162,22 +173,29 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="title modal-title">Бойко Олена Олександрівна Володимирівна.</h5>
+                <h5 class="title modal-title">Boyko Olena Oleksandrivna Volodymyrivna.</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
                 <p class="text">
-                    Адвокат у 2004 році закінчила Національну академію внутрішніх справ України, отримавши диплом з відзнакою за кваліфікацією юрист.<br><br>
-                    Має досвід роботи юристом як в недержавних організаціях, так і в правоохоронних органах, зокрема, на посаді слідчого.<br><br>
-                    Адвокатською діяльністю займається з 2009 року (свідоцтво про право на заняття адвокатською діяльністю № 3696 від 23.04.2009, видане Київською міською кваліфікаційно-дисциплінарною комісією адвокатури).
-                    Основною спеціалізацією є кримінальне право, а саме:<br>
-                    - захист  прав та законних інтересів підозрюваного, обвинуваченого (підсудного), засудженого, виправданого на всіх стадіях кримінального провадження;<br>
-                    - представництво інтересів потерпілого, цивільного позивача, цивільного відповідача на всіх стадіях кримінального провадження;<br>
-                    - захист прав та законних інтересів свідка у кримінальному провадженні.<br><br>
-                    Успішно практикує в галузях адміністративного, цивільного, сімейного, трудового, житлового, спадкового права, надаючи увесь спектр послуг, передбачений чинним законодавством України.
+                    The lawyer graduated from the National Academy of Internal Affairs of Ukraine in 2004, receiving a
+                    diploma with honors in the qualification of lawyer.<br><br>
+                    She has experience working as a lawyer in both non-governmental organizations and law enforcement
+                    agencies, in particular, as an investigator.<br><br>
+                    She has been practicing law since 2009 (certificate of the right to practice law No. 3696 dated
+                    04/23/2009, issued by the Kyiv City Qualification and Disciplinary Commission of the Bar).
+                    The main specialization is criminal law, namely:<br>
+                    - protection of the rights and legitimate interests of the suspect, accused (defendant), convicted,
+                    acquitted at all stages of criminal proceedings;<br>
+                    - representation of the interests of the victim, civil plaintiff, civil defendant at all stages of
+                    criminal proceedings;<br>
+                    - protection of the rights and legitimate interests of the witness in criminal proceedings.<br><br>
+                    Successfully practices in the fields of administrative, civil, family, labor, housing, inheritance
+                    law, providing the full range of services provided for by the current legislation of Ukraine.
                     <br><br>
-                    У 2022 році пройшла курс військового права, отримавши сертифікат військового адвоката. Надає правову допомогу з супутніх питань військовослужбовцям, мобілізованим, військовозобов’язаним, ветеранам війни та членам їхніх сімей.
-
+                    In 2022, she completed a military law course, receiving a military lawyer certificate. Provides
+                    legal assistance on related issues to military personnel, mobilized, conscripts, war veterans and
+                    members of their families.
                 </p>
             </div>
         </div>
@@ -188,23 +206,32 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="title modal-title">Попов Микита Геннадійович.</h5>
+                <h5 class="title modal-title">Popov Nikita Gennadievich.</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
                 <p class="text">
-                    Адвокат, заступник Голови Колегії, практикує право з 2008 року. Адвокат з 2011 року. Працював у міжнародних юридичних компаніях, в тому числі на керівних посадах.
-                    Має досвід роботи помічника-консультанта депутата. Забезпечував ефективність виборчих процесів різного рівня.
+                    Lawyer, Deputy Chairman of the Board, has been practicing law since 2008. Lawyer since 2011. Worked
+                    in international law firms, including in management positions.
+                    Has experience as an assistant consultant to a deputy. Ensured the effectiveness of election
+                    processes at various levels.
                     <br><br>
-                    Спеціалізація: вирішення конфліктів, медіація, судові спори (litigation) та кримінальний процес – кримінальні правопорушення в сфері економіки (white collar crime).
+                    Specialization: conflict resolution, mediation, litigation and criminal proceedings - criminal
+                    offenses in the field of economics (white collar crime).
                     <br><br>
-                    Має успішний досвід роботи у комплексних антирейдерських проектах з повернення викрадених активів: корпоративних прав і майна.
+                    Has successful experience in complex anti-raider projects to return stolen assets: corporate rights
+                    and property.
                     <br><br>
-                    Вигравав господарські, цивільні, адміністративні справи, в тому числі резонансні: у Кабінету Міністрів України, Антимонопольного комітету України, Податкової Служби України,
-                    підприємств важкої промисловості, фінансових установ, медіа тощо. В активі є успішний захист прав та законних інтересів багатьох приватних осіб, серед яких, в тому числі, є відомі політики,
-                    бізнесмени, діячі культури. Системно надає адвокатські послуги на умовах pro bono – як благодійну допомогу з метою персонального внеску суспільні зміни.
+                    Won economic, civil, administrative cases, including high-profile ones: in the Cabinet of Ministers
+                    of Ukraine, the Antimonopoly Committee of Ukraine, the Tax Service of Ukraine,
+                    heavy industry enterprises, financial institutions, media, etc. The asset includes the successful
+                    protection of the rights and legitimate interests of many private individuals, including well-known
+                    politicians,
+                    businessmen, and cultural figures. Systematically provides legal services on a pro bono basis - as
+                    charitable assistance with the aim of personal contribution to social change.
                     <br><br>
-                    Професійне кредо: «Витримане слово та домінантність інтересів Клієнта – фундамент репутації адвоката».
+                    Professional credo: "A strong word and the dominance of the Client's interests are the foundation of
+                    a lawyer's reputation."
                 </p>
             </div>
         </div>
@@ -216,20 +243,32 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="title modal-title">Смирнов Валерій Рубенович.</h5>
+                <h5 class="title modal-title">Smirnov Valery Rubenovich.</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
                 <p class="text">
-                    Адвокат основна спеціалізація – кримінальне право та процес. Освіта – Одеська національна юридична академія. Має 15-річний досвід юридичної практики.
+                    Lawyer, main specialization – criminal law and process. Education – Odesa National Law Academy. Has
+                    15 years of experience in legal practice.
                     <br><br>
-                    Більше 10 років присвятив роботі у прокурорському корпусі України, де спеціалізувався на підтриманні обвинувачення у кримінальних справах, пов’язаних із правопорушеннями в сфері службової діяльності, господарської діяльності, злочинами проти життя і здоров’я, проти виборчих, трудових та інших особистих прав і свобод людини, тощо. Входив до команди провідних публічних обвинувачів Офісу Генерального прокурора, яких залучали до участі у найбільш резонансних кримінальних справах, пов’язаних із притягненням до кримінальної відповідальності колишніх та діючих високопосадовців, керівників правоохоронних органів та інших.
+                    He devoted more than 10 years of work to the prosecutor's office of Ukraine, where he specialized in
+                    supporting the prosecution in criminal cases related to offenses in the field of official
+                    activities, economic activities, crimes against life and health, against electoral, labor and other
+                    personal rights and freedoms of a person, etc. He was a member of the team of leading public
+                    prosecutors of the Prosecutor General's Office, who were involved in the most resonant criminal
+                    cases related to bringing to criminal liability former and current high-ranking officials, heads of
+                    law enforcement agencies and others.
                     <br><br>
-                    Користуючись набутим досвідом, успішно та ефективно здійснює захист клієнтів від кримінального переслідування, як на стадії досудового розслідування кримінальних проваджень, так і в судах усіх інстанцій.
+                    Using the acquired experience, he successfully and effectively protects clients from criminal
+                    prosecution, both at the stage of pre-trial investigation of criminal proceedings and in courts of
+                    all instances.
                     <br><br>
-                    Основні практики: захист прав і представництво інтересів керівників бізнесу і власників компаній у кримінальних провадженнях щодо економічних злочинів, державних службовців, суб’єктів корупційних правопорушень, посадових злочинів, а також злочинів, скоєних організованими групами і злочинними організаціями.
+                    Main practices: protection of rights and representation of interests of business leaders and company
+                    owners in criminal proceedings regarding economic crimes, civil servants, subjects of corruption
+                    offenses, official crimes, as well as crimes committed by organized groups and criminal
+                    organizations.
                     <br><br>
-                    Професійне кредо: «Існує тільки один істинний закон – той, який дозволяє стати вільним».
+                    Professional credo: "There is only one true law - the one that allows you to become free."
                 </p>
             </div>
         </div>
@@ -241,30 +280,29 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="title modal-title">Судейкіна Ірина Володимирівна.</h5>
+                <h5 class="title modal-title">Sudeykina Iryna Volodymyrivna.</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
                 <p class="text">
-                    Адвокат
+                    Lawyer
                     <br><br>
-                    Адвокат за покликом серця,  з багаторічним стажем юридичної практики, провідний спеціаліст у сімейних,  цивільних,  господарських спорах.
+                    A lawyer by heart, with many years of legal practice experience, a leading specialist in family, civil, and commercial disputes.
                     <br><br>
-                    Додатково:
+                    Additionally:
                     <br><br>
-                    У 2009 році закінчила Одеську національну юридичну академію та отримала диплом з відзнакою за кваліфікацією магістр державної служби.
-                    Адвокат з 2019 року.
-                    Основною спеціалізацією є цивільне право та процес.
-                    Успішно практикує в галузях цивільного, адміністративного, господарського, трудового, сімейного та спадкового права, надає юридичні послуги найвищої якості, захищає інтереси Клієнтів.
+                    In 2009, she graduated from the Odessa National Law Academy and received a diploma with honors with the qualification of Master of Civil Service.
+                    Lawyer since 2019.
+                    Her main specialization is civil law and process.
+                    She successfully practices in the fields of civil, administrative, commercial, labor, family, and inheritance law, provides the highest quality legal services, and protects the interests of Clients.
                     <br><br>
-                    З-поміж інших професійних якостей:
+                    Among other professional qualities:
                     <br><br>
-                    - докорінне вивчення проблеми Клієнта;<br>
-                    - вчасне прийняття правильних і, за необхідності, креативних (нестандартних) рішень для досягнення бажаного для Клієнта результату;<br>
-                    - прагматизм;<br>
-                    - вміння переконувати та перемагати.<br><br>
-
-                    </p>
+                    - thorough study of the Client's problem;<br>
+                    - timely adoption of correct and, if necessary, creative (non-standard) decisions to achieve the desired result for the Client;<br>
+                    - pragmatism;<br>
+                    - the ability to convince and win.<br><br>
+                </p>
             </div>
         </div>
     </div>
@@ -275,7 +313,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="title modal-title">Хрустовська Ольга Петрівна.</h5>
+                <h5 class="title modal-title">Khrustovskaya Olga Petrovna.</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">

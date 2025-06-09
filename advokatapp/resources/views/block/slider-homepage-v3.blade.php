@@ -2,28 +2,28 @@
 $myarrays = [
     [
         "photo" => "assets/home-slider/Kucherenko-Denis-Viktorovich.jpeg",
-        "fullname" => "Кучеренко Денис Вікторович",
-        "position" => "Адвокат"
+        "fullname" => "Kucherenko Denis Viktorovich",
+        "position" => "Lawyer"
     ],
     [
         "photo" => "assets/home-slider/Boyko-Olena-Oleksandrivna.jpg",
-        "fullname" => "Бойко Олена Олександрівна",
-        "position" => "Адвокат"
+        "fullname" => "Boyko Olena Oleksandrivna",
+        "position" => "Lawyer"
     ],
     [
         "photo" => "assets/home-slider/Popov-Mykyta-Hennadiyovych.jpg",
-        "fullname" => "Попов Микита Геннадійович",
-        "position" => "Адвокат, Заступник Голови Колегії."
+        "fullname" => "Popov Mykyta Gennadiyovych",
+        "position" => "Lawyer, Deputy Chairman of the Board."
     ],
     [
         "photo" => "assets/home-slider/Smyrnov-Valeriy-Rubenovych.jpg",
-        "fullname" => "Смирнов Валерій Рубенович",
-        "position" => "Адвокат"
+        "fullname" => "Smyrnov Valeriy Rubenovych",
+        "position" => "Lawyer"
     ],
     [
         "photo" => "assets/home-slider/Sudeikina-Iryna-Volodymyrivna.jpeg",
-        "fullname" => "Судейкіна Ірина Володимирівна",
-        "position" => "Адвокат"
+        "fullname" => "Sudeikina Iryna Volodymyrivna",
+        "position" => "Lawyer"
     ]
 ];
 //echo '<pre>';
@@ -32,9 +32,9 @@ $myarrays = [
 
 ?>
 <section class="section team">
-    <h2 class="title">Про нас</h2>
+    <h2 class="title">About us</h2>
     <p class="text">
-        Адвокатське об’єднання «Колегія адвокатів міста Києва та Київської області» було засноване у 2013 році.
+        The Bar Association "Bar Association of Kyiv and Kyiv Region" was founded in 2013.
     </p>
 </section>
 <div class="container homepageSliderContainer">

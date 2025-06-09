@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
-    <title>Колегія адвокатів міста Києва та Київської області</title>
-    <meta name="description" content="колегія адвокатів: адвокат, юридична допомога, адвокатська підтримка, послуги адвокатів" >
-    <meta name="keywords" content="адвокат, послуги адвоката, юридична допомога">
-    <meta name="robots" content="index,follow">
+    <title>Bar Association of Kyiv and Kyiv Region</title>
+    <meta name="description" content="bar association: lawyer, legal aid, legal support, legal services" >
+    <meta name="keywords" content="lawyer, lawyer services, legal aid">
+    <meta name="robots" content="noindex, nofollow">
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -58,17 +58,17 @@
             <div class="logoContainer" >
                 <a class="logo" href="/">
                     <img class="img-logo" src="{{ URL::asset('/assets/images/logo-cropped.png')}}" alt="logo">
-                    <h1 class="title">Колегія адвокатів<span>міста Києва та Київської області</span></h1>
+                    <h1 class="title">Bar Association of the City of Kyiv and Kyiv Region</h1>
                 </a>
             </div>
 
             <div class="contactsContainer">
-                <a id="phone" class="phone" href="tel:+380682381383" href="Дзвінок адвокату">+38 (068) 238-138-3</a>
-                <a id="adress" class="adress" href="/contacts"><span>вул. Льва Толстого, 16</span></span></a>
+                <a id="phone" class="phone" href="tel:+380682381383" href="Call a lawyer">+38 (068) 238-138-3</a>
+                <a id="adress" class="adress" href="/contacts"><span>16 Leo Tolstoy St.</span></a>
             </div>
 
             <div class="orderCallContainer">
-                <a id="callRequest" class="btn callRequest" href="#" data-bs-toggle="modal" data-bs-target="#CallMe" >Замовити дзвінок</a>
+                <a id="callRequest" class="btn callRequest" href="#" data-bs-toggle="modal" data-bs-target="#CallMe" >Request a call</a>
             </div>
         </div>
     </header>

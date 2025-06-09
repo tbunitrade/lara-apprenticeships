@@ -7,7 +7,7 @@
     </li>
     <li>
         <a class="forMobile" href="viber://add?number=380991247016"><img src="{{url::asset('/assets/images/viber.png')}}"></a>
-        <a class="forPc" title="Должен быть установлен Viber для ПК" href="viber://chat?number=+380991247016"><img src="{{url::asset('/assets/images/viber.png')}}"></a>
+        <a class="forPc" title="Viber for PC must be installed" href="viber://chat?number=+380991247016"><img src="{{url::asset('/assets/images/viber.png')}}"></a>
     </li>
 </ul>
 <form id="consultationForm" class="consultationForm" method="post" action="{{url('store-form')}}">
@@ -15,11 +15,11 @@
     <fieldset>
         <input type="hidden" id="title" name="title" class="form-control" value="form-2-callme">
         <div class="form-group">
-            <input name="name" id="clientName" class="input" type="text" placeholder="Ваше ім'я" maxlength="25" required>
+            <input name="name" id="clientName" class="input" type="text" placeholder="Your name" maxlength="25" required>
         </div>
         <div class="form-group">
-            <input name="number" id="clientPhone" class="input" type="number" placeholder="Номер телефону" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength="16" required>
-            <p id="alertPhone" class="alert hidden"><?=__('Обов’язкове поле');?></p>
+            <input name="number" id="clientPhone" class="input" type="number" placeholder="Phone number" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength="16" required>
+            <p id="alertPhone" class="alert hidden"><?=__('Required field');?></p>
         </div>
     </fieldset>
     <fieldset>
@@ -27,11 +27,11 @@
             <div class="g-recaptcha" data-sitekey="6LfPBPckAAAAAMj87uv7cdlChQalPshmPVzs19p5"></div>
         </div>
         <div class="form-group">
-            <p class="text">Я не бот, 7+3 = ??</p>
+            <p class="text">I'm not a bot, 7+3 = ??</p>
             <input id="captcha" type="number" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength="2" required>
         </div>
         <div class="form-group">
-            <input class="btn" id="submit-call" type="submit" value="Відправити">
+            <input class="btn" id="submit-call" type="submit" value="Send">
             <script>
                 var captcha = document.getElementById('captcha');
                 const btnsubmit = document.getElementById('submit-call');

@@ -2,22 +2,22 @@
 <section class="section proBono">
     <div class="bonoInfo">
         <div class="title">
-            Благодійність адвокатської колегії.
+            Charity of the Bar Association.
         </div>
         <p class="text">
-            Один з основних принципів діяльності адвокатів Колегії адвокатів міста Києва та Київської області –
-            <strong>благодійна допомога тим, хто потребує правничої допомоги</strong> та не має коштів на оплату якісних послуг
-            досвідченого адвоката. Особи з обмеженими можливостями (з інвалідністю), пенсіонери, одинокі матері
-            та особи з інших соціально незахищених верств населення завжди можуть розраховувати на безкоштовну
-            консультацію адвокатів Колегії адвокатів міста Києва та Київської області та у певних випадках,
-            після дослідження усіх обставин, ми можемо брати навіть повний супровід справи без оплати адвокатського гонорару.
+            One of the main principles of the activities of the lawyers of the Kyiv City and Kyiv Region Bar Association is
+            <strong>charitable assistance to those who need legal assistance</strong> and do not have the means to pay for the quality services
+            of an experienced lawyer. People with disabilities, pensioners, single mothers
+            and people from other socially unprotected segments of the population can always count on free
+            consultation from lawyers of the Kyiv City and Kyiv Region Bar Association, and in certain cases,
+            after examining all the circumstances, we can even take full support of the case without paying a lawyer's fee.
             <br>
-            Ми віримо в любов, добро, людські одвічні цінності та намагаємось нести такі цінності в навколишнє середовище,
-            тим самим поліпшуючи свою карму, додаючи до неї «плюсик» за «плюсиком» 😊
+            We believe in love, goodness, and eternal human values, and we try to bring these values ​​to the environment,
+            thereby improving our karma, adding "plus" to it one "plus" at a time 😊
             <br>
-            Ми не афішуємо свої благодійні проєкти, не робимо на цьому піар, але, за потреби, можемо про це розказати і нам
-            є що розказати. Бажаємо всім миру, здоров’я, щастя та злагоди. З відданістю своїм Клієнтам, <strong>Ваша Колегія адвокатів
-                міста Києва та Київської області.</strong>
+            We do not advertise our charitable projects, we do not do PR on this, but, if necessary, we can tell about it, and we
+            have something to tell. We wish everyone peace, health, happiness, and harmony. With devotion to our Clients, <strong>Your Bar Association
+                of the city of Kyiv and Kyiv region.</strong>
         </p>
     </div>
     <div class="bonoImg">

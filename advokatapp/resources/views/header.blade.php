@@ -3,43 +3,41 @@
 <head>
     <?php
 
-    $abonentsTitle      =   'Абонентське обслуговування бізнесу та громадян';
-    $yurauditTitle      =   'Юридичний аудит підприємств, проектів, угод (due diligence)';
-    $bankingTitle       =   'Банківське та фінансове право, кредитні спори';
-    $espcTitle          =   'Практика у ЄСПЛ – Європейському суді з прав людини';
-    $hospodarskeTitle   =   'Господарські спори, банкрутство';
-    $intelektualneTitle =   'Інтелектуальне право (авторське право і суміжні права)';
-    $konkurentneTitle   =   'Конкурентне (Антимонопольне) право';
-    $corporateTitle     =   'Корпоративне право та корпоративні спори';
-    $criminalTitle      =   'Захист і представництво у кримінальному процесі';
-    $legalopinionTitle  =   'Юридичний висновок (legal opinion)';
-    $mediationTitle     =   'Медіація (перемовини)';
-    $podatkoveTitle     =   'Податкове право';
-    $buildingTitle      =   'Будівництво, земля, нерухомість';
-    $familyTitle        =   'Сімейне право (розірвання шлюбу, поділ майна, виховання дітей)';
-    $spadokTitle        =   'Оформлення спадщини (спадкові спори)';
-    $itTitle            =   'ІT-право';
-    $trudmayTitle       =   'Трудове право (трудові спори)';
-    $militaryTitle      =   'Військове право (захист прав військових)';
-    $prozorroTitle      =   'Публічні закупівлі (prozorro)';
-    $adminTitle         =   'Адміністративні спори (мито, пенсія, пільги, податки).';
+    $abonentsTitle      =   'Subscriber service for businesses and citizens';
+    $yurauditTitle      =   'Legal audit of enterprises, projects, agreements (due diligence)';
+    $bankingTitle       = 'Banking and financial law, credit disputes';
+    $espcTitle          = 'Practice in the ECHR - European Court of Human Rights';
+    $hospodarskeTitle   = 'Commercial disputes, bankruptcy';
+    $intelektualneTitle = 'Intellectual law (copyright and related rights)';
+    $konkurentneTitle   = 'Competition (Antitrust) law';
+    $corporateTitle     = 'Corporate law and corporate disputes';
+    $criminalTitle      = 'Defense and representation in criminal proceedings';
+    $legalopinionTitle  = 'Legal opinion';
+    $mediationTitle     = 'Mediation (negotiation)';
+    $podatkoveTitle     = 'Tax law';
+    $buildingTitle      = 'Construction, land, real estate';
+    $familyTitle        = 'Family law (divorce, division of property, raising children)';
+    $spadokTitle        = 'Inheritance (inheritance disputes)';
+    $itTitle            = 'IT law';
+    $trudmayTitle       = 'Labor law (labor disputes)';
+    $militaryTitle      = 'Military law (protection of the rights of military personnel)';
+    $prozorroTitle      = 'Public procurement (prozorro)';
+    $adminTitle         = 'Administrative disputes (duty, pension, benefits, taxes).';
 
     ?>
-    <title>Колегія адвокатів міста Києва та Київської області</title>
+    <title>Bar Association of Kyiv and Kyiv Region</title>
 
-        <meta property="og:title" content="Колегія адвокатів міста Києва та Київської області"/>
+        <meta property="og:title" content="Bar Association of Kyiv and Kyiv Region"/>
         <meta property="og:type" content="article" />
 {{--        <meta property="og:url" content="" />--}}
         <meta property="og:image" content="{{asset('/assets/images/kievbig.png')}}"/>
 
-        <meta name="description" content="колегія адвокатів: адвокат, юридична допомога, адвокатська підтримка, послуги адвокатів" >
-    <meta name="keywords" content="адвокат, послуги адвоката, юридична допомога">
-    <meta name="robots" content="index,follow">
+        <meta name="description" content="bar association: lawyer, legal aid, legal support, legal services" >
+    <meta name="keywords" content="lawyer, lawyer services, legal aid">
+    <meta name="robots" content="noindex, nofollow">
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
 
     <!-- Fonts -->
     <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -71,15 +69,15 @@
     <header>
         <div class="rowFirst">
             <div class="contactsContainer">
-                <a id="phone" class="phone" href="tel:+380682381383" href="Дзвінок адвокату">+38 (068) 238-138-3</a>
-                <a id="adress" class="adress" href="/contacts"><span>вул. Льва Толстого, 16</span></a>
+                <a id="phone" class="phone" href="tel:+380682381383" href="Call a lawyer">+38 (068) 238-138-3</a>
+                <a id="adress" class="adress" href="/contacts"><span>16 Leo Tolstoy St.</span></a>
             </div>
 
             <div class="menuContainer">
                 @include('nav')
             </div>
             <div class="orderCallContainer">
-                <a id="callRequest" class="btn callRequest" href="#"  data-bs-toggle="modal" data-bs-target="#CallMe" >Замовити дзвінок</a>
+                <a id="callRequest" class="btn callRequest" href="#"  data-bs-toggle="modal" data-bs-target="#CallMe" >Request a call</a>
             </div>
         </div>
 
@@ -87,10 +85,10 @@
             <div class="logoContainer" >
                 <a class="logo" href="/">
                     <img class="img-logo" src="{{ URL::asset('/assets/images/logo-cropped.png')}}" alt="logo">
-                    <h1 class="title">Колегія адвокатів<span>міста Києва та Київської області</span></h1>
+                    <h1 class="title">Bar Association<span>Kyiv city and Kyiv region</span></h1>
                 </a>
                 <div class="orderConsultationContainer">
-                    <a id="consultationRequest" class="btn consultationRequest" href="#consultationForm"> Записатися на консультацію</a>
+                    <a id="consultationRequest" class="btn consultationRequest" href="#consultationForm">Sign up for a consultation</a>
                 </div>
             </div>
         </div>

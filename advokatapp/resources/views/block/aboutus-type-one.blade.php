@@ -1,31 +1,31 @@
 
 <section class="section homepage type-one">
     <div class="textContainer">
-        <h2 class="title">Про колегію адвокатів</h2>
+        <h2 class="title">About the Bar Association</h2>
 
         <p class="text">
-            Адвокатське об’єднання «Колегія адвокатів міста Києва та Київської області» було засноване у 2013 році.
-            З часу заснування та до сьогоднішнього дня до складу об’єднання входять досвідчені адвокати, спеціалісти правничої справи найвищої категорії.
+            The Bar Association "Bar Association of Kyiv and Kyiv Region" was founded in 2013.
+            Since its foundation and to this day, the association has been composed of experienced lawyers, legal specialists of the highest category.
             <br><br>
-            В Колегії адвокатів міста Києва та Київської області наявна спеціалізація адвокатів за сферами практик.
-            Деякі адвокати, раніше віддавши роки роботі в правоохоронних органах, практикують виключно у сфері кримінального права та процесу.
-            Є також «адвокати-господарники» – спеціалісти договірного, податкового права, господарського процесу.
-            Інші займаються здебільшого цивільними, сімейними спорами, інші – комерційними, корпоративними спорами, супроводженням процедури публічних закупівель,
-            банківськими та кредитними питаннями тощо.
+            The Bar Association of Kyiv and Kyiv Region has a specialization of lawyers by areas of practice.
+            Some lawyers, having previously devoted years of work in law enforcement agencies, practice exclusively in the field of criminal law and procedure.
+            There are also "lawyers-businessmen" - specialists in contract law, tax law, economic procedure.
+            Others deal mainly with civil, family disputes, others - with commercial, corporate disputes, support for public procurement procedures,
+            banking and credit issues, etc.
             <br><br>
-            Така вузька спеціалізація адвокатів Колегії дозволяє досягати бажаних для Клієнтів результатів у стислі строки,
-            брати перед Клієнтами відповідальність за складні та багатокомпонентні справи,
-            працювати єдиною командою в комплексних проектах, в яких є необхідним участь фахівців різних сфер права.
+            Such narrow specialization of the lawyers of the College allows to achieve the desired results for Clients in a short time,
+            to take responsibility for Clients for complex and multi-component cases,
+            to work as a single team in complex projects, which require the participation of specialists from different areas of law.
         </p>
         <br>
         <div class="quote">
             <p class="text ">
-                <strong>Колегія адвокатів міста Києва та Київської області</strong> – це об’єднання висококваліфікованих професіоналів-правників,
-                які працюють як єдина злагоджена команда задля вирішення завдань, які ставлять перед Колегією Клієнти,
-                надаючи адвокатські послуги найвищої якості, в тому числі, в певних випадках, на умовах pro bono – як благодійність,
-                адже ми прагнемо нести добро у цей світ.
+                <strong>The Kyiv and Kyiv Region Bar Association</strong> is an association of highly qualified legal professionals
+                who work as a single, well-coordinated team to solve the tasks set by the Clients,
+                providing the highest quality legal services, including, in certain cases, on pro bono terms - as a charity,
+                because we strive to bring good to this world.
             <div class="">
-                <a id="consultationRequest" class="btn btn-black consultationRequest" href="#consultationForm"> Записатися на консультацію</a>
+                <a id="consultationRequest" class="btn btn-black consultationRequest" href="#consultationForm">Sign up for a consultation</a>
             </div>
             </p>
         </div>

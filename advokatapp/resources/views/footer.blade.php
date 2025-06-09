@@ -1,6 +1,11 @@
         <footer>
             <div class="copyright">
-                <p class="text">© 2009 - <?php echo date('Y'); ?> | <a target="_blank" href="https://sierra-group.in.ua/?utm_source=Advokaty&utm_medium=direct">IT підримка ПП"СІЄРРА ГРУП"</a></p>
+                <p class="text">
+                    © 2009 - <?php echo date('Y'); ?> |
+                    <a target="_blank" href="https://sierra-group.in.ua/?utm_source=Advokaty&utm_medium=direct">
+                        IT support of PP "SIERRA GROUP"
+                    </a>
+                </p>
             </div>
         </footer>
     </div> <!-- end of container fluid -->
@@ -10,13 +15,13 @@
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Звернення людини</h5>
+                        <h5 class="modal-title" id="exampleModalLabel">Human appeal</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
                     <div class="modal-body">
-                        ЛОГИКА
+                        LOGIC
                         <form id="formddd">
                             <input id="name" type="text" name="name">
                             <input id="number" type="number" name="phone">
@@ -24,7 +29,7 @@
                         </form>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Відправити</button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Send</button>
                         <button type="button" class="btn btn-primary">Save changes</button>
                     </div>
                 </div>
@@ -35,7 +40,7 @@
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="title modal-title">Замовити дзвінок</h5>
+                        <h5 class="title modal-title">Request a call</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
