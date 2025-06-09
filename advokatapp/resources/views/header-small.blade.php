@@ -58,7 +58,7 @@
             <div class="logoContainer" >
                 <a class="logo" href="/">
                     <img class="img-logo" src="{{ URL::asset('/assets/images/logo-cropped.png')}}" alt="logo">
-                    <h1 class="title">Bar Association of the City of Kyiv and Kyiv Region</h1>
+                    <h1 class="title">The Bar Association of Kyiv city and Kyiv region</h1>
                 </a>
             </div>
 

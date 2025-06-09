@@ -50,6 +50,10 @@
     </fieldset>
 </form>
 
+<!-- Подключили библиотеку IMask (до init-кода) -->
+<script src="https://cdn.jsdelivr.net/npm/imask@6.4.2/dist/imask.min.js"></script>
+
+
 <script>
     const alertphone = document.getElementById('alertPhone');
     const clientphone = document.getElementById('clientPhone');
