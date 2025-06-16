@@ -104,7 +104,6 @@
                 </div>
             </div>
         </div>
-
         <div class="block ">
             <div class="photo">
                 <img class="layerPhoto" src="{{ URL::asset('/assets/home-slider/Sudeikina-Iryna-Volodymyrivna.jpeg') }}">
@@ -123,9 +122,34 @@
                 <div class="details">
                     <p class="text layerDetails">
                         Адвокат за покликом серця,  з багаторічним стажем юридичної практики, провідний спеціаліст у сімейних,  цивільних,  господарських спорах.
-
                     </p>
                     <button type="button" class="btn btn-primary btn-about-lawyer" data-bs-toggle="modal" data-bs-target="#exampleModal15">
+                        Додаткова інформація
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="block ">
+            <div class="photo">
+                <img class="layerPhoto" src="{{ URL::asset('/assets/home-slider/Ivashchenko-Andrii-Ivanovych.jpg') }}">
+            </div>
+            <div class="info">
+                <div class="title">
+                    <p class="text layerName">
+                        Іващенко Андрій Іванович.
+                    </p>
+                </div>
+                <div class="position">
+                    <p class="text layerPosition">
+                        Адвокат
+                    </p>
+                </div>
+                <div class="details">
+                    <p class="text layerDetails">
+                        Основна спеціалізація – надання правових послуг бізнесу.
+
+                    </p>
+                    <button type="button" class="btn btn-primary btn-about-lawyer" data-bs-toggle="modal" data-bs-target="#exampleModal17">
                         Додаткова інформація
                     </button>
                 </div>
