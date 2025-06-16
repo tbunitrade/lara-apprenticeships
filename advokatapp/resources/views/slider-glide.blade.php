@@ -24,6 +24,11 @@ $myarrays = [
         "photo" => "assets/home-slider/Sudeikina-Iryna-Volodymyrivna.jpeg",
         "fullname" => "Судейкіна Ірина Володимирівна",
         "position" => "Адвокат"
+    ],
+    [
+        "photo" => "assets/home-slider/Ivashchenko-Andrii-Ivanovych.jpg",
+        "fullname" => "Ivashchenko Andrii Ivanovych",
+        "position" => "Адвокат"
     ]
 ];
 

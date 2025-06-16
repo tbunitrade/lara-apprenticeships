@@ -140,6 +140,32 @@
                 </div>
             </div>
         </div>
+        <div class="block ">
+            <div class="photo">
+                <img class="layerPhoto" src="{{ URL::asset('/assets/home-slider/Ivashchenko-Andrii-Ivanovych.jpg') }}">
+            </div>
+            <div class="info">
+                <div class="title">
+                    <p class="text layerName">
+                        Ivashchenko Andrii Ivanovych
+                    </p>
+                </div>
+                <div class="position">
+                    <p class="text layerPosition">
+                        Lawyer
+                    </p>
+                </div>
+                <div class="details">
+                    <p class="text layerDetails">
+                        Main specialization – providing legal services to businesses.
+                    </p>
+                    <button type="button" class="btn btn-primary btn-about-lawyer" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal17">
+                        Additional information
+                    </button>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 
@@ -319,6 +345,32 @@
             <div class="modal-body">
                 <p class="text">
 
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal" tabindex="-1" id="exampleModal17">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="title modal-title">Ivashchenko Andrii Ivanovych</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p class="text">
+                    Lawyer
+                    <br><br>
+                    Main specialization – providing legal services to businesses.
+                    Education – Kharkiv National University of Internal Affairs. In the legal profession since 1997.
+                    <br><br>
+                    For over 7 years, he worked in the prosecutor's office as an investigator, has experience in legal departments of the Tax Service, the State Geocadastre, state administration, and law firms.
+                    In addition to his main specialization, he also specializes in administrative, civil, and family law, criminal law, and military law.
+                    <br><br>
+                    Successfully protects and represents Clients. He has a significant number of "won" cases in the courts of appeal and the Supreme Court.
+                    <br><br>
+                    Professional credo: "Law as an art" and "There is a solution!".
+                    <br><br>
                 </p>
             </div>
         </div>
