@@ -24,6 +24,11 @@ $myarrays = [
         "photo" => "assets/home-slider/Sudeikina-Iryna-Volodymyrivna.jpeg",
         "fullname" => "Sudeikina Iryna Volodymyrivna",
         "position" => "Lawyer"
+    ],
+    [
+        "photo" => "assets/home-slider/Ivashchenko-Andrii-Ivanovych.jpg",
+        "fullname" => "Ivashchenko Andrii Ivanovych",
+        "position" => "Адвокат"
     ]
 ];
 //echo '<pre>';
