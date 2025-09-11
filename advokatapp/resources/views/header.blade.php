@@ -62,6 +62,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
 
 
+
     <link href="{{ URL::asset('/css/main.min.css') }}" rel="stylesheet" type="text/css" >
     <script src="{{ URL::asset('/js/app.js') }}" defer></script>
 </head>
@@ -78,8 +79,18 @@
             </div>
             <div class="orderCallContainer">
                 <a id="callRequest" class="btn callRequest" href="#"  data-bs-toggle="modal" data-bs-target="#CallMe" >Request a call</a>
+                <a class="btn startEngVersion" target="_blank" href="https://advokaty-kiev.com/">
+                    <span class="uaFlag">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+                            <rect width="20" height="10" fill="#0057B7"/>
+                            <rect width="20" height="10" y="10" fill="#FFD700"/>
+                        </svg>
+                    </span>
+                    UA
+                </a>
             </div>
         </div>
+
 
         <div class="rowSecond">
             <div class="logoContainer" >

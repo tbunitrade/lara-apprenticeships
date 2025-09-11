@@ -57,7 +57,20 @@
         </div>
 
         <div class="collapse navbar-collapse navbar-collapse_mob" id="navbarSupportedContent">
+
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item ">
+                    {{--                <nav>--}}
+                    {{--                    <ul>--}}
+                    {{--                        <li>--}}
+                    <a class="menu" id="/" href="/">
+                        UA version
+                    </a>
+                </li>
+
+            <hr>
+
+
                 <li class="nav-item ">
                     {{--                <nav>--}}
                     {{--                    <ul>--}}

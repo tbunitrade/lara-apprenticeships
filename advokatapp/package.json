@@ -15,13 +15,9 @@
         "dev": "vite",
         "build": "vite build",
         "watchfull": "nodemon -e scss -x \"npm run compile:css && npm run compile:cssfonts\"",
-
         "build:css": "npm run compile:css",
-
         "watch:css": "nodemon -e scss -x \"npm run build:css\"",
-
         "compile:css": "sass --style=compressed src/scss/app.scss public/css/main.min.css && postcss public/css/main.min.css -o public/css/main.min.css",
-
         "compile:cssfonts": "sass --style=compressed src/scss/fonts.scss public/css/fonts.css"
     },
     "devDependencies": {
@@ -42,6 +38,7 @@
     "dependencies": {
         "@glidejs/glide": "^3.7.1",
         "inputmask": "^5.0.7",
-        "keen-slider": "^6.7.0"
+        "keen-slider": "^6.7.0",
+        "postcss-import": "^16.1.1"
     }
 }
