@@ -163,7 +163,7 @@ header {
             }
 
             @media (min-width: $screen-lg-min) {
-                grid-template-columns: 42% 33% 20%;
+                grid-template-columns: 35% 30% 30%;
                 grid-template-areas: "advokat-logo advokat-info advokat-callme";
                 grid-template-rows: 176px;
             }
@@ -243,8 +243,23 @@ header {
                 top: 20px;
                 position: relative;
                 width: 100%;
-                max-width: 297px;
+
                 margin: auto;
+                flex-direction: row;
+
+                #callRequest {
+                    max-width: 207px;
+                }
+
+                .startEngVersion {
+                    max-width: 82px;
+                    background: transparent;
+                    box-shadow: none;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: anchor-center;
+                    gap: 10px;
+                }
 
                 @media (min-width: $screen-md-min) {
                     top: 0;
@@ -507,7 +522,8 @@ header {
                 gap: 10px;
 
                 span {
-                    background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Ukraine.svg");
+                    //background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Ukraine.svg");
+                    background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/49/Fla");
                     background-repeat: no-repeat; /* or repeat, repeat-x, repeat-y */
                     background-size: cover; /* or contain, specific dimensions */
                     background-position: center; /* or other positions */

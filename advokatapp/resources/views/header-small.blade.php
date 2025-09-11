@@ -69,7 +69,15 @@
 
             <div class="orderCallContainer">
                 <a id="callRequest" class="btn callRequest" href="#" data-bs-toggle="modal" data-bs-target="#CallMe" >Request a call</a>
-                <a target="_blank" href="http://en..advokaty-kiev.com/">EN<span class="usaFlag"></span></a>
+                <a class="btn startEngVersion"  target="_blank" href="http://en..advokaty-kiev.com/">
+                    <span class="uaFlag">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+                            <rect width="20" height="10" fill="#0057B7"/>
+                            <rect width="20" height="10" y="10" fill="#FFD700"/>
+                        </svg>
+                    </span>
+                    UA
+                </a>
             </div>
         </div>
     </header>
