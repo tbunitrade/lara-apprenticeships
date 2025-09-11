@@ -83,25 +83,25 @@
                 <a class="btn startEngVersion" target="_blank" href="https://en.advokaty-kiev.com/">
                     <span class="uaFlag">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 741 390">
-    <!-- Красные полосы -->
-    <rect width="741" height="390" fill="#b31942"/>
-    <g fill="#fff">
-      <rect y="30" width="741" height="30"/>
-      <rect y="90" width="741" height="30"/>
-      <rect y="150" width="741" height="30"/>
-      <rect y="210" width="741" height="30"/>
-      <rect y="270" width="741" height="30"/>
-      <rect y="330" width="741" height="30"/>
-    </g>
-                            <!-- Синяя часть -->
-    <rect width="296" height="210" fill="#0a3161"/>
-                            <!-- Несколько звёзд для вида -->
-    <g fill="#fff">
-      <polygon points="15,10 18,18 10,13 20,13 12,18"/>
-      <polygon points="45,10 48,18 40,13 50,13 42,18"/>
-      <polygon points="75,10 78,18 70,13 80,13 72,18"/>
-    </g>
-  </svg>
+                            <!-- Красные полосы -->
+                            <rect width="741" height="390" fill="#b31942"/>
+                            <g fill="#fff">
+                              <rect y="30" width="741" height="30"/>
+                              <rect y="90" width="741" height="30"/>
+                              <rect y="150" width="741" height="30"/>
+                              <rect y="210" width="741" height="30"/>
+                              <rect y="270" width="741" height="30"/>
+                              <rect y="330" width="741" height="30"/>
+                            </g>
+                                                    <!-- Синяя часть -->
+                            <rect width="296" height="210" fill="#0a3161"/>
+                                                    <!-- Несколько звёзд для вида -->
+                            <g fill="#fff">
+                              <polygon points="15,10 18,18 10,13 20,13 12,18"/>
+                              <polygon points="45,10 48,18 40,13 50,13 42,18"/>
+                              <polygon points="75,10 78,18 70,13 80,13 72,18"/>
+                            </g>
+                          </svg>
                     </span>
                     EN
                 </a>
