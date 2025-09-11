@@ -5,15 +5,24 @@
     "engines": {
         "node": ">=20.15.0"
     },
+    "browserslist": [
+        "last 4 versions",
+        "defaults",
+        "> 0.2%",
+        "not dead"
+    ],
     "scripts": {
         "dev": "vite",
         "build": "vite build",
-        "start": "nodemon -e scss -x \"npm run compile:css\"",
         "watchfull": "nodemon -e scss -x \"npm run compile:css && npm run compile:cssfonts\"",
-        "build:css": "sass --no-source-map src/scss/app.scss | postcss --use autoprefixer -b 'last 4 versions' | cssmin > public/css/main.min.css",
+
+        "build:css": "npm run compile:css",
+
         "watch:css": "nodemon -e scss -x \"npm run build:css\"",
-        "compile:css": "sass --style=compressed src/scss/app.scss public/css/main.min.css",
-        "compile:cssfonts": "sass --style=compressed src/scss/fonts.scss css/fonts.css"
+
+        "compile:css": "sass --style=compressed src/scss/app.scss public/css/main.min.css && postcss public/css/main.min.css -o public/css/main.min.css",
+
+        "compile:cssfonts": "sass --style=compressed src/scss/fonts.scss public/css/fonts.css"
     },
     "devDependencies": {
         "@tailwindcss/forms": "^0.5.2",

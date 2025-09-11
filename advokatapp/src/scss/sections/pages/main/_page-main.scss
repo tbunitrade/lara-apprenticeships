@@ -1005,14 +1005,22 @@
     .bonoImg {
         grid-area: bonoImg;
         text-align: center;
-        background-size: cover;
-        background-size: contain;
-        height: 100%;
-        width: 100%;
-        background-repeat: no-repeat;
-        background-position: center center;
+        //background-size: cover;
+        //background-size: contain;
+        //height: 100%;
+        //width: 100%;
+        //background-repeat: no-repeat;
+        //background-position: center center;
+        min-height: 250px;
 
-        min-height: 300px;
+        img {
+            object-fit: contain;
+            width: 100%;
+            height: 100%;
+            max-width: 365px;
+        }
+
+
 
         @media (min-width: $screen-md-min)   {
             background-size: contain;
