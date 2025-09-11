@@ -64,7 +64,7 @@
 
             <div class="contactsContainer">
                 <a id="phone" class="phone" href="tel:+380682381383" href="Дзвінок адвокату">+38 (068) 238-138-3</a>
-                <a id="adress" class="adress" href="/contacts"><span>вул. Льва Толстого, 16</span></span></a>
+                <a id="adress" class="adress" href="/contacts"><span>вул. Льва Толстого, 16</span></a>
             </div>
 
             <div class="orderCallContainer">

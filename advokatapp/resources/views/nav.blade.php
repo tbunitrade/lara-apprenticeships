@@ -61,6 +61,16 @@
                     {{--                <nav>--}}
                     {{--                    <ul>--}}
                     {{--                        <li>--}}
+                    <a class="menu" id="/" href="https://en.advokaty-kiev.com/">
+                        EN version
+                    </a>
+                </li>
+
+                <hr>
+                <li class="nav-item ">
+                    {{--                <nav>--}}
+                    {{--                    <ul>--}}
+                    {{--                        <li>--}}
                     <a class="menu" id="/" href="/">
                         Головна
                     </a>

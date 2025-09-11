@@ -1,2 +1,17 @@
-@use "general/base";
-@use "sections/base" as *;
+/* ниже — твоя структура @use */
+@use 'general/base';
+@use "sections/header";
+@use "sections/footer";
+// glide slider for components
+
+//components
+@use "sections/blocks/slider";
+
+//pages
+@use "sections/pages/woocommerce/woo-styles";
+@use "sections/pages/main/page-main";
+@use "sections/pages/main/page-team";
+@use "sections/pages/main/page-contacts";
+
+@import "@glidejs/glide/dist/css/glide.core.min.css";
+@import "@glidejs/glide/dist/css/glide.theme.min.css";

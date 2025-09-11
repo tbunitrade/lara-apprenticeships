@@ -264,18 +264,6 @@ header {
         }
     }
 
-
-    //.contactsContainer {
-    //
-    //}
-    //.menuContainer {
-    //
-    //}
-    //
-    //.orderCallContainer {
-    //
-    //}
-
     .rowFirst {
         width: 100%;
         max-width: 1690px;
@@ -511,12 +499,31 @@ header {
             display: none;
 
             @media (min-width: $screen-sm-min) {
-                display: block;
+                display: flex;
                 grid-area: advokat-callme;
             }
 
             .btn {
-                max-width: 265px;
+                max-width: 205px;
+            }
+
+            .startEngVersion {
+                height: 20px;
+                max-width: 60px;
+                display: flex;
+                flex-direction: row;
+                background: transparent;
+                box-shadow: none;
+                line-height: 20px;
+                gap: 10px;
+
+                span {
+                    //background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Ukraine.svg");
+                    background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/49/Fla");
+                    background-repeat: no-repeat; /* or repeat, repeat-x, repeat-y */
+                    background-size: cover; /* or contain, specific dimensions */
+                    background-position: center; /* or other positions */
+                }
             }
         }
     }
