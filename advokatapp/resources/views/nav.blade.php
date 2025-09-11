@@ -63,7 +63,7 @@
                     {{--                <nav>--}}
                     {{--                    <ul>--}}
                     {{--                        <li>--}}
-                    <a class="menu" id="/" href="/">
+                    <a class="menu" id="eng" href="https://advokaty-kiev.com/">
                         UA version
                     </a>
                 </li>
@@ -75,7 +75,7 @@
                     {{--                <nav>--}}
                     {{--                    <ul>--}}
                     {{--                        <li>--}}
-                    <a class="menu" id="/" href="/">
+                    <a class="menu" id="menu" href="https://en.advokaty-kiev.com/">
                         Home
                     </a>
                 </li>
