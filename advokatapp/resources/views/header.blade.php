@@ -25,7 +25,8 @@
     $adminTitle         = 'Administrative disputes (duty, pension, benefits, taxes).';
 
     ?>
-    <title>Bar Association of Kyiv and Kyiv Region</title>
+{{--    <title>Bar Association of Kyiv and Kyiv Region</title>--}}
+
 
         <meta property="og:title" content="Bar Association of Kyiv and Kyiv Region"/>
         <meta property="og:type" content="article" />
@@ -62,9 +63,10 @@
     <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
 
 
-
+    @vite([ 'resources/js/app.js'])
     <link href="{{ URL::asset('/css/main.min.css') }}" rel="stylesheet" type="text/css" >
     <script src="{{ URL::asset('/js/app.js') }}" defer></script>
+
 </head>
 <div class="container-fluid">
     <header>
@@ -104,4 +106,6 @@
             </div>
         </div>
     </header>
+
+
 

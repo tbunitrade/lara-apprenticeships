@@ -17,7 +17,7 @@
             <input name="name" id="clientName" class="input" type="text" placeholder="Your name" maxlength="25" required>
         </div>
         <div class="form-group">
-            <input name="number" id="clientPhone" class="input" type="tel" placeholder="Phone number" minlength="10" maxlength="13" required>
+            <input name="number" id="clientPhoneConsult" class="input" type="tel" placeholder="Phone number" minlength="10" maxlength="13" required>
             <p id="alertPhone" class="alert hidden"><?=__('Required field');?></p>
         </div>
     </fieldset>
@@ -28,7 +28,7 @@
         <div class="form-group fGroup" >
 {{--            <div class="g-recaptcha" data-sitekey="6LfPBPckAAAAAMj87uv7cdlChQalPshmPVzs19p5"></div>--}}
             <p class="text" >I'm not a bot, 7+4 = ??</p>
-            <input style="" id="captcha1" type="number" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"  maxlength="2" required>
+            <input style="" id="captcha1" type="number" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"  maxlength="10" required>
         </div>
         <div class="form-group">
 
@@ -60,8 +60,25 @@
         </script>
     </fieldset>`
 </form>
+
 <script src="https://unpkg.com/imask"></script>
 
 <script>
-    //console.log('init 01 ok');
+    document.addEventListener('DOMContentLoaded', function () {
+        initPhoneMask('clientPhoneConsult');
+    });
+
+    function initPhoneMask(id) {
+        const input = document.getElementById(id);
+        if (!input) return;
+
+        IMask(input, {
+            mask: '+{00}(000)000-00-00',
+            lazy: true
+        });
+    }
+
+    // Инициализируем обе маски (если поля существуют на странице)
+
 </script>
+

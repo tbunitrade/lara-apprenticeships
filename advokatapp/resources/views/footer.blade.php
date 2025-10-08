@@ -52,13 +52,6 @@
         </div>
 
         </body>
-{{--        <script src="https://www.google.com/recaptcha/api.js" async defer></script>--}}
-{{--        <script src="https://www.google.com/recaptcha/enterprise.js?render=6LfPBPckAAAAAMj87uv7cdlChQalPshmPVzs19p5"></script>--}}
-{{--        <script>--}}
-{{--            grecaptcha.enterprise.ready(function() {--}}
-{{--                grecaptcha.enterprise.execute('6LfPBPckAAAAAMj87uv7cdlChQalPshmPVzs19p5', {action: 'login'}).then(function(token) {--}}
+        <!-- В конце страницы -->
 
-{{--                });--}}
-{{--            });--}}
-{{--        </script>--}}
 </html>

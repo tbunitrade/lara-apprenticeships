@@ -31,7 +31,7 @@
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
 
-
+    @vite(['resources/js/app.js'])
     <link href="{{ URL::asset('/css/main.min.css') }}" rel="stylesheet" type="text/css" >
     <script src="{{ URL::asset('/js/app.js') }}"></script>
 </head>

@@ -19,4 +19,18 @@ document.addEventListener('DOMContentLoaded', () => {
             glide.mount();
         }
     }
+
+    console.log('soni');
+
+    if (window.location.pathname === '/' || window.location.pathname === '/index') return;
+
+    let el = document.querySelector('h1') ||
+    document.querySelector('h2') ||
+    document.querySelector('.title');
+
+    if (el) {
+    let fullTitle = el.textContent.trim();
+        document.title = fullTitle + ' — Bar Association of Kyiv';
+    }
+
 });
