@@ -66,80 +66,80 @@ Route::get('abonentske-yurydychne-obslugovuvannya-yurydychnyh-osib', function ()
 });
 
 
-Route::get('advokat-po-zed-ta-mytnym-spravam', function () {
-    return view('practices.advokat-po-zed-ta-mytnym-spravam');
+Route::get('lawyer-po-zed-ta-mytnym-spravam', function () {
+    return view('practices.lawyer-po-zed-ta-mytnym-spravam');
 });
 
-Route::get('advokat-po-bankivske-ta-finansove-pravo', function () {
-    return view('practices.advokat-po-bankivske-ta-finansove-pravo');
+Route::get('lawyer-po-bankivske-ta-finansove-pravo', function () {
+    return view('practices.lawyer-po-bankivske-ta-finansove-pravo');
 });
 
-Route::get('advokat-po-neruhomist-i-zemelne-pravo', function () {
-    return view('practices.advokat-po-neruhomist-i-zemelne-pravo');
+Route::get('lawyer-po-neruhomist-i-zemelne-pravo', function () {
+    return view('practices.lawyer-po-neruhomist-i-zemelne-pravo');
 });
 
-Route::get('advokat-po-hospodarski-spory', function () {
-    return view('practices.advokat-po-hospodarski-spory');
+Route::get('lawyer-po-hospodarski-spory', function () {
+    return view('practices.lawyer-po-hospodarski-spory');
 });
 
-Route::get('advokat-po-kriminalnim-spravam', function () {
-    return view('practices.advokat-po-kriminalnim-spravam');
+Route::get('lawyer-po-kriminalnim-spravam', function () {
+    return view('practices.lawyer-po-kriminalnim-spravam');
 });
 
-Route::get('advokat-po-voennym-delam', function () {
-    return view('practices.advokat-po-voennym-delam');
+Route::get('lawyer-po-voennym-delam', function () {
+    return view('practices.lawyer-po-voennym-delam');
 });
 
-Route::get('advokat-po-konkurentne-pravo', function () {
-    return view('practices.advokat-po-konkurentne-pravo');
+Route::get('lawyer-po-konkurentne-pravo', function () {
+    return view('practices.lawyer-po-konkurentne-pravo');
 });
 
-Route::get('advokat-po-korporativnym-sporam', function () {
-    return view('practices.advokat-po-korporativnym-sporam');
+Route::get('lawyer-po-korporativnym-sporam', function () {
+    return view('practices.lawyer-po-korporativnym-sporam');
 });
 
-Route::get('advokat-po-mediatsiyu', function () {
-    return view('practices.advokat-po-mediatsiyu');
+Route::get('lawyer-po-mediatsiyu', function () {
+    return view('practices.lawyer-po-mediatsiyu');
 });
 
-Route::get('advokat-po-spadkovym-spravam', function () {
-    return view('practices.advokat-po-spadkovym-spravam');
+Route::get('lawyer-po-spadkovym-spravam', function () {
+    return view('practices.lawyer-po-spadkovym-spravam');
 });
 
-Route::get('advokat-po-nalogovym-delam', function () {
-    return view('practices.advokat-po-nalogovym-delam');
+Route::get('lawyer-po-nalogovym-delam', function () {
+    return view('practices.lawyer-po-nalogovym-delam');
 });
 
-Route::get('advokat-po-espch', function () {
-    return view('practices.advokat-po-espch');
+Route::get('lawyer-po-espch', function () {
+    return view('practices.lawyer-po-espch');
 });
 
-Route::get('advokat-po-yuridichnu-konsultatsiyu-abo-dopomogu-u-zakupivli-prozorro', function () {
-    return view('practices.advokat-po-yuridichnu-konsultatsiyu-abo-dopomogu-u-zakupivli-prozorro');
+Route::get('lawyer-po-yuridichnu-konsultatsiyu-abo-dopomogu-u-zakupivli-prozorro', function () {
+    return view('practices.lawyer-po-yuridichnu-konsultatsiyu-abo-dopomogu-u-zakupivli-prozorro');
 });
 
-Route::get('advokat-po-simeyne-pravo', function () {
-    return view('practices.advokat-po-simeyne-pravo');
+Route::get('lawyer-po-simeyne-pravo', function () {
+    return view('practices.lawyer-po-simeyne-pravo');
 });
 
-Route::get('advokat-po-trudovym-sporam', function () {
-    return view('practices.advokat-po-trudovym-sporam');
+Route::get('lawyer-po-trudovym-sporam', function () {
+    return view('practices.lawyer-po-trudovym-sporam');
 });
 
-Route::get('advokat-po-auditam-yuridichnij-audit-pidpriyemstva', function () {
-    return view('practices.advokat-po-auditam-yuridichnij-audit-pidpriyemstva');
+Route::get('lawyer-po-auditam-yuridichnij-audit-pidpriyemstva', function () {
+    return view('practices.lawyer-po-auditam-yuridichnij-audit-pidpriyemstva');
 });
 
-Route::get('advokat-po-legal-opnion-yuridichniy-vysnovok', function () {
-    return view('practices.advokat-po-legal-opnion-yuridichniy-vysnovok');
+Route::get('lawyer-po-legal-opnion-yuridichniy-vysnovok', function () {
+    return view('practices.lawyer-po-legal-opnion-yuridichniy-vysnovok');
 });
 
-Route::get('advokat-po-intelektualne-pravo-intelektualna-vlasnist', function () {
-    return view('practices.advokat-po-intelektualne-pravo-intelektualna-vlasnist');
+Route::get('lawyer-po-intelektualne-pravo-intelektualna-vlasnist', function () {
+    return view('practices.lawyer-po-intelektualne-pravo-intelektualna-vlasnist');
 });
 
-Route::get('advokat-po-sudovym-sporam-v-it', function () {
-    return view('practices.advokat-po-sudovym-sporam-v-it');
+Route::get('lawyer-po-sudovym-sporam-v-it', function () {
+    return view('practices.lawyer-po-sudovym-sporam-v-it');
 });
 
 //Route::get('advokat-po-kriminalnim-spravam', function () {

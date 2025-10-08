@@ -4,36 +4,34 @@
 <section class="section proBono">
     <div class="bonoInfo">
         <h3 class="title">
-            Абонентське обслуговування бізнесу та громадян.
+            Subscription-Based Legal Services for Businesses and Individuals
         </h3>
         <p class="text">
-            Адвокати Колегії адвокатів міста Києва та Київської області можуть повноцінно замінити та/або ефективно доповнити
-            штатного юрисконсульта будь-якої організації.
+            The advocates of the Bar Association of the City of Kyiv and Kyiv Region are fully capable of replacing
+            and/or effectively complementing an in-house legal counsel of any organisation.
             <br><br>
-            В ході господарської діяльності та, особливо, під час розвитку бізнесу у підприємців виникають чимало питань:
-            вибір організаційно-правової форми компанії, розробка статутних документів, оптимізація оподаткування, робота з контрагентами,
-            розробка договорів, внутрішньої документації, супроводження податкових та інших перевірок, ведення судових справ тощо.
+            In the course of business operations, and particularly during business development,
+            entrepreneurs frequently face numerous legal matters: choosing the appropriate legal form of a company,
+            drafting constitutional documents, tax optimisation, dealing with counterparties,
+            drafting contracts and internal documentation, supporting tax and other regulatory inspections, conducting litigation, and more.
             <br><br>
-            Будь-якому бізнесу, якщо він претендує на звання успішного, потрібен висококваліфікований юрист-консультант.
-            Адвокати Колегії адвокатів міста Києва та Київської області надають повний спектр юридичних послуг і точно допоможуть своєму
-            Клієнту зайняти почесне місце серед лідерів своєї галузі, яке він, без сумніву, заслуговує.
+            Any business that aspires to be successful requires a highly qualified legal adviser.
+            The advocates of the Bar Association of the City of Kyiv and Kyiv Region offer a comprehensive range of legal services and will
+            undoubtedly assist their Clients in securing a distinguished position among the leaders in their industry — a position they truly deserve.
             <br><br>
-            Відмінність адвокатів Колегії від інших юридичних радників і консультантів – новий прогресивний підхід до надання юридичних послуг,
-            в основі якого консультування «на випередження». Це означає такий алгоритм роботи, коли не Клієнт іде до адвоката, формулює питання,
-            щоб вирішити проблему, яка виникла, а, навпаки – адвокат іде до Клієнта, надаючи вчасні пропозиції, поради, систематизує та балансує
-            діяльність Клієнта, щоб запобігти виникненню проблем.
+            What sets the advocates of the Bar Association apart from other legal advisers and consultants is their innovative and progressive approach to legal services,
+            based on proactive legal counselling. This approach reverses the traditional model:
+            instead of the Client seeking out the lawyer with a specific problem, the lawyer proactively approaches the Client, offering timely advice and solutions,
+            systematising and balancing the Client’s operations in order to prevent legal issues before they arise.
             <br><br>
-            Серед постійних клієнтів Колегії адвокатів є також приватні особи, які потребують правового радника, що перебуває на зв’язку в режимі 24/7.
+            Among the regular Clients of the Bar Association are also private individuals who require a legal adviser to be available on a 24/7 basis.
         </p>
     </div>
     <div class="bonoImg" style="background-image: url('{{URL::asset('/assets/images/practices/abonentske-yurydychne-obslugovuvannya-yurydychnyh-osib.jpg')}}')">
 {{--         <img src="{{URL::asset('/assets/images/pro_bono.png')}}">--}}
     </div>
 
-    <div class="btn-container">
-        <br><br>
-        <a class="btn btn-black allPractics" target="_blank" style="width: 220px" href="/practicts">Інші практики коллегії</a>
-    </div>
+    @include('block.all-practics')
 </section>
 
 

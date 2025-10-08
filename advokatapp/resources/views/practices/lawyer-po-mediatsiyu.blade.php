@@ -4,7 +4,7 @@
 <section class="section proBono">
     <div class="bonoInfo">
         <h3 class="title">
-            Медіація (перемовини).
+            Mediation (negotiations).
         </h3>
         <p class="text">
             «Вчисту виграна битва – та, яка не відбулась» - крилатий вислів стародавнього китайського філософа-мислителя Сунь Цзи.
@@ -20,11 +20,8 @@
     <div class="bonoImg" style="background-image: url('{{URL::asset('/assets/images/practices/advokat-po-mediatsiyu.jpg')}}')">
         {{--         <img src="{{URL::asset('/assets/images/pro_bono.png')}}">--}}
     </div>
+    @include('block.all-practics')
 
-    <div class="btn-container">
-        <br><br>
-        <a class="btn btn-black allPractics" target="_blank" style="width: 220px" href="/practicts">Інші практики коллегії</a>
-    </div>
 </section>
 
 
