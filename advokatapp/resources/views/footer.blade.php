@@ -1,8 +1,8 @@
         <footer>
             <div class="copyright">
                 <p class="text">
-                    © 2009 - <?php echo date('Y'); ?> |
-                    <a target="_blank" href="https://sierra-group.in.ua/?utm_source=Advokaty&utm_medium=direct">
+                    © 2003 - <?php echo date('Y'); ?> |
+                    <a target="_blank" href="https://sierra-group.dev/?utm_source=Advokaty&utm_medium=direct">
                         IT support of PP "SIERRA GROUP"
                     </a>
                 </p>
@@ -53,5 +53,9 @@
 
         </body>
         <!-- В конце страницы -->
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
 
 </html>

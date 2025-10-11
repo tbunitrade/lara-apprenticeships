@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Fonts -->
-    <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+{{--    <link href="https://fonts.bunny.net/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">--}}
 
     <!-- Styles -->
     <style>
@@ -31,7 +31,7 @@
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
 
-    @vite(['resources/js/app.js'])
+{{--    @vite(['resources/js/app.js'])--}}
     <link href="{{ URL::asset('/css/main.min.css') }}" rel="stylesheet" type="text/css" >
     <script src="{{ URL::asset('/js/app.js') }}"></script>
 </head>

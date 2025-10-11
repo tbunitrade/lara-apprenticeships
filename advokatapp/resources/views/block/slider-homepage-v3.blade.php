@@ -42,7 +42,7 @@ $myarrays = [
         The Bar Association "Bar Association of Kyiv and Kyiv Region" was founded in 2013.
     </p>
 </section>
-<div class="container homepageSliderContainer">
+<div class="container homepageSliderContainer 55">
     <div class="wrap glide">
         <div class="glide__arrows" data-glide-el="controls">
             <button class="glide__arrow glide__arrow--left" data-glide-dir="<"></button>
@@ -51,11 +51,7 @@ $myarrays = [
         <div class="glide__track" data-glide-el="track">
 
             <div class="glide__slides">
-                <?php
-
-
-                foreach($myarrays as $myarray){
-                ?>
+                <?php foreach($myarrays as $myarray){ ?>
 
                     <div class="glide__slide">
                     <?php
