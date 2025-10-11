@@ -18,7 +18,7 @@
             <input name="name" id="clientName" class="input" type="text" placeholder="Your name" maxlength="25" required>
         </div>
         <div class="form-group">
-            <input name="number" id="clientPhoneCall" class="input" type="tel" placeholder="Phone number" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength="16" required>
+            <input name="number" id="clientPhoneCall" class="input" type="tel" placeholder="Phone number" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength="19" required>
             <p id="alertPhone" class="alert hidden"><?=__('Required field');?></p>
         </div>
     </fieldset>
