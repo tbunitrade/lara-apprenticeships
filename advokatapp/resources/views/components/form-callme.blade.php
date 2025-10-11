@@ -15,7 +15,7 @@
         <input type="hidden" id="title" name="title" class="form-control" value="form-1-consultation">
         <input name="name" id="clientName" class="input" type="text" placeholder="Ваше ім'я" maxlength="25" required>
 
-        <input name="number" id="cllientPhone" class="input" type="tel" placeholder="Номер телефону" min="10" max="14" required>
+        <input name="number" id="cllientPhone" class="input" type="tel" placeholder="Номер телефону" min="10" max="19" required>
     </fieldset>
     {{--        <fieldset>--}}
     {{--            <textarea></textarea>--}}

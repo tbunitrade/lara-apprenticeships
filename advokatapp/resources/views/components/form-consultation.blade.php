@@ -17,7 +17,7 @@
             <input name="name" id="clientName" class="input" type="text" placeholder="Ваше ім'я" maxlength="25" required>
         </div>
         <div class="form-group">
-            <input name="number" id="clientPhone" class="input" type="tel" placeholder="Номер телефону" minlength="10"  maxlength="13" required>
+            <input name="number" id="clientPhone" class="input" type="tel" placeholder="Номер телефону" minlength="10"  maxlength="19" required>
             <p id="alertPhone" class="alert hidden"><?=__('Обов’язкове поле');?></p>
         </div>
     </fieldset>

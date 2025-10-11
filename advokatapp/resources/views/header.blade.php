@@ -102,7 +102,7 @@
                     <h1 class="title">The Bar Association<span>of Kyiv city and Kyiv region</span></h1>
                 </a>
                 <div class="orderConsultationContainer">
-                    <a id="consultationRequest" class="btn consultationRequest" href="#consultationForm">Sign up for a consultation</a>
+                    <a id="consultationRequest" class="btn consultationRequest" href="#consultationForm">Записатися на консультацію</a>
                 </div>
             </div>
         </div>
