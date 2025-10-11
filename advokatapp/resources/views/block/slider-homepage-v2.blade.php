@@ -42,7 +42,7 @@ $myarrays = [
         Адвокатське об’єднання «Колегія адвокатів міста Києва та Київської області» було засноване у 2013 році.
     </p>
 </section>
-<div class="container homepageSliderContainer">
+<div class="container homepageSliderContainer 55">
     <div class="wrap glide">
         <div class="glide__arrows" data-glide-el="controls">
             <button class="glide__arrow glide__arrow--left" data-glide-dir="<"></button>
@@ -69,9 +69,7 @@ $myarrays = [
                     ?>
 
                         <div class="item-box-blog-image">
-                            <figure>
-                                <img class="img-responsive" alt="" src="{{URL::asset($url)}}">
-                            </figure>
+
                         </div>
                         <div class="position">
                             <?=  $position; ?>

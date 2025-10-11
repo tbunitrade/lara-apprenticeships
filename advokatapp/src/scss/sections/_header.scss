@@ -187,17 +187,17 @@ header {
                     }
 
                     .title {
-                        font-family: 'Lora';
+                        font-family: 'Nunito', serif;
                         font-style: normal;
                         font-weight: 700;
                         font-size: 35px;
                         line-height: 45px;
                         color: $title;
-                        padding: 0px 10px;
+                        padding: 0 10px;
 
                         span {
-                            padding: 0px 0px;
-                            font-family: 'Lora';
+                            padding: 0 0;
+                            font-family: 'Nunito', serif;
                             font-style: normal;
                             font-weight: 700;
                             font-size: 25px;
@@ -218,7 +218,7 @@ header {
                 flex-direction: column;
 
                 a {
-                    font-family: 'Montserrat';
+                    font-family: 'Nunito', serif;
                     font-style: normal;
                     font-weight: 400;
                     font-size: 25px;
@@ -303,7 +303,7 @@ header {
             grid-area: advokat-info;
 
             a {
-                font-family: 'Montserrat';
+                font-family: 'Nunito', serif;
                 font-style: normal;
                 font-weight: 400;
                 font-size: 25px;
@@ -409,7 +409,7 @@ header {
 
                                         .menu {
                                             color: $white;
-                                            font-family: 'Montserrat';
+                                            font-family: 'Nunito', serif;
                                             font-style: normal;
                                             font-weight: 500;
                                             font-size: 18px;
@@ -548,7 +548,7 @@ header {
                 }
 
                 .title {
-                    font-family: 'Lora', serif;
+                    font-family: 'Nunito', serif;
                     font-style: normal;
                     font-size: 50px;
                     line-height: 64px;

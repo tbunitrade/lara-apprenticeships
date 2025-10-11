@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
-    <title>Колегія адвокатів міста Києва та Київської області</title>
-    <meta name="description" content="колегія адвокатів: адвокат, юридична допомога, адвокатська підтримка, послуги адвокатів" >
-    <meta name="keywords" content="адвокат, послуги адвоката, юридична допомога">
-    <meta name="robots" content="index,follow">
+    <title>Bar Association of Kyiv and Kyiv Region</title>
+    <meta name="description" content="bar association: lawyer, legal aid, legal support, legal services" >
+    <meta name="keywords" content="lawyer, lawyer services, legal aid">
+    <meta name="robots" content="noindex, nofollow">
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Fonts -->
-    <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+{{--    <link href="https://fonts.bunny.net/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">--}}
 
     <!-- Styles -->
     <style>
@@ -30,8 +30,9 @@
         integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide@latest/dist/css/glide.core.min.css">
 
-
+{{--    @vite(['resources/js/app.js'])--}}
     <link href="{{ URL::asset('/css/main.min.css') }}" rel="stylesheet" type="text/css" >
     <script src="{{ URL::asset('/js/app.js') }}"></script>
 </head>
@@ -58,41 +59,25 @@
             <div class="logoContainer" >
                 <a class="logo" href="/">
                     <img class="img-logo" src="{{ URL::asset('/assets/images/logo-cropped.png')}}" alt="logo">
-                    <h1 class="title">Колегія адвокатів<span>міста Києва та Київської області</span></h1>
+                    <h1 class="title">The Bar Association of Kyiv city and Kyiv region</h1>
                 </a>
             </div>
 
             <div class="contactsContainer">
-                <a id="phone" class="phone" href="tel:+380682381383" href="Дзвінок адвокату">+38 (068) 238-138-3</a>
-                <a id="adress" class="adress" href="/contacts"><span>вул. Льва Толстого, 16</span></a>
+                <a id="phone" class="phone" href="tel:+380682381383" href="Call a lawyer">+38 (068) 238-138-3</a>
+                <a id="adress" class="adress" href="/contacts"><span>16 Leo Tolstoy St.</span></a>
             </div>
 
             <div class="orderCallContainer">
-                <a id="callRequest" class="btn callRequest" href="#" data-bs-toggle="modal" data-bs-target="#CallMe" >Замовити дзвінок</a>
-                <a class="btn startEngVersion" target="_blank" href="https://en.advokaty-kiev.com/">
+                <a id="callRequest" class="btn callRequest" href="#" data-bs-toggle="modal" data-bs-target="#CallMe" >Request a call</a>
+                <a class="btn startEngVersion"  target="_blank" href="https://advokaty-kiev.com/">
                     <span class="uaFlag">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 741 390">
-                            <!-- Красные полосы -->
-                            <rect width="741" height="390" fill="#b31942"/>
-                            <g fill="#fff">
-                              <rect y="30" width="741" height="30"/>
-                              <rect y="90" width="741" height="30"/>
-                              <rect y="150" width="741" height="30"/>
-                              <rect y="210" width="741" height="30"/>
-                              <rect y="270" width="741" height="30"/>
-                              <rect y="330" width="741" height="30"/>
-                            </g>
-                            <!-- Синяя часть -->
-                            <rect width="296" height="210" fill="#0a3161"/>
-                            <!-- Несколько звёзд для вида -->
-                            <g fill="#fff">
-                              <polygon points="15,10 18,18 10,13 20,13 12,18"/>
-                              <polygon points="45,10 48,18 40,13 50,13 42,18"/>
-                              <polygon points="75,10 78,18 70,13 80,13 72,18"/>
-                            </g>
-                          </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+                            <rect width="20" height="10" fill="#0057B7"/>
+                            <rect width="20" height="10" y="10" fill="#FFD700"/>
+                        </svg>
                     </span>
-                    EN
+                    UA
                 </a>
             </div>
         </div>

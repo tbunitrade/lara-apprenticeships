@@ -3,43 +3,42 @@
 <head>
     <?php
 
-    $abonentsTitle      =   'Абонентське обслуговування бізнесу та громадян';
-    $yurauditTitle      =   'Юридичний аудит підприємств, проектів, угод (due diligence)';
-    $bankingTitle       =   'Банківське та фінансове право, кредитні спори';
-    $espcTitle          =   'Практика у ЄСПЛ – Європейському суді з прав людини';
-    $hospodarskeTitle   =   'Господарські спори, банкрутство';
-    $intelektualneTitle =   'Інтелектуальне право (авторське право і суміжні права)';
-    $konkurentneTitle   =   'Конкурентне (Антимонопольне) право';
-    $corporateTitle     =   'Корпоративне право та корпоративні спори';
-    $criminalTitle      =   'Захист і представництво у кримінальному процесі';
-    $legalopinionTitle  =   'Юридичний висновок (legal opinion)';
-    $mediationTitle     =   'Медіація (перемовини)';
-    $podatkoveTitle     =   'Податкове право';
-    $buildingTitle      =   'Будівництво, земля, нерухомість';
-    $familyTitle        =   'Сімейне право (розірвання шлюбу, поділ майна, виховання дітей)';
-    $spadokTitle        =   'Оформлення спадщини (спадкові спори)';
-    $itTitle            =   'ІT-право';
-    $trudmayTitle       =   'Трудове право (трудові спори)';
-    $militaryTitle      =   'Військове право (захист прав військових)';
-    $prozorroTitle      =   'Публічні закупівлі (prozorro)';
-    $adminTitle         =   'Адміністративні спори (мито, пенсія, пільги, податки).';
+    $abonentsTitle      =   'Subscriber service for businesses and citizens';
+    $yurauditTitle      =   'Legal audit of enterprises, projects, agreements (due diligence)';
+    $bankingTitle       = 'Banking and financial law, credit disputes';
+    $espcTitle          = 'Practice in the ECHR - European Court of Human Rights';
+    $hospodarskeTitle   = 'Commercial disputes, bankruptcy';
+    $intelektualneTitle = 'Intellectual law (copyright and related rights)';
+    $konkurentneTitle   = 'Competition (Antitrust) law';
+    $corporateTitle     = 'Corporate law and corporate disputes';
+    $criminalTitle      = 'Defense and representation in criminal proceedings';
+    $legalopinionTitle  = 'Legal opinion';
+    $mediationTitle     = 'Mediation (negotiation)';
+    $podatkoveTitle     = 'Tax law';
+    $buildingTitle      = 'Construction, land, real estate';
+    $familyTitle        = 'Family law (divorce, division of property, raising children)';
+    $spadokTitle        = 'Inheritance (inheritance disputes)';
+    $itTitle            = 'IT law';
+    $trudmayTitle       = 'Labor law (labor disputes)';
+    $militaryTitle      = 'Military law (protection of the rights of military personnel)';
+    $prozorroTitle      = 'Public procurement (prozorro)';
+    $adminTitle         = 'Administrative disputes (duty, pension, benefits, taxes).';
 
     ?>
-    <title>Колегія адвокатів міста Києва та Київської області</title>
+    <title>Bar Association of Kyiv and Kyiv Region</title>
 
-        <meta property="og:title" content="Колегія адвокатів міста Києва та Київської області"/>
+
+        <meta property="og:title" content="Bar Association of Kyiv and Kyiv Region"/>
         <meta property="og:type" content="article" />
 {{--        <meta property="og:url" content="" />--}}
         <meta property="og:image" content="{{asset('/assets/images/kievbig.png')}}"/>
 
-        <meta name="description" content="колегія адвокатів: адвокат, юридична допомога, адвокатська підтримка, послуги адвокатів" >
-    <meta name="keywords" content="адвокат, послуги адвоката, юридична допомога">
-    <meta name="robots" content="index,follow">
+        <meta name="description" content="bar association: lawyer, legal aid, legal support, legal services" >
+    <meta name="keywords" content="lawyer, lawyer services, legal aid">
+    <meta name="robots" content="noindex, nofollow">
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
 
     <!-- Fonts -->
     <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -64,60 +63,50 @@
     <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
 
 
+{{--    @vite([ 'resources/js/app.js'])--}}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide@latest/dist/css/glide.core.min.css">
     <link href="{{ URL::asset('/css/main.min.css') }}" rel="stylesheet" type="text/css" >
     <script src="{{ URL::asset('/js/app.js') }}" defer></script>
+
 </head>
 <div class="container-fluid">
     <header>
         <div class="rowFirst">
             <div class="contactsContainer">
-                <a id="phone" class="phone" href="tel:+380682381383" href="Дзвінок адвокату">+38 (068) 238-138-3</a>
-                <a id="adress" class="adress" href="/contacts"><span>вул. Льва Толстого, 16</span></a>
+                <a id="phone" class="phone" href="tel:+380682381383" href="Call a lawyer">+38 (068) 238-138-3</a>
+                <a id="adress" class="adress" href="/contacts"><span>16 Leo Tolstoy St.</span></a>
             </div>
 
             <div class="menuContainer">
                 @include('nav')
             </div>
             <div class="orderCallContainer">
-                <a id="callRequest" class="btn callRequest" href="#"  data-bs-toggle="modal" data-bs-target="#CallMe" >Замовити дзвінок</a>
-                <a class="btn startEngVersion" target="_blank" href="https://en.advokaty-kiev.com/">
+                <a id="callRequest" class="btn callRequest" href="#"  data-bs-toggle="modal" data-bs-target="#CallMe" >Request a call</a>
+                <a class="btn startEngVersion" target="_blank" href="https://advokaty-kiev.com/">
                     <span class="uaFlag">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 741 390">
-                            <!-- Красные полосы -->
-                            <rect width="741" height="390" fill="#b31942"/>
-                            <g fill="#fff">
-                              <rect y="30" width="741" height="30"/>
-                              <rect y="90" width="741" height="30"/>
-                              <rect y="150" width="741" height="30"/>
-                              <rect y="210" width="741" height="30"/>
-                              <rect y="270" width="741" height="30"/>
-                              <rect y="330" width="741" height="30"/>
-                            </g>
-                                                    <!-- Синяя часть -->
-                            <rect width="296" height="210" fill="#0a3161"/>
-                                                    <!-- Несколько звёзд для вида -->
-                            <g fill="#fff">
-                              <polygon points="15,10 18,18 10,13 20,13 12,18"/>
-                              <polygon points="45,10 48,18 40,13 50,13 42,18"/>
-                              <polygon points="75,10 78,18 70,13 80,13 72,18"/>
-                            </g>
-                          </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+                            <rect width="20" height="10" fill="#0057B7"/>
+                            <rect width="20" height="10" y="10" fill="#FFD700"/>
+                        </svg>
                     </span>
-                    EN
+                    UA
                 </a>
             </div>
         </div>
+
 
         <div class="rowSecond">
             <div class="logoContainer" >
                 <a class="logo" href="/">
                     <img class="img-logo" src="{{ URL::asset('/assets/images/logo-cropped.png')}}" alt="logo">
-                    <h1 class="title">Колегія адвокатів<span>міста Києва та Київської області</span></h1>
+                    <h1 class="title">The Bar Association<span>of Kyiv city and Kyiv region</span></h1>
                 </a>
                 <div class="orderConsultationContainer">
-                    <a id="consultationRequest" class="btn consultationRequest" href="#consultationForm"> Записатися на консультацію</a>
+                    <a id="consultationRequest" class="btn consultationRequest" href="#consultationForm">Sign up for a consultation</a>
                 </div>
             </div>
         </div>
     </header>
+
+
 

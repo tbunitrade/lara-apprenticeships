@@ -42,7 +42,7 @@ $myarrays = [
         Адвокатське об’єднання «Колегія адвокатів міста Києва та Київської області» було засноване у 2013 році.
     </p>
 </section>
-<div class="container homepageSliderContainer">
+<div class="container homepageSliderContainer 44">
     <div class="wrap glide">
         <div class="glide__arrows" data-glide-el="controls">
             <button class="glide__arrow glide__arrow--left" data-glide-dir="<"></button>
@@ -50,45 +50,39 @@ $myarrays = [
         </div>
         <div class="glide__track" data-glide-el="track">
 
-            <div class="glide__slides">
-                <?php
+            <ul class="glide__slides">
+                <?php foreach($myarrays as $myarray){ ?>
 
-
-                foreach($myarrays as $myarray){
-                ?>
-
-                    <div class="glide__slide">
-                    <?php
-                    //foreach ($myarray as $value){
+                <li class="glide__slide">
+                        <?php
+                        //foreach ($myarray as $value){
                         $url = $myarray['photo'];
                         $position = $myarray['position'];
                         $name = $myarray['fullname'];
                         //echo '<pre>';
                         //var_dump($myarray['photo']);
                         //echo '</pre>';
-                    ?>
+                        ?>
 
-                        <div class="item-box-blog-image">
-                            <figure>
-                                <img class="img-responsive" alt="" src="{{URL::asset($url)}}">
-                            </figure>
-                        </div>
-                        <div class="position">
-                            <?=  $position; ?>
-                        </div>
-                        <div class="name">
-                            <?= $name ;?>
-                        </div>
-
-                    <?php
-                    //}?>
+                    <div class="item-box-blog-image">
+                        <figure>
+                            <img class="img-responsive" alt="" src="{{URL::asset($url)}}">
+                        </figure>
                     </div>
-               <?php
+                    <div class="position">
+                            <?=  $position; ?>
+                    </div>
+                    <div class="name">
+                            <?= $name ;?>
+                    </div>
+
+                </li>
+                    <?php
                 }
 
                 ?>
 
-            </div>
+            </ul>
         </div>
 
 
@@ -98,17 +92,17 @@ $myarrays = [
 <script>
     const config = {
         type: 'carousel',
-        focusAt: '1',
+        focusAt: 'center',
         startAt:0,
         perView:5,
-        gap: 15,
+        gap: 40,
         animationTimingFunc: 'ease-out',
         autoplay: 9900,
         breakpoints: {
-            1280: {
+            1580: {
                 perView: 3,
             },
-            767: {
+            1024: {
                 perView: 1,
             },
         },

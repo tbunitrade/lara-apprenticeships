@@ -75,6 +75,7 @@
 
                     .item-box-blog-image {
                         width: 100%;
+                        max-width: 263px;
 
                         figure {
                             position: relative;
@@ -110,7 +111,7 @@
                     }
 
                     .position {
-                        font-family: 'Montserrat';
+                        font-family: 'Nunito', serif;
                         font-style: normal;
                         font-weight: 700;
                         font-size: 20px;
@@ -122,7 +123,7 @@
                     }
 
                     .name {
-                        font-family: 'Montserrat';
+                        font-family: 'Nunito', serif;
                         font-style: normal;
                         font-weight: 300;
                         font-size: 14px;
@@ -133,7 +134,7 @@
                     }
 
                     .description {
-                        font-family: 'Montserrat';
+                        font-family: 'Nunito', serif;
                         font-style: normal;
                         font-weight: 300;
                         font-size: 16px;

@@ -8,7 +8,7 @@ html {
 
 body {
     position: relative;
-    font-family: 'Montserrat', serif;
+    font-family: 'Nunito', serif;
     transition: 0.27s;
     line-height: 1;
     //height: 100%;
@@ -26,7 +26,7 @@ body {
 }
 
 .title {
-    font-family: 'Montserrat';
+    font-family: 'Nunito', serif;
     font-style: normal;
     font-weight: 700;
     font-size: 35px;
@@ -51,7 +51,7 @@ body {
 
 .text {
 
-    font-family: 'Montserrat';
+    font-family: 'Nunito', serif;
     font-style: normal;
     font-weight: 300;
     font-size: 16px;
@@ -111,7 +111,7 @@ h5,
 h6,
 em,
 p{
-    font-family: 'Montserrat', serif;
+    font-family: 'Nunito', serif;
     font-weight: 400;
     margin: 0;
     padding: 0;
@@ -150,8 +150,8 @@ p{
     h1 {
         text-align: center;
         font-size: 40px;
-        line-height: 45px;
         padding-bottom: 100px;
+        line-height: 45px;
     }
 }
 
