@@ -4,7 +4,7 @@
     <title>Bar Association of Kyiv and Kyiv Region</title>
     <meta name="description" content="bar association: lawyer, legal aid, legal support, legal services" >
     <meta name="keywords" content="lawyer, lawyer services, legal aid">
-    <meta name="robots" content="noindex, nofollow">
+    <meta name="robots" content="index, follow">
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
