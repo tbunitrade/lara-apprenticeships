@@ -503,18 +503,20 @@
 
             @media (min-width: $screen-md-min) {
                 margin: unset;
+
+                &:after {
+                    content: '';
+                    display: block;
+                    position: absolute;
+                    height: 166px;
+                    width: 1px;
+                    background: $clientborder;
+                    right: 0;
+                    top:2px
+                }
             }
 
-            &:after {
-                content: '';
-                display: block;
-                position: absolute;
-                height: 166px;
-                width: 1px;
-                background: $clientborder;
-                right: 0;
-                top:2px
-            }
+
 
             &:nth-child(2),
             &:nth-child(4){
