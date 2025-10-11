@@ -56,7 +56,7 @@
 
     var maskOptions = {
         mask: '+00(000)000-00-00',
-        lazy: false
+        lazy: true
     }
 
     var mask = new IMask(clientphone, maskOptions);
