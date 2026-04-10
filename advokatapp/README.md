@@ -41,6 +41,12 @@ This project reflects real-world development practices including:
 - improving system stability
 - adapting code for production environments
 
+- ## 🔗 Architecture
+
+- MVC + service layer
+- API-ready endpoints
+- Modular structure for scaling
+
 ---
 
 If you are looking for similar backend or SaaS systems, feel free to reach out.
